@@ -1,17 +1,13 @@
-import type { Config } from 'tailwindcss';
+import { type Config } from 'tailwindcss';
 import colors from 'tailwindcss/colors';
-import defaultTheme from 'tailwindcss/defaultTheme';
+import { fontFamily } from 'tailwindcss/defaultTheme';
 
 export default {
-  content: [
-    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
-  ],
+  content: ['./src/**/*.tsx'],
   theme: {
     extend: {
       fontFamily: {
-        sans: ['var(--font-montserrat)', ...defaultTheme.fontFamily.sans],
+        sans: ['var(--font-montserrat)', ...fontFamily.sans],
       },
       colors: {
         pink: '#FEB9CC',
