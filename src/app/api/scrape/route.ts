@@ -27,7 +27,7 @@ function getOriginalUrl(url: string) {
   return url.substring(url.indexOf('https://', 8));
 }
 
-export async function getNutritionInfoImage(parent: Locator) {
+async function getNutritionInfoImage(parent: Locator) {
   const viewNutritionDiv = parent.getByText('View Nutritional Facts').locator('xpath=..');
   let nutritionLabelImage = UNKNOWN_IMAGE;
   if (await viewNutritionDiv.isVisible()) {
