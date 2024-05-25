@@ -1,5 +1,5 @@
 {
-  "name": "t3-test",
+  "name": "crumblhub",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -47,6 +47,5 @@
   },
   "ct3aMetadata": {
     "initVersion": "7.33.1"
-  },
-  "packageManager": "pnpm@9.0.6"
+  }
 }
