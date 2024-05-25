@@ -1,6 +1,8 @@
 import type { Config } from 'tailwindcss';
+import colors from 'tailwindcss/colors';
 import defaultTheme from 'tailwindcss/defaultTheme';
-const config: Config = {
+
+export default {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
@@ -9,10 +11,13 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['var(--font-inter)', ...defaultTheme.fontFamily.sans],
+        sans: ['var(--font-montserrat)', ...defaultTheme.fontFamily.sans],
+      },
+      colors: {
+        pink: '#FEB9CC',
+        gray: colors.neutral,
       },
     },
   },
   plugins: [],
-};
-export default config;
+} satisfies Config;

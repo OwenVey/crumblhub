@@ -1,0 +1,8944 @@
+[
+  {
+    "start": "2024-05-20T05:00:00.000Z",
+    "end": "2024-05-26T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "COOKIES & CREAM KRISPY BAR",
+        "isNew": true
+      },
+      {
+        "name": "SKILLET COOKIE",
+        "isNew": false
+      },
+      {
+        "name": "CONFETTI CAKE",
+        "isNew": false
+      },
+      {
+        "name": "PEACH COBBLER",
+        "isNew": false
+      },
+      {
+        "name": "SUGAR FT. MOTHER'S® CIRCUS ANIMAL®",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2024-05-13T05:00:00.000Z",
+    "end": "2024-05-19T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "PISTACHIO GELATO FT. MUDDY BITES®",
+        "isNew": true
+      },
+      {
+        "name": "FRENCH TOAST",
+        "isNew": false
+      },
+      {
+        "name": "SEA SALT TOFFEE",
+        "isNew": false
+      },
+      {
+        "name": "PEANUT BUTTER COOKIES & CREAM",
+        "isNew": false
+      },
+      {
+        "name": "WEDDING CAKE",
+        "isNew": false
+      },
+      {
+        "name": "SEMI-SWEET CHOCOLATE CHUNK",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2024-05-06T05:00:00.000Z",
+    "end": "2024-05-12T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "RASPBERRY CHEESECAKE (LTO)",
+        "isNew": false
+      },
+      {
+        "name": "MOM'S RECIPE",
+        "isNew": false
+      },
+      {
+        "name": "LEMON POPPY SEED",
+        "isNew": false
+      },
+      {
+        "name": "CHOCOLATE CAKE",
+        "isNew": false
+      },
+      {
+        "name": "PINK VELVET CAKE",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2024-04-29T05:00:00.000Z",
+    "end": "2024-05-05T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "CLASSIC PINK SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "PEANUT BUTTER MUNCH",
+        "isNew": false
+      },
+      {
+        "name": "BLUEBERRY MUFFIN",
+        "isNew": false
+      },
+      {
+        "name": "TRIPLE CHOCOLATE CHIP",
+        "isNew": false
+      },
+      {
+        "name": "CHURRO",
+        "isNew": false
+      },
+      {
+        "name": "SEMI-SWEET CHOCOLATE CHUNK",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2024-04-22T05:00:00.000Z",
+    "end": "2024-04-28T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "GALAXY BROWNIE",
+        "isNew": false
+      },
+      {
+        "name": "SNICKERDOODLE",
+        "isNew": false
+      },
+      {
+        "name": "CONFETTI MILKSHAKE",
+        "isNew": false
+      },
+      {
+        "name": "CARAMEL PRALINE",
+        "isNew": false
+      },
+      {
+        "name": "STRAWBERRY CUPCAKE",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2024-04-15T05:00:00.000Z",
+    "end": "2024-04-21T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "CINNAMON SQUARE",
+        "isNew": false
+      },
+      {
+        "name": "MAPLE CREAM SANDWICH",
+        "isNew": true
+      },
+      {
+        "name": "BIRTHDAY CAKE FT. OREO®",
+        "isNew": false
+      },
+      {
+        "name": "RED VELVET WHITE CHIP",
+        "isNew": false
+      },
+      {
+        "name": "PEANUT BUTTER CHOCOLATE CHIP",
+        "isNew": false
+      },
+      {
+        "name": "SEMI-SWEET CHOCOLATE CHUNK",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2024-04-08T05:00:00.000Z",
+    "end": "2024-04-14T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "MONSTER FT. M&M'S® CANDIES",
+        "isNew": false
+      },
+      {
+        "name": "COOKIE DOUGH",
+        "isNew": false
+      },
+      {
+        "name": "CINNAMON SCONE",
+        "isNew": false
+      },
+      {
+        "name": "CHOCOLATE CUPCAKE",
+        "isNew": false
+      },
+      {
+        "name": "LEMON BAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2024-04-01T05:00:00.000Z",
+    "end": "2024-04-07T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "CLASSIC PINK SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "KEY LIME PIE (LTO)",
+        "isNew": false
+      },
+      {
+        "name": "RASPBERRY BUTTER CAKE",
+        "isNew": false
+      },
+      {
+        "name": "OATMEAL SKILLET COOKIE",
+        "isNew": true
+      },
+      {
+        "name": "CHOCOLATE COOKIES & CREAM",
+        "isNew": false
+      },
+      {
+        "name": "SEMI-SWEET CHOCOLATE CHUNK",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2024-03-25T05:00:00.000Z",
+    "end": "2024-03-31T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "CARROT CAKE",
+        "isNew": true
+      },
+      {
+        "name": "STRAWBERRY PRETZEL PIE",
+        "isNew": true
+      },
+      {
+        "name": "SUGAR CANDY EGGS",
+        "isNew": false
+      },
+      {
+        "name": "DOUBLE FUDGE BROWNIE",
+        "isNew": false
+      },
+      {
+        "name": "LEMON CRINKLE",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2024-03-18T05:00:00.000Z",
+    "end": "2024-03-24T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "CONFETTI CAKE",
+        "isNew": false
+      },
+      {
+        "name": "RASPBERRY DANISH",
+        "isNew": true
+      },
+      {
+        "name": "OATMEAL RAISIN",
+        "isNew": false
+      },
+      {
+        "name": "DULCE DE LECHE",
+        "isNew": false
+      },
+      {
+        "name": "BROOKIE",
+        "isNew": false
+      },
+      {
+        "name": "SEMI-SWEET CHOCOLATE CHUNK",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2024-03-11T05:00:00.000Z",
+    "end": "2024-03-17T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "MALLOW CREME FT. LUCKY CHARMS",
+        "isNew": false
+      },
+      {
+        "name": "MINT BROWNIE BATTER",
+        "isNew": false
+      },
+      {
+        "name": "COCONUT LIME",
+        "isNew": false
+      },
+      {
+        "name": "BUTTERMILK PANCAKE",
+        "isNew": false
+      },
+      {
+        "name": "MYSTERY COOKIE",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2024-03-04T06:00:00.000Z",
+    "end": "2024-03-10T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "COOKIES & CREAM MILKSHAKE FT. MINI OREO®",
+        "isNew": false
+      },
+      {
+        "name": "BUCKEYE BROWNIE",
+        "isNew": false
+      },
+      {
+        "name": "BLUEBERRY CHEESECAKE",
+        "isNew": false
+      },
+      {
+        "name": "COOKIE BUTTER WHITE CHIP FT. BISCOFF®",
+        "isNew": false
+      },
+      {
+        "name": "CARAMEL SHEET CAKE",
+        "isNew": false
+      },
+      {
+        "name": "SEMI-SWEET CHOCOLATE CHUNK",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2024-02-26T06:00:00.000Z",
+    "end": "2024-03-03T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "CORNBREAD",
+        "isNew": false
+      },
+      {
+        "name": "BROWNIE BATTER",
+        "isNew": false
+      },
+      {
+        "name": "BLUE MONSTER FT. CHIPS AHOY!®",
+        "isNew": false
+      },
+      {
+        "name": "STRAWBERRY CAKE",
+        "isNew": false
+      },
+      {
+        "name": "OLD FASHIONED DOUGHNUT",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2024-02-19T06:00:00.000Z",
+    "end": "2024-02-25T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "TRES LECHES CAKE",
+        "isNew": true
+      },
+      {
+        "name": "CHOCOLATE CAKE BATTER",
+        "isNew": true
+      },
+      {
+        "name": "ICED OATMEAL",
+        "isNew": false
+      },
+      {
+        "name": "LEMON CHEESECAKE",
+        "isNew": false
+      },
+      {
+        "name": "CLASSIC PEANUT BUTTER",
+        "isNew": false
+      },
+      {
+        "name": "SEMI-SWEET CHOCOLATE CHUNK",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2024-02-12T06:00:00.000Z",
+    "end": "2024-02-18T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "CHOCOLATE COVERED STRAWBERRY",
+        "isNew": false
+      },
+      {
+        "name": "MOLTEN LAVA",
+        "isNew": false
+      },
+      {
+        "name": "VALENTINE'S ORIGINAL FT. M&M'S® CANDIES",
+        "isNew": false
+      },
+      {
+        "name": "NILLA BEAN CUPCAKE",
+        "isNew": false
+      },
+      {
+        "name": "MYSTERY COOKIE",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2024-02-05T06:00:00.000Z",
+    "end": "2024-02-11T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "JAMMY HEART",
+        "isNew": true
+      },
+      {
+        "name": "RED VELVET CUPCAKE",
+        "isNew": false
+      },
+      {
+        "name": "LEMON GLAZE",
+        "isNew": false
+      },
+      {
+        "name": "VALENTINE CONFETTI",
+        "isNew": false
+      },
+      {
+        "name": "MYSTERY COOKIE",
+        "isNew": false
+      },
+      {
+        "name": "SEMI-SWEET CHOCOLATE CHUNK",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2024-01-29T06:00:00.000Z",
+    "end": "2024-02-04T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "CHOCOLATE MALLOW CUPCAKE",
+        "isNew": false
+      },
+      {
+        "name": "S'MORES",
+        "isNew": false
+      },
+      {
+        "name": "VANILLA CRUMB CAKE FT. GOLDEN OREO®",
+        "isNew": false
+      },
+      {
+        "name": "SUGAR FT. MOTHER'S® CIRCUS ANIMAL®",
+        "isNew": false
+      },
+      {
+        "name": "MYSTERY COOKIE",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2024-01-22T06:00:00.000Z",
+    "end": "2024-01-28T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "CINNAMON SQUARE",
+        "isNew": true
+      },
+      {
+        "name": "CANNOLI",
+        "isNew": true
+      },
+      {
+        "name": "STRAWBERRY CRUMB CAKE",
+        "isNew": false
+      },
+      {
+        "name": "PEANUT BUTTER FT. REESE'S PIECES",
+        "isNew": false
+      },
+      {
+        "name": "COOKIES & CREAM",
+        "isNew": false
+      },
+      {
+        "name": "SEMI-SWEET CHOCOLATE CHUNK",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2024-01-15T06:00:00.000Z",
+    "end": "2024-01-21T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "GRAHAM CRACKER FUDGE SANDWICH",
+        "isNew": true
+      },
+      {
+        "name": "WEDDING CAKE",
+        "isNew": false
+      },
+      {
+        "name": "BROWNIE SUNDAE",
+        "isNew": false
+      },
+      {
+        "name": "KENTUCKY BUTTER CAKE",
+        "isNew": false
+      },
+      {
+        "name": "VANILLA SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2024-01-08T06:00:00.000Z",
+    "end": "2024-01-14T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "SNICKERDOODLE SANDWICH",
+        "isNew": true
+      },
+      {
+        "name": "STRAWBERRY CUPCAKE",
+        "isNew": false
+      },
+      {
+        "name": "BANANA BREAD",
+        "isNew": false
+      },
+      {
+        "name": "PEANUT BUTTER COOKIES & CREAM",
+        "isNew": false
+      },
+      {
+        "name": "WAFFLE",
+        "isNew": false
+      },
+      {
+        "name": "SEMI-SWEET CHOCOLATE CHUNK",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2024-01-02T06:00:00.000Z",
+    "end": "2024-01-07T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "MALLOW SANDWICH FT. OREO®",
+        "isNew": false
+      },
+      {
+        "name": "CONFETTI MILKSHAKE",
+        "isNew": false
+      },
+      {
+        "name": "GALAXY BROWNIE",
+        "isNew": false
+      },
+      {
+        "name": "SKILLET COOKIE",
+        "isNew": true
+      },
+      {
+        "name": "BLUEBERRY MUFFIN",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2023-12-27T06:00:00.000Z",
+    "end": "2023-12-31T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "BROOKIE DOUGH PIE",
+        "isNew": true
+      },
+      {
+        "name": "RASPBERRY CHEESECAKE",
+        "isNew": false
+      },
+      {
+        "name": "PEANUT BUTTER FT. SNICKERS®",
+        "isNew": false
+      },
+      {
+        "name": "CHOCOLATE CAKE",
+        "isNew": false
+      },
+      {
+        "name": "BROWN SUGAR CINNAMON FT. POP-TARTS®",
+        "isNew": false
+      },
+      {
+        "name": "DOUBLE CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2023-12-18T06:00:00.000Z",
+    "end": "2023-12-24T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "PEPPERMINT ICE CREAM",
+        "isNew": true
+      },
+      {
+        "name": "CINNAMON ROLL",
+        "isNew": false
+      },
+      {
+        "name": "TURTLE",
+        "isNew": false
+      },
+      {
+        "name": "BIRTHDAY CAKE (HOLIDAY)",
+        "isNew": false
+      },
+      {
+        "name": "GINGERSNAP",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2023-12-11T06:00:00.000Z",
+    "end": "2023-12-17T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "WONKA'S WILDLY WONDERFUL RED VELVETY COOKIE",
+        "isNew": true
+      },
+      {
+        "name": "BLACK FOREST CAKE",
+        "isNew": true
+      },
+      {
+        "name": "CHOCOLATE CRUMB FT. OREO®",
+        "isNew": false
+      },
+      {
+        "name": "ULTIMATE PEANUT BUTTER",
+        "isNew": false
+      },
+      {
+        "name": "MYSTERY COOKIE",
+        "isNew": false
+      },
+      {
+        "name": "SEMI-SWEET CHOCOLATE CHUNK",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2023-12-04T06:00:00.000Z",
+    "end": "2023-12-10T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "CHOCOLATE RASPBERRY TRUFFLE",
+        "isNew": true
+      },
+      {
+        "name": "CHOCOLATE CRUMB CAKE",
+        "isNew": true
+      },
+      {
+        "name": "GINGERBREAD CAKE",
+        "isNew": false
+      },
+      {
+        "name": "CARAMEL SHORTBREAD FT. TWIX®",
+        "isNew": false
+      },
+      {
+        "name": "LEMON POPPY SEED",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2023-11-27T06:00:00.000Z",
+    "end": "2023-12-03T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "CANDY CANE BROWNIE",
+        "isNew": true
+      },
+      {
+        "name": "FROZEN HOT CHOCOLATE",
+        "isNew": false
+      },
+      {
+        "name": "CAKE BATTER BLONDIE",
+        "isNew": false
+      },
+      {
+        "name": "TRIPLE BERRY COBBLER",
+        "isNew": false
+      },
+      {
+        "name": "PEANUT BUTTER CRISP FT. BUTTERFINGER®",
+        "isNew": false
+      },
+      {
+        "name": "SEMI-SWEET CHOCOLATE CHUNK",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2023-11-20T06:00:00.000Z",
+    "end": "2023-11-26T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "PUMPKIN PIE",
+        "isNew": false
+      },
+      {
+        "name": "CRANBERRY CRUMB CAKE",
+        "isNew": true
+      },
+      {
+        "name": "CARAMEL PRALINE",
+        "isNew": true
+      },
+      {
+        "name": "RED VELVET WHITE CHIP",
+        "isNew": false
+      },
+      {
+        "name": "MAPLE CINNAMON ROLL",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2023-11-13T06:00:00.000Z",
+    "end": "2023-11-19T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "PEACH PIE",
+        "isNew": false
+      },
+      {
+        "name": "PEANUT BUTTER CUP",
+        "isNew": false
+      },
+      {
+        "name": "CHURRO",
+        "isNew": false
+      },
+      {
+        "name": "TRIPLE CHOCOLATE CHIP",
+        "isNew": false
+      },
+      {
+        "name": "MYSTERY COOKIE",
+        "isNew": false
+      },
+      {
+        "name": "SEMI-SWEET CHOCOLATE CHUNK",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2023-11-06T06:00:00.000Z",
+    "end": "2023-11-12T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "CHOCOLATE SWISS ROLL",
+        "isNew": true
+      },
+      {
+        "name": "SALTED CARAMEL CHEESECAKE",
+        "isNew": false
+      },
+      {
+        "name": "CONFETTI CAKE",
+        "isNew": false
+      },
+      {
+        "name": "CHOCOLATE COOKIES & CREAM",
+        "isNew": false
+      },
+      {
+        "name": "BOSTON CREAM PIE",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2023-10-30T05:00:00.000Z",
+    "end": "2023-11-05T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "VANILLA SUGAR (HALLOWEEN)",
+        "isNew": true
+      },
+      {
+        "name": "CHOCOLATE PEANUT BUTTER PIE",
+        "isNew": true
+      },
+      {
+        "name": "DIRT CAKE",
+        "isNew": false
+      },
+      {
+        "name": "PUMPKIN ROLL",
+        "isNew": false
+      },
+      {
+        "name": "MYSTERY COOKIE",
+        "isNew": false
+      },
+      {
+        "name": "SEMI-SWEET CHOCOLATE CHUNK",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2023-10-23T05:00:00.000Z",
+    "end": "2023-10-29T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "PUMPKIN BROWNIE",
+        "isNew": true
+      },
+      {
+        "name": "STRAWBERRY CHEESECAKE",
+        "isNew": false
+      },
+      {
+        "name": "CARROT CAKE",
+        "isNew": false
+      },
+      {
+        "name": "BUTTERMILK PANCAKE",
+        "isNew": false
+      },
+      {
+        "name": "HONEY BUN",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2023-10-16T05:00:00.000Z",
+    "end": "2023-10-22T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "CHOCOLATE PISTACHIO PIE",
+        "isNew": true
+      },
+      {
+        "name": "CAKE BATTER",
+        "isNew": false
+      },
+      {
+        "name": "MOLTEN LAVA",
+        "isNew": false
+      },
+      {
+        "name": "COOKIE DOUGH",
+        "isNew": false
+      },
+      {
+        "name": "CHOCOLATE PEANUT BUTTER CHIP",
+        "isNew": false
+      },
+      {
+        "name": "SEMI-SWEET CHOCOLATE CHUNK",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2023-10-09T05:00:00.000Z",
+    "end": "2023-10-15T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "FROSTED STRAWBERRY FT. POP-TARTS®",
+        "isNew": false
+      },
+      {
+        "name": "RED VELVET CUPCAKE",
+        "isNew": false
+      },
+      {
+        "name": "PEACHES & CREAM",
+        "isNew": false
+      },
+      {
+        "name": "PUMPKIN CHOCOLATE CHIP",
+        "isNew": false
+      },
+      {
+        "name": "DOUBLE FUDGE BROWNIE",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2023-10-02T05:00:00.000Z",
+    "end": "2023-10-08T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "OATMEAL MALLOW SANDWICH",
+        "isNew": false
+      },
+      {
+        "name": "CARAMEL APPLE",
+        "isNew": false
+      },
+      {
+        "name": "PEANUT BUTTER MUNCH",
+        "isNew": false
+      },
+      {
+        "name": "DARK DREAM",
+        "isNew": false
+      },
+      {
+        "name": "CHOCOLATE GREEN MINT",
+        "isNew": false
+      },
+      {
+        "name": "SEMI-SWEET CHOCOLATE CHUNK",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2023-09-25T05:00:00.000Z",
+    "end": "2023-10-01T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "Pumpkin Cheesecake",
+        "isNew": true
+      },
+      {
+        "name": "Pink Velvet Cake",
+        "isNew": false
+      },
+      {
+        "name": "Brookie",
+        "isNew": false
+      },
+      {
+        "name": "Banana Cream Pie",
+        "isNew": false
+      },
+      {
+        "name": "Cookie Butter White Chip ft. Biscoff®",
+        "isNew": false
+      },
+      {
+        "name": "Milk Chocolate Chip",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2023-09-18T05:00:00.000Z",
+    "end": "2023-09-24T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "BROWN SUGAR CINNAMON FT. POP-TARTS®",
+        "isNew": true
+      },
+      {
+        "name": "GUAVA CAKE",
+        "isNew": true
+      },
+      {
+        "name": "COOKIES & CREAM MILKSHAKE FT. OREO®",
+        "isNew": false
+      },
+      {
+        "name": "MONSTER FT. M&M'S® CANDIES",
+        "isNew": false
+      },
+      {
+        "name": "NEW YORK CHEESECAKE",
+        "isNew": false
+      },
+      {
+        "name": "SEMI-SWEET CHOCOLATE CHUNK",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2023-09-11T05:00:00.000Z",
+    "end": "2023-09-17T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "S'MORES",
+        "isNew": false
+      },
+      {
+        "name": "STRAWBERRY MILK FT. PIROULINE®",
+        "isNew": false
+      },
+      {
+        "name": "APPLE CIDER MUFFIN",
+        "isNew": false
+      },
+      {
+        "name": "SEA SALT TOFFEE",
+        "isNew": false
+      },
+      {
+        "name": "CHOCOLATE CUPCAKE",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2023-09-04T05:00:00.000Z",
+    "end": "2023-09-10T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "CARAMEL PUMPKIN CAKE",
+        "isNew": false
+      },
+      {
+        "name": "CHOCOLATE PEANUT BUTTER FT. OREO®",
+        "isNew": false
+      },
+      {
+        "name": "KEY LIME PIE",
+        "isNew": false
+      },
+      {
+        "name": "CHOCOLATE TOFFEE CAKE",
+        "isNew": false
+      },
+      {
+        "name": "MYSTERY COOKIE",
+        "isNew": false
+      },
+      {
+        "name": "SEMI-SWEET CHOCOLATE CHUNK",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2023-08-28T05:00:00.000Z",
+    "end": "2023-09-03T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "SNICKERDOODLE CUPCAKE",
+        "isNew": false
+      },
+      {
+        "name": "CHOCOLATE PEANUT BUTTER PUFFS",
+        "isNew": false
+      },
+      {
+        "name": "FRENCH SILK PIE",
+        "isNew": false
+      },
+      {
+        "name": "COOKIE BUTTER LAVA FT. BISCOFF®",
+        "isNew": false
+      },
+      {
+        "name": "CONFETTI",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2023-08-21T05:00:00.000Z",
+    "end": "2023-08-27T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "STRAWBERRY CRUMB CAKE",
+        "isNew": false
+      },
+      {
+        "name": "CHOCOLATE CAKE",
+        "isNew": false
+      },
+      {
+        "name": "ORIGINAL FT. PEANUT BUTTER M&M'S® CANDIES",
+        "isNew": false
+      },
+      {
+        "name": "CINNAMON CRUNCH",
+        "isNew": false
+      },
+      {
+        "name": "BERRIES & CREAM",
+        "isNew": false
+      },
+      {
+        "name": "SEMI-SWEET CHOCOLATE CHUNK",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2023-08-14T05:00:00.000Z",
+    "end": "2023-08-20T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "COOKIES & CREAM",
+        "isNew": false
+      },
+      {
+        "name": "CARAMEL SHORTBREAD FT. TWIX®",
+        "isNew": false
+      },
+      {
+        "name": "HUMMINGBIRD CAKE",
+        "isNew": false
+      },
+      {
+        "name": "SNICKERDOODLE",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      },
+      {
+        "name": "MYSTERY COOKIE",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2023-08-07T05:00:00.000Z",
+    "end": "2023-08-13T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "VANILLA CRUMB CAKE FT. GOLDEN OREO®",
+        "isNew": false
+      },
+      {
+        "name": "PINK DOUGHNUT",
+        "isNew": false
+      },
+      {
+        "name": "BUCKEYE BROWNIE",
+        "isNew": false
+      },
+      {
+        "name": "KENTUCKY BUTTER CAKE",
+        "isNew": false
+      },
+      {
+        "name": "LEMON BAR",
+        "isNew": false
+      },
+      {
+        "name": "SEMI-SWEET CHOCOLATE CHUNK",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2023-07-31T05:00:00.000Z",
+    "end": "2023-08-06T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "FRENCH TOAST",
+        "isNew": false
+      },
+      {
+        "name": "BLUE MONSTER FT. CHIPS AHOY!®",
+        "isNew": false
+      },
+      {
+        "name": "APPLE CRUMB CAKE",
+        "isNew": false
+      },
+      {
+        "name": "SALTED CARAMEL CHEESECAKE",
+        "isNew": false
+      },
+      {
+        "name": "MOM'S RECIPE",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2023-07-24T05:00:00.000Z",
+    "end": "2023-07-30T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "STRAWBERRY ICE CREAM BAR",
+        "isNew": false
+      },
+      {
+        "name": "ORIGINAL FT. M&M'S® CANDIES",
+        "isNew": false
+      },
+      {
+        "name": "SUGAR SHARK FT. SHARK WEEK™",
+        "isNew": false
+      },
+      {
+        "name": "PEANUT BUTTER COOKIES & CREAM",
+        "isNew": false
+      },
+      {
+        "name": "LEMON CUPCAKE",
+        "isNew": false
+      },
+      {
+        "name": "SEMI-SWEET CHOCOLATE CHUNK",
+        "isNew": false
+      },
+      {
+        "name": "MYSTERY COOKIE",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2023-07-17T05:00:00.000Z",
+    "end": "2023-07-23T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "COOKIE DOUGH",
+        "isNew": false
+      },
+      {
+        "name": "CHURRO",
+        "isNew": false
+      },
+      {
+        "name": "BLUEBERRY CHEESECAKE",
+        "isNew": false
+      },
+      {
+        "name": "MILK GLAZE FT. FRUITY PEBBLES™",
+        "isNew": false
+      },
+      {
+        "name": "ROCKY ROAD",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2023-07-10T05:00:00.000Z",
+    "end": "2023-07-16T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "CHOCOLATE CRUMB FT. OREO®",
+        "isNew": false
+      },
+      {
+        "name": "PEANUT BUTTER CRISP FT. BUTTERFINGER®",
+        "isNew": false
+      },
+      {
+        "name": "LEMON CREAM PIE",
+        "isNew": false
+      },
+      {
+        "name": "HONEY BUN",
+        "isNew": false
+      },
+      {
+        "name": "COOKIE BUTTER WHITE CHIP FT. BISCOFF®",
+        "isNew": false
+      },
+      {
+        "name": "SEMI-SWEET CHOCOLATE CHUNK",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2023-07-03T05:00:00.000Z",
+    "end": "2023-07-09T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "BROWNIE SUNDAE",
+        "isNew": false
+      },
+      {
+        "name": "BIRTHDAY CAKE",
+        "isNew": false
+      },
+      {
+        "name": "STRAWBERRY SHORTCAKE",
+        "isNew": false
+      },
+      {
+        "name": "COWBOY COOKIE",
+        "isNew": false
+      },
+      {
+        "name": "CLASSIC PINK SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2023-06-26T05:00:00.000Z",
+    "end": "2023-07-02T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "GALAXY BROWNIE",
+        "isNew": false
+      },
+      {
+        "name": "WEDDING CAKE",
+        "isNew": false
+      },
+      {
+        "name": "FRUIT PIZZA",
+        "isNew": false
+      },
+      {
+        "name": "PEANUT BUTTER BLOSSOM",
+        "isNew": false
+      },
+      {
+        "name": "CLASSIC PINK SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2023-06-19T05:00:00.000Z",
+    "end": "2023-06-25T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "CHOCOLATE COOKIES & CREAM",
+        "isNew": false
+      },
+      {
+        "name": "RED VELVET CUPCAKE",
+        "isNew": false
+      },
+      {
+        "name": "WAFFLE",
+        "isNew": false
+      },
+      {
+        "name": "FRIED ICE CREAM",
+        "isNew": false
+      },
+      {
+        "name": "CLASSIC PINK SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      },
+      {
+        "name": "MYSTERY COOKIE",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2023-06-12T05:00:00.000Z",
+    "end": "2023-06-18T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "BROWNIE BATTER",
+        "isNew": false
+      },
+      {
+        "name": "PEANUT BUTTER CUP FT. REESE'S",
+        "isNew": false
+      },
+      {
+        "name": "CLASSIC KRISPIES BAR FT. RICE KRISPIES®",
+        "isNew": false
+      },
+      {
+        "name": "DOUBLE CHOCOLATE CHIP",
+        "isNew": false
+      },
+      {
+        "name": "CONFETTI MILKSHAKE",
+        "isNew": false
+      },
+      {
+        "name": "CLASSIC PINK SUGAR",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2023-06-05T05:00:00.000Z",
+    "end": "2023-06-11T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "MOLTEN LAVA",
+        "isNew": false
+      },
+      {
+        "name": "CINNAMON FRYBREAD",
+        "isNew": false
+      },
+      {
+        "name": "LEMONADE",
+        "isNew": false
+      },
+      {
+        "name": "NILLA BEAN CUPCAKE",
+        "isNew": false
+      },
+      {
+        "name": "CLASSIC PINK SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2023-05-29T05:00:00.000Z",
+    "end": "2023-06-04T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "COOKIE BUTTER ICE CREAM FT. BISCOFF®",
+        "isNew": false
+      },
+      {
+        "name": "CONFETTI CAKE",
+        "isNew": false
+      },
+      {
+        "name": "TRIPLE BERRY COBBLER",
+        "isNew": false
+      },
+      {
+        "name": "PEANUT BUTTER BROWNIE",
+        "isNew": false
+      },
+      {
+        "name": "CLASSIC PINK SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      },
+      {
+        "name": "YSTERY COOKIE",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2023-05-22T05:00:00.000Z",
+    "end": "2023-05-28T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "DIRT CAKE",
+        "isNew": false
+      },
+      {
+        "name": "BANANA BREAD",
+        "isNew": false
+      },
+      {
+        "name": "CHOCOLATE MILK",
+        "isNew": false
+      },
+      {
+        "name": "STRAWBERRY CAKE",
+        "isNew": false
+      },
+      {
+        "name": "CLASSIC PINK SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2023-05-15T05:00:00.000Z",
+    "end": "2023-05-21T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "HONEY CAKE FT. TEDDY GRAHAMS®",
+        "isNew": false
+      },
+      {
+        "name": "CHOCOLATE MALLOW CUPCAKE",
+        "isNew": false
+      },
+      {
+        "name": "CAKE BATTER BLONDIE",
+        "isNew": false
+      },
+      {
+        "name": "PEANUT BUTTER FEATURING SNICKERS®",
+        "isNew": false
+      },
+      {
+        "name": "CLASSIC PINK SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2023-05-08T05:00:00.000Z",
+    "end": "2023-05-14T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "PINK VELVET CAKE",
+        "isNew": false
+      },
+      {
+        "name": "HAZELNUT MUDSLIDE",
+        "isNew": false
+      },
+      {
+        "name": "LEMON CHEESECAKE",
+        "isNew": false
+      },
+      {
+        "name": "MOM'S RECIPE",
+        "isNew": false
+      },
+      {
+        "name": "RASPBERRY BUTTER CAKE",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2023-05-01T05:00:00.000Z",
+    "end": "2023-05-07T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "DULCE DE LECHE",
+        "isNew": false
+      },
+      {
+        "name": "BUCKEYE BROWNIE",
+        "isNew": false
+      },
+      {
+        "name": "MAPLE OATMEAL",
+        "isNew": true
+      },
+      {
+        "name": "CAKE BATTER",
+        "isNew": false
+      },
+      {
+        "name": "CLASSIC PINK SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2023-04-24T05:00:00.000Z",
+    "end": "2023-04-30T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "COOKIES & CREAM MILKSHAKE",
+        "isNew": false
+      },
+      {
+        "name": "BUTTERMILK PANCAKE",
+        "isNew": false
+      },
+      {
+        "name": "TRIPLE CHOCOLATE CHIP",
+        "isNew": false
+      },
+      {
+        "name": "STRAWBERRY CUPCAKE",
+        "isNew": true
+      },
+      {
+        "name": "CLASSIC PINK SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      },
+      {
+        "name": "MYSTERY COOKIE",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2023-04-17T05:00:00.000Z",
+    "end": "2023-04-23T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "BIRTHDAY CAKE FT. OREO®",
+        "isNew": false
+      },
+      {
+        "name": "PEANUT BUTTER MUNCH FT. MUDDY BUDDIES™️",
+        "isNew": false
+      },
+      {
+        "name": "COTTON CANDY",
+        "isNew": false
+      },
+      {
+        "name": "CARAMEL SHORTBREAD FT. TWIX®",
+        "isNew": false
+      },
+      {
+        "name": "CLASSIC PINK SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2023-04-10T05:00:00.000Z",
+    "end": "2023-04-16T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "CINNAMON ROLL",
+        "isNew": false
+      },
+      {
+        "name": "CHOCOLATE PEANUT BUTTER FT. OREO®",
+        "isNew": true
+      },
+      {
+        "name": "STRAWBERRY CHEESECAKE",
+        "isNew": true
+      },
+      {
+        "name": "COOKIE BUTTER LAVA FT. BISCOFF®",
+        "isNew": false
+      },
+      {
+        "name": "CLASSIC PINK SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2023-04-03T05:00:00.000Z",
+    "end": "2023-04-09T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "LEMON BAR",
+        "isNew": false
+      },
+      {
+        "name": "DOUBLE FUDGE BROWNIE",
+        "isNew": false
+      },
+      {
+        "name": "ICED OATMEAL",
+        "isNew": false
+      },
+      {
+        "name": "CARROT CAKE",
+        "isNew": false
+      },
+      {
+        "name": "SUGAR (CANDY EGGS)",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2023-03-27T05:00:00.000Z",
+    "end": "2023-04-02T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "SNICKERDOODLE CUPCAKE",
+        "isNew": false
+      },
+      {
+        "name": "S'MORES",
+        "isNew": false
+      },
+      {
+        "name": "PEANUT BUTTER CREME FT. NUTTER BUTTER®",
+        "isNew": false
+      },
+      {
+        "name": "MACADAMIA NUT",
+        "isNew": false
+      },
+      {
+        "name": "CLASSIC PINK SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2023-03-20T05:00:00.000Z",
+    "end": "2023-03-26T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "LEMON POPPY SEED",
+        "isNew": false
+      },
+      {
+        "name": "TEXAS SHEET CAKE",
+        "isNew": true
+      },
+      {
+        "name": "RASPBERRY CHEESECAKE",
+        "isNew": false
+      },
+      {
+        "name": "MONSTER",
+        "isNew": false
+      },
+      {
+        "name": "SEA SALT TOFFEE",
+        "isNew": false
+      },
+      {
+        "name": "CLASSIC PINK SUGAR",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2023-03-13T05:00:00.000Z",
+    "end": "2023-03-19T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "COOKIES & CREAM",
+        "isNew": false
+      },
+      {
+        "name": "MALLOW CREME FT. LUCKY CHARMS®",
+        "isNew": false
+      },
+      {
+        "name": "MINT BROWNIE",
+        "isNew": false
+      },
+      {
+        "name": "BUTTERSCOTCH CHIP",
+        "isNew": true
+      },
+      {
+        "name": "SUGAR (GOLD COIN)",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      },
+      {
+        "name": "MYSTERY COOKIE",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2023-03-06T06:00:00.000Z",
+    "end": "2023-03-12T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "BLUEBERRY CRUMB CAKE",
+        "isNew": false
+      },
+      {
+        "name": "DARK DREAM",
+        "isNew": false
+      },
+      {
+        "name": "COOKIE DOUGH",
+        "isNew": false
+      },
+      {
+        "name": "ULTIMATE PEANUT BUTTER",
+        "isNew": false
+      },
+      {
+        "name": "CLASSIC PINK SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2023-02-27T06:00:00.000Z",
+    "end": "2023-03-05T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "MAPLE BACON",
+        "isNew": true
+      },
+      {
+        "name": "MINT CHIP ICE CREAM",
+        "isNew": false
+      },
+      {
+        "name": "PINK DOUGHNUT",
+        "isNew": false
+      },
+      {
+        "name": "BROWNIE BATTER",
+        "isNew": false
+      },
+      {
+        "name": "CLASSIC PINK SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2023-02-20T06:00:00.000Z",
+    "end": "2023-02-26T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "VANILLA GLAZE FT. CINNAMON TOAST CRUNCH™",
+        "isNew": false
+      },
+      {
+        "name": "CHOCOLATE PEANUT BUTTER CHIP",
+        "isNew": false
+      },
+      {
+        "name": "BIRTHDAY CAKE",
+        "isNew": false
+      },
+      {
+        "name": "NEAPOLITAN",
+        "isNew": true
+      },
+      {
+        "name": "MYSTERY COOKIE",
+        "isNew": false
+      },
+      {
+        "name": "CLASSIC PINK SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2023-02-13T06:00:00.000Z",
+    "end": "2023-02-19T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "Original featuring M&M's® Candies (Valentines)",
+        "isNew": false
+      },
+      {
+        "name": "NEW YORK CHEESECAKE",
+        "isNew": false
+      },
+      {
+        "name": "CONFETTI (VALENTINE)",
+        "isNew": false
+      },
+      {
+        "name": "CHOCOLATE COVERED STRAWBERRY",
+        "isNew": false
+      },
+      {
+        "name": "CHOCOLATE CARAMEL",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2023-02-06T06:00:00.000Z",
+    "end": "2023-02-12T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "SUGAR FT. MOTHER'S® CIRCUS ANIMAL™️",
+        "isNew": false
+      },
+      {
+        "name": "CHOCOLATE CAKE",
+        "isNew": false
+      },
+      {
+        "name": "KENTUCKY BUTTER CAKE",
+        "isNew": false
+      },
+      {
+        "name": "PEANUT BUTTER BANANA",
+        "isNew": false
+      },
+      {
+        "name": "CLASSIC PINK SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2023-01-30T06:00:00.000Z",
+    "end": "2023-02-05T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "CHURRO",
+        "isNew": false
+      },
+      {
+        "name": "CHOCOLATE COOKIES & CREAM",
+        "isNew": false
+      },
+      {
+        "name": "BLUEBERRY MUFFIN",
+        "isNew": false
+      },
+      {
+        "name": "KEY LIME PIE",
+        "isNew": false
+      },
+      {
+        "name": "CLASSIC PINK SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2023-01-23T06:00:00.000Z",
+    "end": "2023-01-29T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "LEMON CUPCAKE",
+        "isNew": false
+      },
+      {
+        "name": "FRENCH SILK PIE",
+        "isNew": false
+      },
+      {
+        "name": "CARAMEL CAKE",
+        "isNew": false
+      },
+      {
+        "name": "CLASSIC PEANUT BUTTER",
+        "isNew": false
+      },
+      {
+        "name": "MYSTERY COOKIE",
+        "isNew": false
+      },
+      {
+        "name": "CLASSIC PINK SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2023-01-16T06:00:00.000Z",
+    "end": "2023-01-22T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "CHOCOLATE CRUMB FT. OREO®️",
+        "isNew": false
+      },
+      {
+        "name": "HONEY BUN",
+        "isNew": false
+      },
+      {
+        "name": "RASPBERRY DOUGHNUT",
+        "isNew": true
+      },
+      {
+        "name": "COWBOY COOKIE",
+        "isNew": true
+      },
+      {
+        "name": "CLASSIC PINK SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2023-01-09T06:00:00.000Z",
+    "end": "2023-01-15T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "CONFETTI CAKE",
+        "isNew": false
+      },
+      {
+        "name": "PEANUT BUTTER CUP FT. REESE'S",
+        "isNew": false
+      },
+      {
+        "name": "LEMON CHEESECAKE",
+        "isNew": true
+      },
+      {
+        "name": "ROCKY ROAD",
+        "isNew": false
+      },
+      {
+        "name": "CLASSIC PINK SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2023-01-02T06:00:00.000Z",
+    "end": "2023-01-08T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "NILLA BEAN CUPCAKE",
+        "isNew": false
+      },
+      {
+        "name": "STRAWBERRY CRUMB CAKE",
+        "isNew": false
+      },
+      {
+        "name": "CORNBREAD",
+        "isNew": false
+      },
+      {
+        "name": "PEANUT BUTTER & JELLY",
+        "isNew": false
+      },
+      {
+        "name": "CLASSIC PINK SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2022-12-27T06:00:00.000Z",
+    "end": "2023-01-01T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "GALAXY BROWNIE",
+        "isNew": false
+      },
+      {
+        "name": "TRES LECHES",
+        "isNew": false
+      },
+      {
+        "name": "VANILLA CRUMB CAKE FT. GOLDEN OREO®",
+        "isNew": false
+      },
+      {
+        "name": "ULTIMATE PEANUT BUTTER",
+        "isNew": false
+      },
+      {
+        "name": "CLASSIC PINK SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2022-12-19T06:00:00.000Z",
+    "end": "2022-12-25T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "SNICKERDOODLE",
+        "isNew": false
+      },
+      {
+        "name": "EGGNOG",
+        "isNew": true
+      },
+      {
+        "name": "FROZEN HOT CHOCOLATE",
+        "isNew": false
+      },
+      {
+        "name": "BIRTHDAY CAKE (HOLIDAY)",
+        "isNew": false
+      },
+      {
+        "name": "RED VELVET WHITE CHIP",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2022-12-12T06:00:00.000Z",
+    "end": "2022-12-18T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "WAFFLE",
+        "isNew": false
+      },
+      {
+        "name": "CARAMEL SHORTBREAD FEATURING TWIX®",
+        "isNew": false
+      },
+      {
+        "name": "PEPPERMINT CUPCAKE",
+        "isNew": false
+      },
+      {
+        "name": "SEMI-SWEET CHOCOLATE CHUNK",
+        "isNew": false
+      },
+      {
+        "name": "GINGERSNAP",
+        "isNew": false
+      },
+      {
+        "name": "CLASSIC PINK SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MYSTERY COOKIE",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2022-12-04T06:00:00.000Z",
+    "end": "2022-12-11T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "MOLTEN LAVA",
+        "isNew": false
+      },
+      {
+        "name": "PEANUT BUTTER BRITTLE",
+        "isNew": false
+      },
+      {
+        "name": "ORANGE ROLL",
+        "isNew": false
+      },
+      {
+        "name": "SEA SALT TOFFEE",
+        "isNew": false
+      },
+      {
+        "name": "PECAN PIE",
+        "isNew": false
+      },
+      {
+        "name": "CLASSIC PINK SUGAR",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2022-11-28T06:00:00.000Z",
+    "end": "2022-12-04T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "LEMON CRINKLE",
+        "isNew": false
+      },
+      {
+        "name": "BOSTON CREAM PIE",
+        "isNew": false
+      },
+      {
+        "name": "GINGERBREAD CAKE",
+        "isNew": false
+      },
+      {
+        "name": "GREEN MINT FT. ANDES®️",
+        "isNew": false
+      },
+      {
+        "name": "CLASSIC PINK SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2022-11-21T06:00:00.000Z",
+    "end": "2022-11-27T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "MAPLE CINNAMON ROLL",
+        "isNew": false
+      },
+      {
+        "name": "RANBERRY WHITE CHIP FT. OCEAN SPRAY®",
+        "isNew": false
+      },
+      {
+        "name": "SALTED CARAMEL CHEESECAKE",
+        "isNew": false
+      },
+      {
+        "name": "CHOCOLATE SPRINKLE",
+        "isNew": true
+      },
+      {
+        "name": "PUMPKIN PIE",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      },
+      {
+        "name": "MYSTERY COOKIE",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2022-11-14T06:00:00.000Z",
+    "end": "2022-11-20T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "PUMPKIN CAKE",
+        "isNew": false
+      },
+      {
+        "name": "LEMON BLACKBERRY",
+        "isNew": true
+      },
+      {
+        "name": "APPLE PIE",
+        "isNew": false
+      },
+      {
+        "name": "HAZELNUT SEA SALT",
+        "isNew": false
+      },
+      {
+        "name": "CLASSIC PINK SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "SEMI-SWEET CHOCOLATE CHUNK",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2022-11-07T06:00:00.000Z",
+    "end": "2022-11-13T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "BUCKEYE BROWNIE",
+        "isNew": false
+      },
+      {
+        "name": "STRAWBERRY CAKE",
+        "isNew": true
+      },
+      {
+        "name": "CHOCOLATE PUMPKIN CHEESECAKE",
+        "isNew": false
+      },
+      {
+        "name": "COOKIE BUTTER WHITE CHIP",
+        "isNew": false
+      },
+      {
+        "name": "CLASSIC PINK SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2022-10-31T05:00:00.000Z",
+    "end": "2022-11-06T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "PEANUT BUTTER NOUGAT FT. SNICKERS®",
+        "isNew": false
+      },
+      {
+        "name": "CORNBREAD HONEY CAKE",
+        "isNew": true
+      },
+      {
+        "name": "SUGAR FT. MOTHER'S® EERIE CRITTERS™ COOKIES",
+        "isNew": false
+      },
+      {
+        "name": "BLUE MONSTER FT. CHIPS AHOY!®",
+        "isNew": false
+      },
+      {
+        "name": "ALMOND COCONUT FUDGE",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2022-10-24T05:00:00.000Z",
+    "end": "2022-10-30T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "STRAWBERRY LIMEADE FT. NERDS®",
+        "isNew": true
+      },
+      {
+        "name": "CLASSIC KRISPIES BAR FT. RICE KRISPIES®",
+        "isNew": false
+      },
+      {
+        "name": "CHOCOLATE MALT FT. TOOTSIE ROLL®",
+        "isNew": true
+      },
+      {
+        "name": "ORIGINAL FEATURING M&M'S® CANDIES",
+        "isNew": false
+      },
+      {
+        "name": "PEANUT BUTTER CRISP FT. BUTTERFINGER®",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      },
+      {
+        "name": "MYSTERY COOKIE",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2022-10-17T05:00:00.000Z",
+    "end": "2022-10-23T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "DULCE DE LECHE",
+        "isNew": false
+      },
+      {
+        "name": "S'MORES",
+        "isNew": false
+      },
+      {
+        "name": "TRIPLE BERRY COBBLER",
+        "isNew": true
+      },
+      {
+        "name": "CHOCOLATE CUPCAKE",
+        "isNew": false
+      },
+      {
+        "name": "CLASSIC PINK SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2022-10-10T05:00:00.000Z",
+    "end": "2022-10-16T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "PINK VELVET CAKE",
+        "isNew": false
+      },
+      {
+        "name": "RASPBERRY LEMONADE",
+        "isNew": false
+      },
+      {
+        "name": "PINK DOUGHNUT",
+        "isNew": false
+      },
+      {
+        "name": "CAKE BATTER BLONDIE",
+        "isNew": false
+      },
+      {
+        "name": "CLASSIC PINK SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2022-10-03T05:00:00.000Z",
+    "end": "2022-10-09T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "CARAMEL APPLE",
+        "isNew": false
+      },
+      {
+        "name": "PUMPKIN ROLL",
+        "isNew": false
+      },
+      {
+        "name": "AGGIE BLUE MINT™",
+        "isNew": false
+      },
+      {
+        "name": "ORIGINAL FEATURING PEANUT BUTTER M&M'S® CANDIES",
+        "isNew": false
+      },
+      {
+        "name": "CLASSIC PINK SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2022-09-26T05:00:00.000Z",
+    "end": "2022-10-02T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "CARAMEL PUMPKIN",
+        "isNew": false
+      },
+      {
+        "name": "RASPBERRY BUTTER CAKE",
+        "isNew": true
+      },
+      {
+        "name": "PEANUT BUTTER CREME FT. NUTTER BUTTER®",
+        "isNew": true
+      },
+      {
+        "name": "LEMON GLAZE",
+        "isNew": false
+      },
+      {
+        "name": "CLASSIC PINK SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2022-09-19T05:00:00.000Z",
+    "end": "2022-09-25T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "CAKE BATTER",
+        "isNew": false
+      },
+      {
+        "name": "PEANUT BUTTER MUNCH FT. MUDDY BUDDIES™",
+        "isNew": false
+      },
+      {
+        "name": "STRAWBERRY MILK",
+        "isNew": true
+      },
+      {
+        "name": "PINK CADILLAC SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "DARK DREAM",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2022-09-12T05:00:00.000Z",
+    "end": "2022-09-18T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "DIRT CAKE FT. OTTO",
+        "isNew": true
+      },
+      {
+        "name": "MINION CONFETTI",
+        "isNew": true
+      },
+      {
+        "name": "MOONCAKE",
+        "isNew": true
+      },
+      {
+        "name": "YELLOW SUGAR",
+        "isNew": true
+      },
+      {
+        "name": "BANANA CREAM PIE",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2022-09-05T05:00:00.000Z",
+    "end": "2022-09-11T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "MILK GLAZE. FT. FRUITY PEBBLES™",
+        "isNew": false
+      },
+      {
+        "name": "FRENCH TOAST",
+        "isNew": true
+      },
+      {
+        "name": "ICED OATMEAL",
+        "isNew": false
+      },
+      {
+        "name": "ALMOST EVERYTHING BAGEL",
+        "isNew": true
+      },
+      {
+        "name": "CLASSIC PINK SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2022-08-29T05:00:00.000Z",
+    "end": "2022-09-04T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "COOKIE BUTTER LAVA",
+        "isNew": false
+      },
+      {
+        "name": "BROWNIE BATTER",
+        "isNew": false
+      },
+      {
+        "name": "PUMPKIN CHOCOLATE CHIP",
+        "isNew": false
+      },
+      {
+        "name": "PEANUT BUTTER COOKIES & CREAM",
+        "isNew": false
+      },
+      {
+        "name": "CLASSIC PINK SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      },
+      {
+        "name": "MYSTERY COOKIE",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2022-08-22T05:00:00.000Z",
+    "end": "2022-08-28T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "MALLOW SANDWICH FT. OREO®",
+        "isNew": false
+      },
+      {
+        "name": "STRAWBERRY SHORTCAKE",
+        "isNew": true
+      },
+      {
+        "name": "CINNAMON FRYBREAD",
+        "isNew": false
+      },
+      {
+        "name": "RED VELVET CUPCAKE",
+        "isNew": false
+      },
+      {
+        "name": "SUGAR FT. MOTHER'S® CIRCUS ANIMAL™",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2022-08-15T05:00:00.000Z",
+    "end": "2022-08-21T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "RASPBERRY CHEESECAKE",
+        "isNew": false
+      },
+      {
+        "name": "FRENCH SILK PIE",
+        "isNew": true
+      },
+      {
+        "name": "PEANUT BUTTER BLOSSOM",
+        "isNew": false
+      },
+      {
+        "name": "CARAMEL POPCORN",
+        "isNew": false
+      },
+      {
+        "name": "LEMON POPPY SEED",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2022-08-08T05:00:00.000Z",
+    "end": "2022-08-14T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "LEMONADE",
+        "isNew": false
+      },
+      {
+        "name": "OLD FASHIONED DOUGHNUT",
+        "isNew": false
+      },
+      {
+        "name": "WALNUT FUDGE BROWNIE",
+        "isNew": false
+      },
+      {
+        "name": "COTTON CANDY",
+        "isNew": false
+      },
+      {
+        "name": "FRIED ICE CREAM",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2022-08-01T05:00:00.000Z",
+    "end": "2022-08-07T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "MONSTER",
+        "isNew": false
+      },
+      {
+        "name": "MINT BROWNIE",
+        "isNew": false
+      },
+      {
+        "name": "BANANA BREAD",
+        "isNew": false
+      },
+      {
+        "name": "CHOCOLATE CARAMEL",
+        "isNew": false
+      },
+      {
+        "name": "STRAWBERRY ICE CREAM BAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2022-07-25T05:00:00.000Z",
+    "end": "2022-07-31T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "SUGAR (SHARK)",
+        "isNew": false
+      },
+      {
+        "name": "SEA SALT TOFFEE",
+        "isNew": false
+      },
+      {
+        "name": "MACADAMIA NUT",
+        "isNew": false
+      },
+      {
+        "name": "PINEAPPLE UPSIDE DOWN CAKE",
+        "isNew": true
+      },
+      {
+        "name": "COCONUT CAKE",
+        "isNew": true
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2022-07-18T05:00:00.000Z",
+    "end": "2022-07-24T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "CHOCOLATE CRUMB CAKE FT. OREO®",
+        "isNew": false
+      },
+      {
+        "name": "FRUIT PIZZA",
+        "isNew": false
+      },
+      {
+        "name": "OATMEAL CHOCOLATE CHIP",
+        "isNew": false
+      },
+      {
+        "name": "MAPLE GLAZE",
+        "isNew": true
+      },
+      {
+        "name": "CHOCOLATE MALLOW CUPCAKE",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2022-07-11T05:00:00.000Z",
+    "end": "2022-07-17T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "FROSTED STRAWBERRY POP-TARTS®",
+        "isNew": false
+      },
+      {
+        "name": "DOUBLE FUDGE BROWNIE",
+        "isNew": false
+      },
+      {
+        "name": "LEMON CUPCAKE",
+        "isNew": true
+      },
+      {
+        "name": "CHOCOLATE TOFFEE CAKE",
+        "isNew": false
+      },
+      {
+        "name": "PEANUT BUTTER MYSTERY COOKIE",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2022-07-04T05:00:00.000Z",
+    "end": "2022-07-10T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "BIRTHDAY CAKE (PATRIOTIC)",
+        "isNew": false
+      },
+      {
+        "name": "S'MORES BROWNIE",
+        "isNew": false
+      },
+      {
+        "name": "APPLE PIE",
+        "isNew": false
+      },
+      {
+        "name": "CORNBREAD",
+        "isNew": false
+      },
+      {
+        "name": "BLUE RASPBERRY FT. ICEE®",
+        "isNew": true
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2022-06-27T05:00:00.000Z",
+    "end": "2022-07-03T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "COCONUT LIME",
+        "isNew": false
+      },
+      {
+        "name": "MAPLE CINNAMON ROLL",
+        "isNew": false
+      },
+      {
+        "name": "BUCKEYE BROWNIE",
+        "isNew": false
+      },
+      {
+        "name": "CONFETTI",
+        "isNew": false
+      },
+      {
+        "name": "VANILLA CRUMB CAKE FT. GOLDEN OREO®",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2022-06-20T05:00:00.000Z",
+    "end": "2022-06-26T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "ROCKY ROAD",
+        "isNew": false
+      },
+      {
+        "name": "HONEY BUN",
+        "isNew": false
+      },
+      {
+        "name": "GALAXY BROWNIE",
+        "isNew": false
+      },
+      {
+        "name": "BLUEBERRY CHEESECAKE",
+        "isNew": false
+      },
+      {
+        "name": "COOKIE BUTTER ICE CREAM",
+        "isNew": true
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2022-06-13T05:00:00.000Z",
+    "end": "2022-06-19T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "CARAMEL SHORTBREAD FEATURING TWIX®",
+        "isNew": false
+      },
+      {
+        "name": "CLASSIC KRISPY BAR",
+        "isNew": false
+      },
+      {
+        "name": "PEANUT BUTTER CUP FT. REESE'S",
+        "isNew": false
+      },
+      {
+        "name": "ORIGINAL FEATURING M&M'S® CANDIES",
+        "isNew": false
+      },
+      {
+        "name": "PEACH SUGAR FT. PEACHIE OS®",
+        "isNew": true
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2022-06-06T05:00:00.000Z",
+    "end": "2022-06-12T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "LEMON BLACKBERRY",
+        "isNew": true
+      },
+      {
+        "name": "SNICKERDOODLE CUPCAKE",
+        "isNew": false
+      },
+      {
+        "name": "ICED OATMEAL",
+        "isNew": false
+      },
+      {
+        "name": "BUTTERMILK PANCAKE",
+        "isNew": false
+      },
+      {
+        "name": "ORANGE CREAMSICLE",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2022-05-30T05:00:00.000Z",
+    "end": "2022-06-05T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "PINK DOUGHNUT",
+        "isNew": false
+      },
+      {
+        "name": "S'MORES",
+        "isNew": false
+      },
+      {
+        "name": "COOKIE DOUGH",
+        "isNew": false
+      },
+      {
+        "name": "WALNUT FUDGE BROWNIE",
+        "isNew": true
+      },
+      {
+        "name": "LEMON CRINKLE",
+        "isNew": true
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2022-05-23T05:00:00.000Z",
+    "end": "2022-05-29T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "CHOCOLATE PEANUT BUTTER CHIP",
+        "isNew": false
+      },
+      {
+        "name": "NILLA BEAN CUPCAKE",
+        "isNew": true
+      },
+      {
+        "name": "BERRY CRUNCH",
+        "isNew": false
+      },
+      {
+        "name": "KENTUCKY BUTTER CAKE",
+        "isNew": false
+      },
+      {
+        "name": "CARAMEL COCONUT FUDGE",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2022-05-16T05:00:00.000Z",
+    "end": "2022-05-22T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "GRAHAM CRACKER FT. TEDDY GRAHAMS®",
+        "isNew": false
+      },
+      {
+        "name": "MOLTEN LAVA",
+        "isNew": false
+      },
+      {
+        "name": "CLASSIC PEANUT BUTTER",
+        "isNew": false
+      },
+      {
+        "name": "LIMEADE",
+        "isNew": true
+      },
+      {
+        "name": "WHITE CHOCOLATE CHIP",
+        "isNew": true
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2022-05-09T05:00:00.000Z",
+    "end": "2022-05-15T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "SALTED CARAMEL CHEESECAKE",
+        "isNew": false
+      },
+      {
+        "name": "PEANUT BUTTER BAR",
+        "isNew": false
+      },
+      {
+        "name": "CHOCOLATE POTATO CHIP",
+        "isNew": false
+      },
+      {
+        "name": "PIÑA COLADA",
+        "isNew": false
+      },
+      {
+        "name": "PECAN PIE",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2022-05-02T05:00:00.000Z",
+    "end": "2022-05-08T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "PINK VELVET",
+        "isNew": false
+      },
+      {
+        "name": "MANGO FROZEN YOGURT",
+        "isNew": false
+      },
+      {
+        "name": "MOM'S RECIPE",
+        "isNew": false
+      },
+      {
+        "name": "LEMON GLAZE",
+        "isNew": false
+      },
+      {
+        "name": "HAZELNUT MUDSLIDE ft. NUTELLA®",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2022-04-25T05:00:00.000Z",
+    "end": "2022-05-01T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "PASSION FRUIT",
+        "isNew": false
+      },
+      {
+        "name": "CONFETTI CAKE",
+        "isNew": false
+      },
+      {
+        "name": "CLASSIC OATMEAL",
+        "isNew": false
+      },
+      {
+        "name": "ORIGINAL FEATURING PEANUT BUTTER M&M'S®",
+        "isNew": false
+      },
+      {
+        "name": "BROWNIE BATTER",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2022-04-18T05:00:00.000Z",
+    "end": "2022-04-24T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "RED VELVET WHITE CHIP",
+        "isNew": false
+      },
+      {
+        "name": "CARAMEL CAKE",
+        "isNew": true
+      },
+      {
+        "name": "SNICKERDOODLE",
+        "isNew": false
+      },
+      {
+        "name": "BOSTON CREAM PIE",
+        "isNew": false
+      },
+      {
+        "name": "CLASSIC PINK SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2022-04-11T05:00:00.000Z",
+    "end": "2022-04-17T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "LEMON BAR",
+        "isNew": false
+      },
+      {
+        "name": "CARROT CAKE",
+        "isNew": false
+      },
+      {
+        "name": "PEANUT BUTTER FT. MUDDY BUDDIES™",
+        "isNew": false
+      },
+      {
+        "name": "COOKIES & CREAM",
+        "isNew": false
+      },
+      {
+        "name": "CLASSIC PINK SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2022-04-04T05:00:00.000Z",
+    "end": "2022-04-10T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "WAFFLE",
+        "isNew": false
+      },
+      {
+        "name": "BERRIES & CREAM",
+        "isNew": false
+      },
+      {
+        "name": "DARK DREAM",
+        "isNew": false
+      },
+      {
+        "name": "NEW YORK CHEESECAKE",
+        "isNew": true
+      },
+      {
+        "name": "CLASSIC PINK SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2022-03-28T05:00:00.000Z",
+    "end": "2022-04-03T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "COCONUT WHITE CHIP",
+        "isNew": true
+      },
+      {
+        "name": "COOKIES & CREAM MILKSHAKE",
+        "isNew": false
+      },
+      {
+        "name": "PEANUT BUTTER BROWNIE",
+        "isNew": false
+      },
+      {
+        "name": "HONEYCOMB",
+        "isNew": true
+      },
+      {
+        "name": "CLASSIC PINK SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2022-03-21T05:00:00.000Z",
+    "end": "2022-03-27T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "KEY LIME PIE",
+        "isNew": false
+      },
+      {
+        "name": "PEANUT BUTTER FEATURING SNICKERS®",
+        "isNew": false
+      },
+      {
+        "name": "ICED OATMEAL",
+        "isNew": false
+      },
+      {
+        "name": "TRIPLE CHOCOLATE CHIP",
+        "isNew": true
+      },
+      {
+        "name": "CLASSIC PINK SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2022-03-14T05:00:00.000Z",
+    "end": "2022-03-20T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "ORIGINAL FT. LUCKY CHARMS®",
+        "isNew": false
+      },
+      {
+        "name": "PEANUT BUTTER COOKIES & CREAM",
+        "isNew": false
+      },
+      {
+        "name": "SEA SALT TOFFEE",
+        "isNew": false
+      },
+      {
+        "name": "MINT BROWNIE",
+        "isNew": false
+      },
+      {
+        "name": "SUGAR (GOLD COIN)",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2022-03-07T06:00:00.000Z",
+    "end": "2022-03-13T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "CEREAL MILK FT. FRUITY PEBBLES™",
+        "isNew": true
+      },
+      {
+        "name": "CORNFLAKE MARSHMALLOW",
+        "isNew": true
+      },
+      {
+        "name": "CHOCOLATE FT. REESE'S PUFFS",
+        "isNew": true
+      },
+      {
+        "name": "CINNAMON FT. CINNAMON TOAST CRUNCH",
+        "isNew": false
+      },
+      {
+        "name": "CLASSIC PINK SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2022-02-28T06:00:00.000Z",
+    "end": "2022-03-06T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "SNICKERDOODLE",
+        "isNew": false
+      },
+      {
+        "name": "BLUEBERRY MUFFIN",
+        "isNew": true
+      },
+      {
+        "name": "HAZELNUT SEA SALT",
+        "isNew": false
+      },
+      {
+        "name": "BIRTHDAY CAKE FT. OREO®",
+        "isNew": false
+      },
+      {
+        "name": "CLASSIC PINK SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2022-02-21T06:00:00.000Z",
+    "end": "2022-02-27T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "CORNBREAD",
+        "isNew": false
+      },
+      {
+        "name": "GERMAN CHOCOLATE CAKE",
+        "isNew": false
+      },
+      {
+        "name": "PEANUT BUTTER FT. REESE'S PIECES",
+        "isNew": false
+      },
+      {
+        "name": "BLUE MONSTER FT. CHIPS AHOY!®",
+        "isNew": true
+      },
+      {
+        "name": "VANILLA SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2022-02-14T06:00:00.000Z",
+    "end": "2022-02-20T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "BIRTHDAY CAKE VALENTINE",
+        "isNew": false
+      },
+      {
+        "name": "CHOCOLATE CARAMEL",
+        "isNew": true
+      },
+      {
+        "name": "SUGAR FT. MOTHERS®️ VALENTINE X'S AND O'S™",
+        "isNew": false
+      },
+      {
+        "name": "CHOCOLATE STRAWBERRY CHEESECAKE",
+        "isNew": false
+      },
+      {
+        "name": "CLASSIC PINK SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2022-02-07T06:00:00.000Z",
+    "end": "2022-02-13T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "VANILLA SUGAR",
+        "isNew": true
+      },
+      {
+        "name": "CAKE BATTER BLONDIE",
+        "isNew": true
+      },
+      {
+        "name": "S'MORES",
+        "isNew": false
+      },
+      {
+        "name": "HAZELNUT CHURRO",
+        "isNew": false
+      },
+      {
+        "name": "BUCKEYE BROWNIE",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2022-01-31T06:00:00.000Z",
+    "end": "2022-02-06T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "BANANA CREAM PIE",
+        "isNew": false
+      },
+      {
+        "name": "CHOCOLATE FT. OREO®",
+        "isNew": false
+      },
+      {
+        "name": "RUBY CHOCOLATE CHIP",
+        "isNew": false
+      },
+      {
+        "name": "ULTIMATE PEANUT BUTTER",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2022-01-24T06:00:00.000Z",
+    "end": "2022-01-30T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "RASPBERRY LEMONADE",
+        "isNew": false
+      },
+      {
+        "name": "CHOCOLATE CAKE",
+        "isNew": false
+      },
+      {
+        "name": "CINNAMON FRY BREAD",
+        "isNew": false
+      },
+      {
+        "name": "OATMEAL FT. ROLO® (NEW)",
+        "isNew": true
+      },
+      {
+        "name": "CLASSIC PINK SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2022-01-17T06:00:00.000Z",
+    "end": "2022-01-23T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "PEANUT BUTTER FT. REESE'S PEANUT BUTTER CUP",
+        "isNew": false
+      },
+      {
+        "name": "ROCKY ROAD",
+        "isNew": false
+      },
+      {
+        "name": "FUNFETTI",
+        "isNew": false
+      },
+      {
+        "name": "CARAMEL POPCORN",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2022-01-10T06:00:00.000Z",
+    "end": "2022-01-16T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "CINNAMON SWIRL",
+        "isNew": false
+      },
+      {
+        "name": "FROZEN HOT CHOCOLATE",
+        "isNew": false
+      },
+      {
+        "name": "NEAPOLITAN",
+        "isNew": false
+      },
+      {
+        "name": "WALNUT CHOCOLATE CHIP",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2022-01-03T06:00:00.000Z",
+    "end": "2022-01-09T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "HONEY BUN",
+        "isNew": false
+      },
+      {
+        "name": "PEANUT BUTTER BAR",
+        "isNew": false
+      },
+      {
+        "name": "CHOCOLATE CAKE FT. HEATH®",
+        "isNew": false
+      },
+      {
+        "name": "ORIGINAL FT. M&M'S® CANDIES",
+        "isNew": false
+      },
+      {
+        "name": "COOKIE CUP",
+        "isNew": true
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2022-12-27T06:00:00.000Z",
+    "end": "2023-01-01T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "GALAXY BROWNIE",
+        "isNew": false
+      },
+      {
+        "name": "KENTUCKY BUTTER CAKE",
+        "isNew": false
+      },
+      {
+        "name": "SNICKERDOODLE CUPCAKE",
+        "isNew": false
+      },
+      {
+        "name": "SUGAR FT. TWIX®",
+        "isNew": false
+      },
+      {
+        "name": "PINEAPPLE WHIP",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2021-12-20T06:00:00.000Z",
+    "end": "2021-12-26T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "GINGERSNAP",
+        "isNew": false
+      },
+      {
+        "name": "BIRTHDAY CAKE (CHRISTMAS)",
+        "isNew": false
+      },
+      {
+        "name": "STICKY BUN",
+        "isNew": false
+      },
+      {
+        "name": "PEPPERMINT BARK",
+        "isNew": false
+      },
+      {
+        "name": "LEMON BAR",
+        "isNew": true
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2021-12-13T06:00:00.000Z",
+    "end": "2021-12-19T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "CHURRO",
+        "isNew": false
+      },
+      {
+        "name": "DOUBLE TROUBLE",
+        "isNew": false
+      },
+      {
+        "name": "ORANGE ROLL",
+        "isNew": false
+      },
+      {
+        "name": "TURTLE",
+        "isNew": true
+      },
+      {
+        "name": "MINT CHIP ICE CREAM",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2021-12-06T06:00:00.000Z",
+    "end": "2021-12-12T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "EGGNOG",
+        "isNew": false
+      },
+      {
+        "name": "GINGERBREAD CAKE",
+        "isNew": false
+      },
+      {
+        "name": "MOM'S RECIPE",
+        "isNew": false
+      },
+      {
+        "name": "SUGAR FT. MOTHER'S® REINDEER GAMES",
+        "isNew": false
+      },
+      {
+        "name": "CHOCOLATE FT. YORK®",
+        "isNew": true
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2021-11-29T06:00:00.000Z",
+    "end": "2021-12-05T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "HOT CHOCOLATE",
+        "isNew": false
+      },
+      {
+        "name": "BUTTERMILK PANCAKE",
+        "isNew": true
+      },
+      {
+        "name": "SNICKERDOODLE",
+        "isNew": false
+      },
+      {
+        "name": "RED VELVET WHITE CHIP",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2021-11-22T06:00:00.000Z",
+    "end": "2021-11-28T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "SALTED CARAMEL CHEESECAKE",
+        "isNew": false
+      },
+      {
+        "name": "PUMPKIN PIE",
+        "isNew": false
+      },
+      {
+        "name": "MAPLE CINNAMON ROLL",
+        "isNew": false
+      },
+      {
+        "name": "CRANBERRY WHITE CHIP",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR (CANDY CORN)",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2021-11-15T06:00:00.000Z",
+    "end": "2021-11-21T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "CARROT CAKE",
+        "isNew": false
+      },
+      {
+        "name": "DARK DREAM",
+        "isNew": false
+      },
+      {
+        "name": "S'MORES",
+        "isNew": false
+      },
+      {
+        "name": "APPLE PIE",
+        "isNew": true
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2021-11-08T06:00:00.000Z",
+    "end": "2021-11-14T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "DULCE DE LECHE",
+        "isNew": false
+      },
+      {
+        "name": "PECAN PIE",
+        "isNew": true
+      },
+      {
+        "name": "CHOCOLATE COOKIES & CREAM",
+        "isNew": true
+      },
+      {
+        "name": "PEANUT BUTTER FT. REESE'S PIECES®",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2021-11-01T05:00:00.000Z",
+    "end": "2021-11-07T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "PEANUT BUTTER FT. MUDDY BUDDIES™",
+        "isNew": false
+      },
+      {
+        "name": "MIDNIGHT MINT",
+        "isNew": false
+      },
+      {
+        "name": "OATMEAL CHOCOLATE CHIP MUFFIN",
+        "isNew": true
+      },
+      {
+        "name": "KEY LIME PIE",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2021-10-25T05:00:00.000Z",
+    "end": "2021-10-31T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "MONSTER",
+        "isNew": true
+      },
+      {
+        "name": "SUGAR (PUMPKIN CANDY)",
+        "isNew": false
+      },
+      {
+        "name": "DIRT CAKE",
+        "isNew": false
+      },
+      {
+        "name": "SUGAR FT. MOTHER'S® HALLOWEEN CIRCUS ANIMAL™",
+        "isNew": false
+      },
+      {
+        "name": "PUMPKIN ROLL",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2021-10-17T05:00:00.000Z",
+    "end": "2021-10-24T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "SUGAR FT. TWIX®",
+        "isNew": false
+      },
+      {
+        "name": "CLASSIC KRISPY BAR",
+        "isNew": true
+      },
+      {
+        "name": "BUBBLE GUM",
+        "isNew": true
+      },
+      {
+        "name": "PEANUT BUTTER CUP FT. REESE'S®",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2021-10-10T05:00:00.000Z",
+    "end": "2021-10-17T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "DOUBLE FUDGE BROWNIE",
+        "isNew": true
+      },
+      {
+        "name": "FUNFETTI",
+        "isNew": false
+      },
+      {
+        "name": "PUMPKIN CAKE",
+        "isNew": false
+      },
+      {
+        "name": "AGGIE BLUE MINT",
+        "isNew": true
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2021-10-04T05:00:00.000Z",
+    "end": "2021-10-10T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "PINK VELVET",
+        "isNew": false
+      },
+      {
+        "name": "RUBY CHOCOLATE CHIP",
+        "isNew": true
+      },
+      {
+        "name": "CHOCOLATE STRAWBERRY CHEESECAKE",
+        "isNew": false
+      },
+      {
+        "name": "PINK DOUGHNUT",
+        "isNew": true
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2021-09-27T05:00:00.000Z",
+    "end": "2021-10-03T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "FUNFETTI MILKSHAKE",
+        "isNew": false
+      },
+      {
+        "name": "BROWNIE BATTER",
+        "isNew": false
+      },
+      {
+        "name": "PEANUT BUTTER BRITTLE",
+        "isNew": false
+      },
+      {
+        "name": "ORIGINAL FT. GOLDEN OREO® COOKIE PIECES",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2021-09-20T05:00:00.000Z",
+    "end": "2021-09-26T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "CORNBREAD",
+        "isNew": false
+      },
+      {
+        "name": "ORIGINAL FT. PEANUT BUTTER M&M'S® CANDIES",
+        "isNew": true
+      },
+      {
+        "name": "CHURRO",
+        "isNew": false
+      },
+      {
+        "name": "CHOCOLATE CRUNCH",
+        "isNew": true
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2021-09-13T05:00:00.000Z",
+    "end": "2021-09-19T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "PUMPKIN CHOCOLATE CHIP",
+        "isNew": false
+      },
+      {
+        "name": "SHERBET",
+        "isNew": true
+      },
+      {
+        "name": "CHOCOLATE PEANUT BUTTER CHIP",
+        "isNew": false
+      },
+      {
+        "name": "BLUEBERRY CHEESECAKE",
+        "isNew": true
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2021-09-06T05:00:00.000Z",
+    "end": "2021-09-12T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "WAFFLE",
+        "isNew": false
+      },
+      {
+        "name": "OLD FASHIONED DOUGHNUT",
+        "isNew": true
+      },
+      {
+        "name": "BANANA BREAD",
+        "isNew": false
+      },
+      {
+        "name": "CEREAL MILK SANDWICH FT. PEBBLES® CEREAL",
+        "isNew": true
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2021-08-30T05:00:00.000Z",
+    "end": "2021-09-05T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "COOKIE DOUGH",
+        "isNew": true
+      },
+      {
+        "name": "CARAMEL PUMPKIN",
+        "isNew": false
+      },
+      {
+        "name": "CLASSIC OATMEAL",
+        "isNew": true
+      },
+      {
+        "name": "GALAXY BROWNIE",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2021-08-23T05:00:00.000Z",
+    "end": "2021-08-29T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "CHOCOLATE FT. OREO®",
+        "isNew": false
+      },
+      {
+        "name": "PEANUT BUTTER JAMWICH",
+        "isNew": false
+      },
+      {
+        "name": "CHOCOLATE MALLOW CUPCAKE",
+        "isNew": true
+      },
+      {
+        "name": "GRAHAM CRACKER FT. TEDDY GRAHAM®",
+        "isNew": false
+      },
+      {
+        "name": "WATERMELON",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2021-08-16T05:00:00.000Z",
+    "end": "2021-08-22T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "BUCKEYE BROWNIE",
+        "isNew": false
+      },
+      {
+        "name": "HONEY BUN",
+        "isNew": true
+      },
+      {
+        "name": "CONFETTI CAKE",
+        "isNew": false
+      },
+      {
+        "name": "ORANGE CREAMSICLE",
+        "isNew": true
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2021-08-09T05:00:00.000Z",
+    "end": "2021-08-15T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "SHARK (SUGAR)",
+        "isNew": false
+      },
+      {
+        "name": "MACADAMIA NUT",
+        "isNew": false
+      },
+      {
+        "name": "HAWAII RAINBOW CAKE",
+        "isNew": true
+      },
+      {
+        "name": "HAZELNUT SEA SALT",
+        "isNew": false
+      },
+      {
+        "name": "PINEAPPLE WHIP",
+        "isNew": true
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2021-08-01T05:00:00.000Z",
+    "end": "2021-08-08T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "DULCE DE LECHE",
+        "isNew": false
+      },
+      {
+        "name": "KENTUCKY BUTTER CAKE",
+        "isNew": false
+      },
+      {
+        "name": "CHOCOLATE POTATO CHIP",
+        "isNew": true
+      },
+      {
+        "name": "MANGO FROZEN YOGURT",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2021-07-26T05:00:00.000Z",
+    "end": "2021-08-01T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "PEACH COBBLER",
+        "isNew": false
+      },
+      {
+        "name": "CAKE BATTER",
+        "isNew": false
+      },
+      {
+        "name": "CHOCOLATE CAKE",
+        "isNew": false
+      },
+      {
+        "name": "SEA SALT TOFFEE",
+        "isNew": false
+      },
+      {
+        "name": "STRAWBERRIES N' CREAM",
+        "isNew": true
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2021-07-19T05:00:00.000Z",
+    "end": "2021-07-25T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "COTTON CANDY",
+        "isNew": false
+      },
+      {
+        "name": "CINNAMON FRY BREAD",
+        "isNew": true
+      },
+      {
+        "name": "BERRIES N' CREAM",
+        "isNew": true
+      },
+      {
+        "name": "CARAMEL APPLE",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2021-07-12T05:00:00.000Z",
+    "end": "2021-07-18T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "COOKIES & CREAM",
+        "isNew": false
+      },
+      {
+        "name": "BISCOFF WHITE CHIP",
+        "isNew": true
+      },
+      {
+        "name": "NEAPOLITAN",
+        "isNew": true
+      },
+      {
+        "name": "CLASSIC PEANUT BUTTER",
+        "isNew": false
+      },
+      {
+        "name": "ORANGE JULIUS",
+        "isNew": true
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2021-07-05T05:00:00.000Z",
+    "end": "2021-07-11T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "BROWNIE SUNDAE",
+        "isNew": true
+      },
+      {
+        "name": "SEMI-SWEET CHOCOLATE CHIP",
+        "isNew": false
+      },
+      {
+        "name": "LEMON GLAZE",
+        "isNew": false
+      },
+      {
+        "name": "SNICKERDOODLE CUPCAKE",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2021-06-28T05:00:00.000Z",
+    "end": "2021-07-04T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "MALLOW SANDWICH FT. OREO®",
+        "isNew": true
+      },
+      {
+        "name": "CORNBREAD",
+        "isNew": false
+      },
+      {
+        "name": "HAZELNUT MUDSLIDE",
+        "isNew": false
+      },
+      {
+        "name": "PATRIOTIC BIRTHDAY CAKE",
+        "isNew": false
+      },
+      {
+        "name": "COCONUT LIME",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2021-06-21T05:00:00.000Z",
+    "end": "2021-06-27T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "DARK DREAM",
+        "isNew": false
+      },
+      {
+        "name": "LEMON POPPY SEED",
+        "isNew": false
+      },
+      {
+        "name": "CHOCOLATE CUPCAKE",
+        "isNew": false
+      },
+      {
+        "name": "PEACHES N' CREAM",
+        "isNew": true
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2021-06-14T05:00:00.000Z",
+    "end": "2021-06-20T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "ORIGINAL FT. M&M®",
+        "isNew": false
+      },
+      {
+        "name": "CHOCOLATE FT. HEATH® CAKE",
+        "isNew": true
+      },
+      {
+        "name": "SUGAR FT. SOUR PATCH KIDS®",
+        "isNew": false
+      },
+      {
+        "name": "PEANUT BUTTER FT. BUTTERFINGER®",
+        "isNew": false
+      },
+      {
+        "name": "ORIGINAL FT. KIT KAT®",
+        "isNew": true
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2021-06-07T05:00:00.000Z",
+    "end": "2021-06-13T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "RED VELVET WHITE CHIP",
+        "isNew": false
+      },
+      {
+        "name": "ULTIMATE PEANUT BUTTER",
+        "isNew": false
+      },
+      {
+        "name": "DIRT CAKE",
+        "isNew": false
+      },
+      {
+        "name": "BANANA CREAM PIE",
+        "isNew": true
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2021-05-31T05:00:00.000Z",
+    "end": "2021-06-06T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "PEANUT BUTTER BROWNIE",
+        "isNew": true
+      },
+      {
+        "name": "FRUIT PIZZA",
+        "isNew": true
+      },
+      {
+        "name": "CARAMEL COCONUT FUDGE",
+        "isNew": false
+      },
+      {
+        "name": "OATMEAL CHOCOLATE CHIP",
+        "isNew": false
+      },
+      {
+        "name": "STRAWBERRY SHORTCAKE",
+        "isNew": true
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2021-05-24T05:00:00.000Z",
+    "end": "2021-05-30T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "CHOCOLATE FT. ANDES® MINT",
+        "isNew": false
+      },
+      {
+        "name": "CONFETTI CAKE",
+        "isNew": false
+      },
+      {
+        "name": "ROCKY ROAD",
+        "isNew": false
+      },
+      {
+        "name": "KENTUCKY BUTTER CAKE",
+        "isNew": true
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2021-05-17T05:00:00.000Z",
+    "end": "2021-05-23T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "GERMAN CHOCOLATE CAKE",
+        "isNew": false
+      },
+      {
+        "name": "CHURRO",
+        "isNew": false
+      },
+      {
+        "name": "PEANUT BUTTER CHOCOLATE CHIP",
+        "isNew": false
+      },
+      {
+        "name": "BERRY CRUNCH",
+        "isNew": true
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2021-05-10T05:00:00.000Z",
+    "end": "2021-05-16T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "WAFFLE",
+        "isNew": false
+      },
+      {
+        "name": "CHOCOLATE FT. OREO®️",
+        "isNew": false
+      },
+      {
+        "name": "SUGAR FT. CIRCUS ANIMAL®️",
+        "isNew": false
+      },
+      {
+        "name": "BLUEBERRY CRUMB CAKE",
+        "isNew": true
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2021-05-03T05:00:00.000Z",
+    "end": "2021-05-09T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "PINK VELVET",
+        "isNew": false
+      },
+      {
+        "name": "CHOCOLATE CAKE",
+        "isNew": false
+      },
+      {
+        "name": "LEMON GLAZE",
+        "isNew": false
+      },
+      {
+        "name": "MOM'S RECIPE",
+        "isNew": true
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2021-04-26T05:00:00.000Z",
+    "end": "2021-05-02T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "COSMIC BROWNIE",
+        "isNew": true
+      },
+      {
+        "name": "OATMEAL RAISIN",
+        "isNew": false
+      },
+      {
+        "name": "CINNAMON SWIRL",
+        "isNew": false
+      },
+      {
+        "name": "MUDDY BUDDY™️",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2021-04-19T05:00:00.000Z",
+    "end": "2021-04-25T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "CAKE BATTER",
+        "isNew": true
+      },
+      {
+        "name": "PEANUT BUTTER & JELLY",
+        "isNew": false
+      },
+      {
+        "name": "TWIX®",
+        "isNew": false
+      },
+      {
+        "name": "S'MORES BROWNIE",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2021-04-12T05:00:00.000Z",
+    "end": "2021-04-18T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "BANANA BREAD",
+        "isNew": true
+      },
+      {
+        "name": "COTTON CANDY",
+        "isNew": false
+      },
+      {
+        "name": "BISCOFF® LAVA",
+        "isNew": false
+      },
+      {
+        "name": "FUNFETTI",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2021-04-05T05:00:00.000Z",
+    "end": "2021-04-11T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "MAPLE CINNAMON ROLL",
+        "isNew": true
+      },
+      {
+        "name": "PIÑA COLADA",
+        "isNew": false
+      },
+      {
+        "name": "REESE'S CHIP®",
+        "isNew": false
+      },
+      {
+        "name": "SALTED CARAMEL CHEESECAKE",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2021-03-29T05:00:00.000Z",
+    "end": "2021-04-04T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "SUGAR WITH CADBURY EGGS",
+        "isNew": false
+      },
+      {
+        "name": "SEA SALT TOFFEE",
+        "isNew": false
+      },
+      {
+        "name": "ICED OATMEAL",
+        "isNew": true
+      },
+      {
+        "name": "COOKIES & CREAM",
+        "isNew": false
+      },
+      {
+        "name": "CARROT CAKE",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2021-03-22T05:00:00.000Z",
+    "end": "2021-03-28T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "STICKY BUN",
+        "isNew": true
+      },
+      {
+        "name": "CONFETTI CAKE",
+        "isNew": false
+      },
+      {
+        "name": "OATMEAL CHOCOLATE CHIP",
+        "isNew": false
+      },
+      {
+        "name": "RED VELVET CREAM CHEESE",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2021-03-15T05:00:00.000Z",
+    "end": "2021-03-21T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "LUCKY CHARMS®",
+        "isNew": false
+      },
+      {
+        "name": "SNICKERS®",
+        "isNew": true
+      },
+      {
+        "name": "KEY LIME PIE",
+        "isNew": true
+      },
+      {
+        "name": "MINT BROWNIE",
+        "isNew": false
+      },
+      {
+        "name": "RAINBOW SUGAR (only available 3/17)",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2021-03-08T06:00:00.000Z",
+    "end": "2021-03-14T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "NUTELLA® MUDSLIDE",
+        "isNew": false
+      },
+      {
+        "name": "MACADAMIA NUT",
+        "isNew": false
+      },
+      {
+        "name": "ULTIMATE PEANUT BUTTER",
+        "isNew": false
+      },
+      {
+        "name": "RASPBERRY CHEESECAKE",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2021-03-01T06:00:00.000Z",
+    "end": "2021-03-07T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "BIRTHDAY CAKE FT. OREO®",
+        "isNew": true
+      },
+      {
+        "name": "REESE'S PIECES®",
+        "isNew": false
+      },
+      {
+        "name": "CHOCOLATE CUPCAKE",
+        "isNew": false
+      },
+      {
+        "name": "LEMON GLAZE",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2021-02-22T06:00:00.000Z",
+    "end": "2021-02-28T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "CARAMEL POPCORN",
+        "isNew": false
+      },
+      {
+        "name": "CINNAMON SWIRL",
+        "isNew": false
+      },
+      {
+        "name": "MOLTEN LAVA",
+        "isNew": false
+      },
+      {
+        "name": "PEANUT BUTTER BAR",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2021-02-15T06:00:00.000Z",
+    "end": "2021-02-21T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "STRAWBERRY POP-TART®",
+        "isNew": false
+      },
+      {
+        "name": "REESE'S CUP®",
+        "isNew": false
+      },
+      {
+        "name": "SNICKERDOODLE",
+        "isNew": false
+      },
+      {
+        "name": "PINK VELVET",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2021-02-08T06:00:00.000Z",
+    "end": "2021-02-14T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "DIRT CAKE (with gummy lips)",
+        "isNew": false
+      },
+      {
+        "name": "RED VELVET WHITE CHIP",
+        "isNew": false
+      },
+      {
+        "name": "NUTELLA® SEA SALT",
+        "isNew": false
+      },
+      {
+        "name": "BIRTHDAY CAKE (with Valentine sprinkles)",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2021-02-01T06:00:00.000Z",
+    "end": "2021-02-07T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "CHOCOLATE STRAWBERRY CHEESECAKE",
+        "isNew": true
+      },
+      {
+        "name": "BUTTERFINGER®",
+        "isNew": false
+      },
+      {
+        "name": "CIRCUS ANIMAL",
+        "isNew": false
+      },
+      {
+        "name": "CHURRO",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2021-01-25T06:00:00.000Z",
+    "end": "2021-01-31T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "CORNBREAD",
+        "isNew": true
+      },
+      {
+        "name": "BUCKEYE BROWNIE",
+        "isNew": false
+      },
+      {
+        "name": "OATMEAL CHOCOLATE CHIP",
+        "isNew": false
+      },
+      {
+        "name": "COOKIES & CREAM MILKSHAKE",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2021-01-18T06:00:00.000Z",
+    "end": "2021-01-24T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "FROZEN HOT CHOCOLATE",
+        "isNew": true
+      },
+      {
+        "name": "PUMPKIN CHOCOLATE CHIP",
+        "isNew": false
+      },
+      {
+        "name": "SNICKERDOODLE CUPCAKE",
+        "isNew": false
+      },
+      {
+        "name": "BISCOFF® LAVA",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2021-01-11T06:00:00.000Z",
+    "end": "2021-01-17T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "LEMON POPPY SEED",
+        "isNew": false
+      },
+      {
+        "name": "CHOCOLATE CAKE",
+        "isNew": false
+      },
+      {
+        "name": "CARROT CAKE",
+        "isNew": false
+      },
+      {
+        "name": "PEANUT BUTTER CHOCOLATE CHIP",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2021-01-04T06:00:00.000Z",
+    "end": "2021-01-10T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "CLASSIC PEANUT BUTTER",
+        "isNew": false
+      },
+      {
+        "name": "HAZELNUT CHURRO",
+        "isNew": false
+      },
+      {
+        "name": "CONFETTI CAKE",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED TWIX®",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2021-12-28T06:00:00.000Z",
+    "end": "2022-01-02T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "MUDDY BUDDY",
+        "isNew": false
+      },
+      {
+        "name": "MIDNIGHT MINT",
+        "isNew": false
+      },
+      {
+        "name": "DOUBLE TROUBLE",
+        "isNew": false
+      },
+      {
+        "name": "RASPBERRY CHEESECAKE",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2020-12-21T06:00:00.000Z",
+    "end": "2020-12-27T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "CHILLED PEPPERMINT OREO®",
+        "isNew": false
+      },
+      {
+        "name": "EGGNOG",
+        "isNew": false
+      },
+      {
+        "name": "GINGERSNAP",
+        "isNew": false
+      },
+      {
+        "name": "REESE'S CUP®",
+        "isNew": false
+      },
+      {
+        "name": "CHRISTMAS BIRTHDAY CAKE",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2020-12-14T06:00:00.000Z",
+    "end": "2020-12-20T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "WAFFLE",
+        "isNew": false
+      },
+      {
+        "name": "HOT CHOCOLATE",
+        "isNew": false
+      },
+      {
+        "name": "SEA SALT TOFFEE",
+        "isNew": false
+      },
+      {
+        "name": "CINNAMON SWIRL",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2020-12-07T06:00:00.000Z",
+    "end": "2020-12-13T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "GINGERBREAD CAKE",
+        "isNew": false
+      },
+      {
+        "name": "S'MORES",
+        "isNew": false
+      },
+      {
+        "name": "NUTELLA® SEA SALT",
+        "isNew": false
+      },
+      {
+        "name": "ANDES® MINT",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2020-11-30T06:00:00.000Z",
+    "end": "2020-12-06T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "PEPPERMINT BARK",
+        "isNew": false
+      },
+      {
+        "name": "BISCOFF® LAVA",
+        "isNew": false
+      },
+      {
+        "name": "RED VELVET CREAM CHEESE",
+        "isNew": false
+      },
+      {
+        "name": "COOKIES & CREAM MILKSHAKE",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2020-11-23T06:00:00.000Z",
+    "end": "2020-11-29T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "PUMPKIN PIE",
+        "isNew": true
+      },
+      {
+        "name": "OATMEAL CHOCOLATE CHIP",
+        "isNew": false
+      },
+      {
+        "name": "PEACH COBBLER",
+        "isNew": false
+      },
+      {
+        "name": "SALTED CARAMEL CHEESECAKE",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2020-11-16T06:00:00.000Z",
+    "end": "2020-11-22T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "GERMAN CHOCOLATE CAKE",
+        "isNew": false
+      },
+      {
+        "name": "MOLTEN LAVA",
+        "isNew": false
+      },
+      {
+        "name": "SNICKERDOODLE",
+        "isNew": false
+      },
+      {
+        "name": "COCONUT LIME",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2020-11-09T06:00:00.000Z",
+    "end": "2020-11-15T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "RED VELVET WHITE CHIP",
+        "isNew": false
+      },
+      {
+        "name": "OREO®",
+        "isNew": false
+      },
+      {
+        "name": "BUTTERFINGER®",
+        "isNew": false
+      },
+      {
+        "name": "LEMON GLAZE",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2020-11-02T06:00:00.000Z",
+    "end": "2020-11-08T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "CHURRO",
+        "isNew": false
+      },
+      {
+        "name": "ULTIMATE PEANUT BUTTER",
+        "isNew": false
+      },
+      {
+        "name": "CIRCUS ANIMAL",
+        "isNew": false
+      },
+      {
+        "name": "CHOCOLATE CAKE",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2020-10-19T05:00:00.000Z",
+    "end": "2020-10-25T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "ANDES® MINT",
+        "isNew": true
+      },
+      {
+        "name": "PUMPKIN CHOCOLATE CHIP",
+        "isNew": false
+      },
+      {
+        "name": "NUTELLA® MUDSLIDE",
+        "isNew": false
+      },
+      {
+        "name": "PEANUT BUTTER CHOCOLATE CHIP",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2020-10-12T05:00:00.000Z",
+    "end": "2020-10-18T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "CARAMEL PUMPKIN",
+        "isNew": false
+      },
+      {
+        "name": "S'MORES BROWNIE",
+        "isNew": false
+      },
+      {
+        "name": "ORANGE ROLL",
+        "isNew": false
+      },
+      {
+        "name": "MUDDY BUDDY",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2020-10-05T05:00:00.000Z",
+    "end": "2020-10-11T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "PUMPKIN CAKE",
+        "isNew": true
+      },
+      {
+        "name": "CHOCOLATE CAKE",
+        "isNew": false
+      },
+      {
+        "name": "ULTIMATE PEANUT BUTTER",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED TWIX",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2020-09-27T05:00:00.000Z",
+    "end": "2020-10-04T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "RASPBERRY CHEESECAKE",
+        "isNew": false
+      },
+      {
+        "name": "COOKIES & CREAM MILKSHAKE",
+        "isNew": false
+      },
+      {
+        "name": "PUMPKIN ROLL",
+        "isNew": false
+      },
+      {
+        "name": "MOLTEN LAVA",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2020-09-21T05:00:00.000Z",
+    "end": "2020-09-27T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "SEA SALT TOFFEE",
+        "isNew": false
+      },
+      {
+        "name": "PEANUT BUTTER BROWNIE",
+        "isNew": false
+      },
+      {
+        "name": "PUMPKIN CHOCOLATE CHIP",
+        "isNew": false
+      },
+      {
+        "name": "PINK VELVET",
+        "isNew": true
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2020-09-14T05:00:00.000Z",
+    "end": "2020-09-20T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "STRAWBERRY POP-TART®",
+        "isNew": true
+      },
+      {
+        "name": "PUMPKIN OREO®",
+        "isNew": false
+      },
+      {
+        "name": "BUCKEYE BROWNIE",
+        "isNew": false
+      },
+      {
+        "name": "CARROT CAKE",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2020-09-07T05:00:00.000Z",
+    "end": "2020-09-13T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "PEANUT BUTTER & JELLY",
+        "isNew": false
+      },
+      {
+        "name": "DARK DREAM",
+        "isNew": false
+      },
+      {
+        "name": "SALTED CARAMEL CHEESECAKE",
+        "isNew": false
+      },
+      {
+        "name": "NUTELLA SEA SALT",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2020-08-24T05:00:00.000Z",
+    "end": "2020-08-30T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "CONFETTI CAKE (pastel sprinkles)",
+        "isNew": false
+      },
+      {
+        "name": "REESE'S CHIP®",
+        "isNew": false
+      },
+      {
+        "name": "LEMON GLAZE",
+        "isNew": false
+      },
+      {
+        "name": "BISCOFF® LAVA",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2020-08-17T05:00:00.000Z",
+    "end": "2020-08-23T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "CINNAMON PRETZEL",
+        "isNew": true
+      },
+      {
+        "name": "OREO®",
+        "isNew": false
+      },
+      {
+        "name": "REESE'S PIECES®",
+        "isNew": false
+      },
+      {
+        "name": "CHOCOLATE CRUNCH",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2020-08-10T05:00:00.000Z",
+    "end": "2020-08-16T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "PIÑA COLADA",
+        "isNew": true
+      },
+      {
+        "name": "CHURRO",
+        "isNew": false
+      },
+      {
+        "name": "OATMEAL CHOCOLATE CHIP",
+        "isNew": false
+      },
+      {
+        "name": "ROCKY ROAD",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SHARK",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2020-08-03T05:00:00.000Z",
+    "end": "2020-08-09T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "DOUBLE TROUBLE",
+        "isNew": false
+      },
+      {
+        "name": "REESE'S CUP®",
+        "isNew": false
+      },
+      {
+        "name": "SOUR PATCH KIDS®",
+        "isNew": false
+      },
+      {
+        "name": "CHOCOLATE CUPCAKE",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2020-07-26T05:00:00.000Z",
+    "end": "2020-08-02T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "CHILLED RASPBERRY LEMONADE",
+        "isNew": true
+      },
+      {
+        "name": "HAZELNUT CHURRO",
+        "isNew": false
+      },
+      {
+        "name": "CARAMEL POPCORN",
+        "isNew": false
+      },
+      {
+        "name": "COTTON CANDY",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2020-07-20T05:00:00.000Z",
+    "end": "2020-07-26T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "CINNAMON SWIRL",
+        "isNew": false
+      },
+      {
+        "name": "ULTIMATE PEANUT BUTTER",
+        "isNew": false
+      },
+      {
+        "name": "DIRT CAKE",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED COCONUT LIME",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2020-07-13T05:00:00.000Z",
+    "end": "2020-07-19T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "CHILLED SAMOA",
+        "isNew": true
+      },
+      {
+        "name": "CIRCUS ANIMAL",
+        "isNew": false
+      },
+      {
+        "name": "PEANUT BUTTER CHOCOLATE CHIP",
+        "isNew": false
+      },
+      {
+        "name": "DULCE DE LECHE",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2020-07-06T05:00:00.000Z",
+    "end": "2020-07-12T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "LEMON POPPYSEED",
+        "isNew": true
+      },
+      {
+        "name": "LUCKY CHARMS®",
+        "isNew": false
+      },
+      {
+        "name": "NUTTER BUTTER®",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED TWIX®",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2020-06-29T05:00:00.000Z",
+    "end": "2020-07-05T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "CHILLED SUGAR (WATERMELON SOUR PATCH)",
+        "isNew": false
+      },
+      {
+        "name": "WAFFLE",
+        "isNew": false
+      },
+      {
+        "name": "PEACH COBBLER",
+        "isNew": false
+      },
+      {
+        "name": "S'MORES BROWNIE",
+        "isNew": false
+      },
+      {
+        "name": "BIRTHDAY CAKE (RED, WHITE, & BLUE)",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2020-06-22T05:00:00.000Z",
+    "end": "2020-06-28T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "COOKIES & CREAM",
+        "isNew": false
+      },
+      {
+        "name": "LEMON CHIFFON",
+        "isNew": false
+      },
+      {
+        "name": "PEANUT BUTTER BROWNIE",
+        "isNew": false
+      },
+      {
+        "name": "RED VELVET WHITE CHIP",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2020-06-15T05:00:00.000Z",
+    "end": "2020-06-21T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "SEA SALT TOFFEE",
+        "isNew": false
+      },
+      {
+        "name": "CHOCOLATE CAKE",
+        "isNew": false
+      },
+      {
+        "name": "CINNAMON TOAST",
+        "isNew": false
+      },
+      {
+        "name": "MUDDY BUDDY",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2020-06-08T05:00:00.000Z",
+    "end": "2020-06-14T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "NUTELLA® SEA SALT",
+        "isNew": false
+      },
+      {
+        "name": "BUCKEYE BROWNIE",
+        "isNew": false
+      },
+      {
+        "name": "CHURRO",
+        "isNew": false
+      },
+      {
+        "name": "FUNFETTI",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2020-06-01T05:00:00.000Z",
+    "end": "2020-06-07T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "ALMOND JOY®",
+        "isNew": false
+      },
+      {
+        "name": "BISCOFF® LAVA",
+        "isNew": false
+      },
+      {
+        "name": "S'MORES",
+        "isNew": false
+      },
+      {
+        "name": "PEANUT BUTTER & JELLY",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2020-05-25T05:00:00.000Z",
+    "end": "2020-05-31T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "SNICKERDOODLE",
+        "isNew": false
+      },
+      {
+        "name": "REESE'S CUP",
+        "isNew": false
+      },
+      {
+        "name": "MOLTEN LAVA",
+        "isNew": false
+      },
+      {
+        "name": "ORANGE ROLL",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2020-05-18T05:00:00.000Z",
+    "end": "2020-05-24T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "REESE'S CHIP",
+        "isNew": false
+      },
+      {
+        "name": "RASPBERRY CHEESECAKE",
+        "isNew": false
+      },
+      {
+        "name": "DULCE DE LECHE",
+        "isNew": false
+      },
+      {
+        "name": "PUMPKIN CHOCOLATE CHIP",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2020-05-11T05:00:00.000Z",
+    "end": "2020-05-17T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "RED VELVET CREAM CHEESE",
+        "isNew": false
+      },
+      {
+        "name": "CLASSIC PEANUT BUTTER",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED COOKIES & CREAM MILKSHAKE",
+        "isNew": false
+      },
+      {
+        "name": "CHOCOLATE CARAMEL",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2020-05-04T05:00:00.000Z",
+    "end": "2020-05-10T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "CONFETTI CAKE",
+        "isNew": false
+      },
+      {
+        "name": "CRANBERRY CRAZE",
+        "isNew": false
+      },
+      {
+        "name": "NUTELLA® MUDSLIDE",
+        "isNew": false
+      },
+      {
+        "name": "REESE'S PIECES®",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2020-04-27T05:00:00.000Z",
+    "end": "2020-05-03T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "MAKE A WISH - SOUR PATCH KIDS®",
+        "isNew": false
+      },
+      {
+        "name": "GINGERBREAD CAKE",
+        "isNew": false
+      },
+      {
+        "name": "LEMON GLAZE",
+        "isNew": false
+      },
+      {
+        "name": "BUTTERFINGER®",
+        "isNew": false
+      },
+      {
+        "name": "DARK DREAM",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2020-04-20T05:00:00.000Z",
+    "end": "2020-04-26T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "OREO®",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED TWIX",
+        "isNew": false
+      },
+      {
+        "name": "PEANUT BUTTER BROWNIE",
+        "isNew": false
+      },
+      {
+        "name": "MACADAMIA NUT",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2020-04-13T05:00:00.000Z",
+    "end": "2020-04-19T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "CHOCOLATE CRUNCH",
+        "isNew": false
+      },
+      {
+        "name": "CIRCUS ANIMAL",
+        "isNew": false
+      },
+      {
+        "name": "PEANUT BUTTER BAR",
+        "isNew": false
+      },
+      {
+        "name": "SALTED CARAMEL CHEESECAKE",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2020-04-06T05:00:00.000Z",
+    "end": "2020-04-12T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "M&M® (PASTEL)",
+        "isNew": false
+      },
+      {
+        "name": "CARROT CAKE",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR (CADBURY® MINI EGGS)",
+        "isNew": false
+      },
+      {
+        "name": "GERMAN CHOCOLATE CAKE",
+        "isNew": false
+      },
+      {
+        "name": "PEANUT BUTTER CHOCOLATE CHIP",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2020-03-30T05:00:00.000Z",
+    "end": "2020-04-05T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "CHILLED SUGAR (CADBURY® MINI EGGS)",
+        "isNew": false
+      },
+      {
+        "name": "CARAMEL POPCORN",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED COCONUT LIME",
+        "isNew": false
+      },
+      {
+        "name": "BUCKEYE BROWNIE",
+        "isNew": false
+      },
+      {
+        "name": "HAZELNUT CHURRO",
+        "isNew": false
+      },
+      {
+        "name": "GREEN M&M",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2020-03-23T05:00:00.000Z",
+    "end": "2020-03-29T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "SEMI-SWEET CHOCOLATE CHIP",
+        "isNew": false
+      },
+      {
+        "name": "SNICKERDOODLE CUPCAKE",
+        "isNew": false
+      },
+      {
+        "name": "PEANUT BUTTER NUTELLA®",
+        "isNew": false
+      },
+      {
+        "name": "DOUBLE TROUBLE",
+        "isNew": false
+      },
+      {
+        "name": "FUNFETTI",
+        "isNew": false
+      },
+      {
+        "name": "GREEN M&M",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2020-03-16T05:00:00.000Z",
+    "end": "2020-03-22T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "LUCKY CHARMS®",
+        "isNew": false
+      },
+      {
+        "name": "MIDNIGHT MINT",
+        "isNew": false
+      },
+      {
+        "name": "MUDDY BUDDY",
+        "isNew": false
+      },
+      {
+        "name": "BIRTHDAY CAKE",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2020-03-09T05:00:00.000Z",
+    "end": "2020-03-15T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "GREEN M&M®",
+        "isNew": false
+      },
+      {
+        "name": "ROCKY ROAD",
+        "isNew": false
+      },
+      {
+        "name": "CINNAMON SWIRL",
+        "isNew": false
+      },
+      {
+        "name": "SALTED CARAMEL CHEESECAKE",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2020-03-02T06:00:00.000Z",
+    "end": "2020-03-08T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "WAFFLE",
+        "isNew": false
+      },
+      {
+        "name": "DIRT CAKE",
+        "isNew": false
+      },
+      {
+        "name": "PUMPKIN ROLL",
+        "isNew": false
+      },
+      {
+        "name": "ULTIMATE PEANUT BUTTER",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2020-02-24T06:00:00.000Z",
+    "end": "2020-03-01T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "PEANUT BUTTER & JELLY",
+        "isNew": false
+      },
+      {
+        "name": "LEMON GLAZE",
+        "isNew": false
+      },
+      {
+        "name": "S'MORES BROWNIE",
+        "isNew": false
+      },
+      {
+        "name": "CHURRO",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2020-02-17T06:00:00.000Z",
+    "end": "2020-02-23T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "CARAMEL APPLE",
+        "isNew": false
+      },
+      {
+        "name": "BUTTERFINGER®",
+        "isNew": false
+      },
+      {
+        "name": "CHOCOLATE CAKE",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED PEPPERMINT OREO®",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2020-02-10T06:00:00.000Z",
+    "end": "2020-02-16T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "CHOCOLATE CARAMEL",
+        "isNew": false
+      },
+      {
+        "name": "COOKIES AND CREAM",
+        "isNew": false
+      },
+      {
+        "name": "REESE'S® CUP",
+        "isNew": false
+      },
+      {
+        "name": "RED VELVET CREAM CHEESE",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR (HEART SPRINKLES)",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2020-02-03T06:00:00.000Z",
+    "end": "2020-02-09T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "CONFETTI CAKE",
+        "isNew": false
+      },
+      {
+        "name": "MOLTEN LAVA",
+        "isNew": false
+      },
+      {
+        "name": "RASPBERRY CHEESECAKE",
+        "isNew": false
+      },
+      {
+        "name": "NUTELLA® SEA SALT",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2020-01-27T06:00:00.000Z",
+    "end": "2020-02-02T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "SALTED CARAMEL CHEESECAKE",
+        "isNew": false
+      },
+      {
+        "name": "BUCKEYE BROWNIE",
+        "isNew": false
+      },
+      {
+        "name": "BISCOFF® LAVA",
+        "isNew": false
+      },
+      {
+        "name": "LEMON CHIFFON",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2020-01-20T06:00:00.000Z",
+    "end": "2020-01-26T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "COCONUT CREAM",
+        "isNew": false
+      },
+      {
+        "name": "SNICKERDOODLE",
+        "isNew": false
+      },
+      {
+        "name": "OREO®",
+        "isNew": false
+      },
+      {
+        "name": "HAZELNUT CHURRO",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2020-01-13T06:00:00.000Z",
+    "end": "2020-01-19T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "CIRCUS ANIMAL",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED COOKIES & CREAM MILKSHAKE",
+        "isNew": false
+      },
+      {
+        "name": "S'MORES",
+        "isNew": false
+      },
+      {
+        "name": "PEANUT BUTTER BROWNIE",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2020-01-06T06:00:00.000Z",
+    "end": "2020-01-12T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "GERMAN CHOCOLATE CAKE",
+        "isNew": false
+      },
+      {
+        "name": "OATMEAL CHOCOLATE CHIP",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED COCONUT LIME",
+        "isNew": false
+      },
+      {
+        "name": "NUTTER BUTTER®",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2020-12-30T06:00:00.000Z",
+    "end": "2021-01-03T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "ULTIMATE PEANUT BUTTER",
+        "isNew": false
+      },
+      {
+        "name": "BIRTHDAY CAKE",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED TWIX®",
+        "isNew": false
+      },
+      {
+        "name": "REESE'S® CHIP",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2019-12-23T06:00:00.000Z",
+    "end": "2019-12-29T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "CHILLED EGGNOG",
+        "isNew": false
+      },
+      {
+        "name": "MOLTEN LAVA",
+        "isNew": false
+      },
+      {
+        "name": "GINGERBREAD CAKE",
+        "isNew": false
+      },
+      {
+        "name": "RED VELVET CREAM CHEESE",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2019-12-16T06:00:00.000Z",
+    "end": "2019-12-22T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "CHOCOLATE CARAMEL",
+        "isNew": false
+      },
+      {
+        "name": "M&M®",
+        "isNew": false
+      },
+      {
+        "name": "PEPPERMINT OREO®",
+        "isNew": false
+      },
+      {
+        "name": "RASPBERRY CHEESECAKE",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2019-12-09T06:00:00.000Z",
+    "end": "2019-12-15T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "GINGERSNAP",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR (FROZEN)",
+        "isNew": false
+      },
+      {
+        "name": "MUDDY BUDDY",
+        "isNew": false
+      },
+      {
+        "name": "PEPPERMINT BARK",
+        "isNew": false
+      },
+      {
+        "name": "CHOCOLATE ORANGE TRUFFLE",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2019-12-02T06:00:00.000Z",
+    "end": "2019-12-08T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "HOT CHOCOLATE",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED CANDY CANE",
+        "isNew": false
+      },
+      {
+        "name": "OATMEAL CHOCOLATE CHIP",
+        "isNew": false
+      },
+      {
+        "name": "CINNAMON SWIRL",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2019-11-25T06:00:00.000Z",
+    "end": "2019-12-01T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "DULCE DE LECHE",
+        "isNew": false
+      },
+      {
+        "name": "MOLTEN LAVA",
+        "isNew": false
+      },
+      {
+        "name": "CARROT CAKE",
+        "isNew": false
+      },
+      {
+        "name": "S'MORES",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2019-11-11T06:00:00.000Z",
+    "end": "2019-11-17T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "PUMPKIN CHOCOLATE CHIP",
+        "isNew": false
+      },
+      {
+        "name": "OREO®",
+        "isNew": false
+      },
+      {
+        "name": "LEMON GLAZE",
+        "isNew": false
+      },
+      {
+        "name": "WAFFLE",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2019-11-04T06:00:00.000Z",
+    "end": "2019-11-10T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "NUTELLA MUDSLIDE",
+        "isNew": false
+      },
+      {
+        "name": "CARAMEL POPCORN",
+        "isNew": false
+      },
+      {
+        "name": "CIRCUS ANIMAL",
+        "isNew": false
+      },
+      {
+        "name": "CHURRO",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2019-10-28T05:00:00.000Z",
+    "end": "2019-11-03T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "HILLED SUGAR CANDY CORN",
+        "isNew": false
+      },
+      {
+        "name": "MIDNIGHT MINT",
+        "isNew": false
+      },
+      {
+        "name": "COOKIES AND CREAM",
+        "isNew": false
+      },
+      {
+        "name": "CARAMEL APPLE",
+        "isNew": false
+      },
+      {
+        "name": "PUMPKIN OREO® CHEESECAKE",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2019-10-21T05:00:00.000Z",
+    "end": "2019-10-27T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "DIRT CAKE",
+        "isNew": false
+      },
+      {
+        "name": "BUTTERFINGERⓇ",
+        "isNew": false
+      },
+      {
+        "name": "ORANGE ROLL",
+        "isNew": false
+      },
+      {
+        "name": "ALMOND JOYⓇ",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR - ORANGE FROSTING",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2019-10-14T05:00:00.000Z",
+    "end": "2019-10-20T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "CHOCOLATE CARAMEL",
+        "isNew": false
+      },
+      {
+        "name": "CINNAMON SWIRL",
+        "isNew": false
+      },
+      {
+        "name": "REESE'S® PIECES",
+        "isNew": false
+      },
+      {
+        "name": "NUTELLA® SEA SALT",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2019-10-07T05:00:00.000Z",
+    "end": "2019-10-13T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "CHILLED COOKIES AND CREAM MILKSHAKE",
+        "isNew": false
+      },
+      {
+        "name": "PUMPKIN ROLL",
+        "isNew": false
+      },
+      {
+        "name": "CINNAMON TOAST",
+        "isNew": false
+      },
+      {
+        "name": "FUNFETTI",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2019-09-30T05:00:00.000Z",
+    "end": "2019-10-06T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "PUMPKIN CHOCOLATE CHIP",
+        "isNew": false
+      },
+      {
+        "name": "CHOCOLATE CAKE",
+        "isNew": false
+      },
+      {
+        "name": "PEANUT BUTTER AND JELLY",
+        "isNew": false
+      },
+      {
+        "name": "BUCKEYE BROWNIE",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2019-09-23T05:00:00.000Z",
+    "end": "2019-09-29T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "BIRTHDAY CAKE",
+        "isNew": false
+      },
+      {
+        "name": "WAFFLE",
+        "isNew": false
+      },
+      {
+        "name": "REESE'S® CUP",
+        "isNew": false
+      },
+      {
+        "name": "COTTON CANDY (AVAILABLE WED 09/25)",
+        "isNew": false
+      },
+      {
+        "name": "MOLTEN LAVA",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2019-09-16T05:00:00.000Z",
+    "end": "2019-09-22T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "HAZELNUT CHURRO",
+        "isNew": false
+      },
+      {
+        "name": "DARK DREAM",
+        "isNew": false
+      },
+      {
+        "name": "COCONUT LIME",
+        "isNew": false
+      },
+      {
+        "name": "CIRCUS ANIMAL",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2019-09-09T05:00:00.000Z",
+    "end": "2019-09-15T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "OREO",
+        "isNew": false
+      },
+      {
+        "name": "MUDDY BUDDY",
+        "isNew": false
+      },
+      {
+        "name": "BROWNIE S'MORE",
+        "isNew": false
+      },
+      {
+        "name": "MACADAMIA NUT",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2019-09-02T05:00:00.000Z",
+    "end": "2019-09-08T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "BISCOFF LAVA",
+        "isNew": false
+      },
+      {
+        "name": "CARROT CAKE",
+        "isNew": false
+      },
+      {
+        "name": "OATMEAL CHOCOLATE CHIP",
+        "isNew": false
+      },
+      {
+        "name": "LEMON GLAZE",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2019-08-26T05:00:00.000Z",
+    "end": "2019-09-01T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "S'MORES",
+        "isNew": false
+      },
+      {
+        "name": "PEANUT BUTTER BROWNIE",
+        "isNew": false
+      },
+      {
+        "name": "CINNAMON TOAST",
+        "isNew": false
+      },
+      {
+        "name": "RASPBERRY CHEESECAKE",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2019-08-19T05:00:00.000Z",
+    "end": "2019-08-25T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "WAFFLE",
+        "isNew": false
+      },
+      {
+        "name": "TWIX®",
+        "isNew": false
+      },
+      {
+        "name": "BUTTERFINGER®",
+        "isNew": false
+      },
+      {
+        "name": "NUTELLA® SEA SALT",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2019-08-12T05:00:00.000Z",
+    "end": "2019-08-18T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "CIRCUS ANIMAL",
+        "isNew": false
+      },
+      {
+        "name": "CHURRO",
+        "isNew": false
+      },
+      {
+        "name": "MUDDY BUDDY",
+        "isNew": false
+      },
+      {
+        "name": "OATMEAL RAISIN",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2019-08-05T05:00:00.000Z",
+    "end": "2019-08-11T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "S'MORES BROWNIE",
+        "isNew": false
+      },
+      {
+        "name": "PEANUT BUTTER BAR",
+        "isNew": true
+      },
+      {
+        "name": "ORANGE ROLL",
+        "isNew": false
+      },
+      {
+        "name": "SNICKERDOODLE",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2019-07-29T05:00:00.000Z",
+    "end": "2019-08-04T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "ALMOND JOY",
+        "isNew": false
+      },
+      {
+        "name": "ULTIMATE PEANUT BUTTER",
+        "isNew": false
+      },
+      {
+        "name": "SEMI-SWEET CHOCOLATE CHIP",
+        "isNew": false
+      },
+      {
+        "name": "KEY LIME PIE",
+        "isNew": true
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2019-07-22T05:00:00.000Z",
+    "end": "2019-07-28T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "RED VELVET",
+        "isNew": false
+      },
+      {
+        "name": "OATMEAL CHOCOLATE CHIP",
+        "isNew": false
+      },
+      {
+        "name": "REESE'S®",
+        "isNew": false
+      },
+      {
+        "name": "CINNAMON SWIRL",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2019-07-15T05:00:00.000Z",
+    "end": "2019-07-21T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "SALTED CARAMEL CHEESECAKE",
+        "isNew": false
+      },
+      {
+        "name": "LEMON GLAZE",
+        "isNew": false
+      },
+      {
+        "name": "ALMOND SAND DOLLAR",
+        "isNew": false
+      },
+      {
+        "name": "M&M",
+        "isNew": false
+      },
+      {
+        "name": "SUGAR (SHARK ATTACK)",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2019-07-08T05:00:00.000Z",
+    "end": "2019-07-14T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "BIRTHDAY CAKE",
+        "isNew": false
+      },
+      {
+        "name": "NUTELLA® MUDSLIDE",
+        "isNew": false
+      },
+      {
+        "name": "MUDDY BUDDY",
+        "isNew": false
+      },
+      {
+        "name": "DOUBLE TROUBLE",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2019-07-01T05:00:00.000Z",
+    "end": "2019-07-07T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "S'MORES",
+        "isNew": false
+      },
+      {
+        "name": "DIRT CAKE",
+        "isNew": false
+      },
+      {
+        "name": "BLUEBERRY GRANOLA",
+        "isNew": false
+      },
+      {
+        "name": "OATMEAL TRAILMIX",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2019-06-24T05:00:00.000Z",
+    "end": "2019-06-30T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "NUTELLA® SEA SALT",
+        "isNew": false
+      },
+      {
+        "name": "COOKIES & CREAM",
+        "isNew": false
+      },
+      {
+        "name": "CIRCUS ANIMAL",
+        "isNew": false
+      },
+      {
+        "name": "MIDNIGHT MINT",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2019-06-17T05:00:00.000Z",
+    "end": "2019-06-23T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "RASPBERRY CHEESECAKE",
+        "isNew": false
+      },
+      {
+        "name": "ULTIMATE PEANUT BUTTER",
+        "isNew": false
+      },
+      {
+        "name": "CINNAMON TOAST",
+        "isNew": false
+      },
+      {
+        "name": "ALMOND JOY",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2019-06-10T05:00:00.000Z",
+    "end": "2019-06-16T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "BISCOFF LAVA",
+        "isNew": false
+      },
+      {
+        "name": "HONEY GRAHAM CRACKER",
+        "isNew": false
+      },
+      {
+        "name": "BUCKEYE BROWNIE",
+        "isNew": false
+      },
+      {
+        "name": "SNICKERDOODLE",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2019-05-27T05:00:00.000Z",
+    "end": "2019-06-02T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "BISCOFF LAVA",
+        "isNew": false
+      },
+      {
+        "name": "CHOCOLATE CAKE",
+        "isNew": false
+      },
+      {
+        "name": "CINNAMON SWIRL",
+        "isNew": false
+      },
+      {
+        "name": "FUNFETTI",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2019-05-20T05:00:00.000Z",
+    "end": "2019-05-26T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "OREO®",
+        "isNew": false
+      },
+      {
+        "name": "ORANGE ROLL",
+        "isNew": false
+      },
+      {
+        "name": "ULTIMATE PEANUT BUTTER",
+        "isNew": false
+      },
+      {
+        "name": "SNICKERDOODLE",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2019-05-13T05:00:00.000Z",
+    "end": "2019-05-19T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "S'MORES",
+        "isNew": false
+      },
+      {
+        "name": "REESES",
+        "isNew": false
+      },
+      {
+        "name": "RASPBERRY CHEESECAKE",
+        "isNew": false
+      },
+      {
+        "name": "COCONUT PRETZEL",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2019-05-06T05:00:00.000Z",
+    "end": "2019-05-12T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "CHURRO",
+        "isNew": false
+      },
+      {
+        "name": "DOUBLE TROUBLE",
+        "isNew": false
+      },
+      {
+        "name": "SEA SALT NUTELLA",
+        "isNew": false
+      },
+      {
+        "name": "DARK DREAM",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2019-04-29T05:00:00.000Z",
+    "end": "2019-05-05T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "TWIX®",
+        "isNew": false
+      },
+      {
+        "name": "BUTTERFINGER®",
+        "isNew": false
+      },
+      {
+        "name": "ALMOND JOY®",
+        "isNew": false
+      },
+      {
+        "name": "COOKIES N' CREAM",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2019-04-22T05:00:00.000Z",
+    "end": "2019-04-28T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "FUNFETTI",
+        "isNew": false
+      },
+      {
+        "name": "MUDDY BUDDY",
+        "isNew": false
+      },
+      {
+        "name": "CHOCOLATE CRUNCH",
+        "isNew": false
+      },
+      {
+        "name": "CINNAMON TOAST",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2019-04-15T05:00:00.000Z",
+    "end": "2019-04-21T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "CARROT CAKE",
+        "isNew": false
+      },
+      {
+        "name": "SNOWBALL",
+        "isNew": false
+      },
+      {
+        "name": "SNICKERDOODLE",
+        "isNew": false
+      },
+      {
+        "name": "NUTELLA SEA SALT",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2019-04-08T05:00:00.000Z",
+    "end": "2019-04-14T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "BIRTHDAY CAKE",
+        "isNew": false
+      },
+      {
+        "name": "PEANUT BUTTER NUTELLA®",
+        "isNew": false
+      },
+      {
+        "name": "CINNAMON SWIRL",
+        "isNew": false
+      },
+      {
+        "name": "S'MORES",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2019-04-01T05:00:00.000Z",
+    "end": "2019-04-07T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "COCONUT LIME",
+        "isNew": false
+      },
+      {
+        "name": "OATMEAL CHOCOLATE CHIP",
+        "isNew": false
+      },
+      {
+        "name": "SALTED CARAMEL CHEESECAKE",
+        "isNew": false
+      },
+      {
+        "name": "REESE'S CHIP",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2019-03-25T05:00:00.000Z",
+    "end": "2019-03-31T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "PB&J",
+        "isNew": false
+      },
+      {
+        "name": "FUNFETTI",
+        "isNew": false
+      },
+      {
+        "name": "ROCKY ROAD",
+        "isNew": false
+      },
+      {
+        "name": "NUTELLA® SEA SALT",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2019-03-18T05:00:00.000Z",
+    "end": "2019-03-24T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "ALMOND JOY",
+        "isNew": false
+      },
+      {
+        "name": "SNICKERDOODLE",
+        "isNew": false
+      },
+      {
+        "name": "SEA SALT TOFFEE",
+        "isNew": false
+      },
+      {
+        "name": "MUDDY BUDDY",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2019-03-11T05:00:00.000Z",
+    "end": "2019-03-17T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "OREO®",
+        "isNew": false
+      },
+      {
+        "name": "BUCKEYE BROWNIE",
+        "isNew": false
+      },
+      {
+        "name": "BISCOFF® LAVA",
+        "isNew": false
+      },
+      {
+        "name": "LEMON GLAZE",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2019-03-04T06:00:00.000Z",
+    "end": "2019-03-10T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "TWIX®",
+        "isNew": false
+      },
+      {
+        "name": "ULTIMATE PEANUT BUTTER",
+        "isNew": false
+      },
+      {
+        "name": "CINNAMON SWIRL",
+        "isNew": false
+      },
+      {
+        "name": "CHOCOLATE CAKE",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2019-02-25T06:00:00.000Z",
+    "end": "2019-03-03T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "NUTELLA MUDSLIDE",
+        "isNew": false
+      },
+      {
+        "name": "COCONUT LIME",
+        "isNew": false
+      },
+      {
+        "name": "DOUBLE TROUBLE (SEMI SWEET)",
+        "isNew": false
+      },
+      {
+        "name": "S'MORES",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2019-02-18T06:00:00.000Z",
+    "end": "2019-02-24T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "RASPBERRY CHEESECAK",
+        "isNew": false
+      },
+      {
+        "name": "CHOCOLATE CARAMEL",
+        "isNew": false
+      },
+      {
+        "name": "CRANBERRY CRAZE",
+        "isNew": false
+      },
+      {
+        "name": "OATMEAL CHOCOLATE CHIP",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2019-01-28T06:00:00.000Z",
+    "end": "2019-02-03T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "ULTIMATE PEANUT BUTTER",
+        "isNew": false
+      },
+      {
+        "name": "SEA SALT TOFFEE (HOMEMADE TOFFEE)",
+        "isNew": false
+      },
+      {
+        "name": "SNICKERDOODLE",
+        "isNew": false
+      },
+      {
+        "name": "DOUBLE TROUBLE (SEMI SWEET)",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2019-01-21T06:00:00.000Z",
+    "end": "2019-01-27T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "RASPBERRY CHEESECAKE",
+        "isNew": false
+      },
+      {
+        "name": "FUNFETTI",
+        "isNew": false
+      },
+      {
+        "name": "BISCOFF® LAVA",
+        "isNew": false
+      },
+      {
+        "name": "RED VELVET WHITE CHOCOLATE",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2019-01-14T06:00:00.000Z",
+    "end": "2019-01-20T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "CINNAMON SWIRL",
+        "isNew": false
+      },
+      {
+        "name": "DARK DREAM",
+        "isNew": false
+      },
+      {
+        "name": "MACADAMIA NUT",
+        "isNew": false
+      },
+      {
+        "name": "COCONUT PRETZEL",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2019-01-07T06:00:00.000Z",
+    "end": "2019-01-13T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "SEMI SWEET CHIP",
+        "isNew": false
+      },
+      {
+        "name": "COCONUT LIME",
+        "isNew": false
+      },
+      {
+        "name": "NUTELLA® SEA SALT",
+        "isNew": false
+      },
+      {
+        "name": "MUDDY BUDDY",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2018-12-26T06:00:00.000Z",
+    "end": "2018-12-30T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "PEPPERMINT BARK",
+        "isNew": false
+      },
+      {
+        "name": "HOT CHOCOLATE",
+        "isNew": false
+      },
+      {
+        "name": "FUNFETTI",
+        "isNew": false
+      },
+      {
+        "name": "S'MORES",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2018-12-17T06:00:00.000Z",
+    "end": "2018-12-23T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "PEPPERMINT BARK",
+        "isNew": false
+      },
+      {
+        "name": "GINGERSNAP",
+        "isNew": false
+      },
+      {
+        "name": "MIDNIGHT MINT",
+        "isNew": false
+      },
+      {
+        "name": "BISCOFF LAVA",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2018-12-10T06:00:00.000Z",
+    "end": "2018-12-16T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "PEPPERMINT BARK",
+        "isNew": false
+      },
+      {
+        "name": "RED VELVET DELIGHT",
+        "isNew": false
+      },
+      {
+        "name": "REESE® CHIP",
+        "isNew": false
+      },
+      {
+        "name": "MUDDY BUDDY",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2018-12-03T06:00:00.000Z",
+    "end": "2018-12-09T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "PEPPERMINT BARK",
+        "isNew": false
+      },
+      {
+        "name": "CHOCOLATE ORANGE STICK",
+        "isNew": false
+      },
+      {
+        "name": "NUTELLA® SEA SALT",
+        "isNew": false
+      },
+      {
+        "name": "SNICKERDOODLE",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2018-11-26T06:00:00.000Z",
+    "end": "2018-12-02T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "PEPPERMINT BARK",
+        "isNew": false
+      },
+      {
+        "name": "COCONUT LIME",
+        "isNew": false
+      },
+      {
+        "name": "CINNAMON SWIRL",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2018-11-05T06:00:00.000Z",
+    "end": "2018-11-11T05:59:59.999Z",
+    "flavors": [
+      {
+        "name": "REESE CHIP",
+        "isNew": false
+      },
+      {
+        "name": "BISCOFF®",
+        "isNew": false
+      },
+      {
+        "name": "S'MORES",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2018-10-29T05:00:00.000Z",
+    "end": "2018-11-04T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "CARAMEL APPLE",
+        "isNew": false
+      },
+      {
+        "name": "MUDDY BUDDY",
+        "isNew": false
+      },
+      {
+        "name": "CANDY CORN",
+        "isNew": false
+      },
+      {
+        "name": "PUMPKIN CHOCOLATE CHIP",
+        "isNew": false
+      },
+      {
+        "name": "AUTUMN SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2018-10-22T05:00:00.000Z",
+    "end": "2018-10-28T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "CINNAMON SWIRL",
+        "isNew": false
+      },
+      {
+        "name": "DARK DREAM",
+        "isNew": false
+      },
+      {
+        "name": "FUNFETTI",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2018-10-08T05:00:00.000Z",
+    "end": "2018-10-14T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "PUMPKIN CHOCOLATE CHIP",
+        "isNew": false
+      },
+      {
+        "name": "OATMEAL CHOCOLATE CHIP",
+        "isNew": false
+      },
+      {
+        "name": "MIDNIGHT MINT",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2018-10-01T05:00:00.000Z",
+    "end": "2018-10-07T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "PUMPKIN CHOCOLATE CHIP",
+        "isNew": false
+      },
+      {
+        "name": "SNICKERDOODLE",
+        "isNew": false
+      },
+      {
+        "name": "REESE'S CHIP",
+        "isNew": false
+      },
+      {
+        "name": "NUTELLA SEA SALT",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2018-09-24T05:00:00.000Z",
+    "end": "2018-09-30T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "BISCHOFF LAVA",
+        "isNew": false
+      },
+      {
+        "name": "MUDDY BUDDY",
+        "isNew": false
+      },
+      {
+        "name": "FUNFETTI",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2018-09-17T05:00:00.000Z",
+    "end": "2018-09-23T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "COCONUT LIME",
+        "isNew": false
+      },
+      {
+        "name": "CHOCOLATE CARAMEL",
+        "isNew": false
+      },
+      {
+        "name": "CRANBERRY VANILLA",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2018-09-10T05:00:00.000Z",
+    "end": "2018-09-16T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "ROCKY ROAD",
+        "isNew": false
+      },
+      {
+        "name": "S'MORES",
+        "isNew": false
+      },
+      {
+        "name": "ORANGE CREAMSICLE",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2018-09-03T05:00:00.000Z",
+    "end": "2018-09-09T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "MAPLE BACON SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "NUTELLA® SEA SALT",
+        "isNew": false
+      },
+      {
+        "name": "DARK DREAM",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2018-08-20T05:00:00.000Z",
+    "end": "2018-08-26T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "EA SALT BUTTERSCOTCH PRETZEL",
+        "isNew": false
+      },
+      {
+        "name": "SNICKERDOODLE",
+        "isNew": false
+      },
+      {
+        "name": "SEMI-SWEET CHOCOLATE CHIP",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2018-08-28T05:00:00.000Z",
+    "end": "2018-09-02T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "MUDDY BUDDY",
+        "isNew": false
+      },
+      {
+        "name": "FUNFETTI",
+        "isNew": false
+      },
+      {
+        "name": "OATMEAL CHOCOLATE CHIP",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2018-08-13T05:00:00.000Z",
+    "end": "2018-08-19T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "COCONUT LIME",
+        "isNew": false
+      },
+      {
+        "name": "BISCOFF",
+        "isNew": false
+      },
+      {
+        "name": "DARK DREAM",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2018-08-06T05:00:00.000Z",
+    "end": "2018-08-12T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "FUNFETTI",
+        "isNew": false
+      },
+      {
+        "name": "REESES",
+        "isNew": false
+      },
+      {
+        "name": "OATMEAL RAISIN",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2018-07-30T05:00:00.000Z",
+    "end": "2018-08-05T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "MACADAMIA NUT",
+        "isNew": false
+      },
+      {
+        "name": "NUTELLA SEA SALT",
+        "isNew": false
+      },
+      {
+        "name": "MIDNIGHT MINT",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2018-07-23T05:00:00.000Z",
+    "end": "2018-07-29T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "BISCOFF LAV",
+        "isNew": false
+      },
+      {
+        "name": "CHOCOLATE VANILLA",
+        "isNew": false
+      },
+      {
+        "name": "SNICKERDOODLE",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2018-07-09T05:00:00.000Z",
+    "end": "2018-07-15T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "NUTELLA SEA SALT",
+        "isNew": false
+      },
+      {
+        "name": "REESES CHIP",
+        "isNew": false
+      },
+      {
+        "name": "CRANBERRY VANILLA",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2018-07-02T05:00:00.000Z",
+    "end": "2018-07-08T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "PATRIOTIC FUNFETTI",
+        "isNew": false
+      },
+      {
+        "name": "SEMI-SWEET CHOCOLATE CHIP",
+        "isNew": false
+      },
+      {
+        "name": "DARK DREAM BROWNIE",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2018-06-18T05:00:00.000Z",
+    "end": "2018-06-24T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "S'MORES",
+        "isNew": false
+      },
+      {
+        "name": "ORANGE CREAMSICLE",
+        "isNew": false
+      },
+      {
+        "name": "STRAWBERRY LEMONADE",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  },
+  {
+    "start": "2018-06-11T05:00:00.000Z",
+    "end": "2018-06-17T04:59:59.999Z",
+    "flavors": [
+      {
+        "name": "NUTELLA SEA SALT",
+        "isNew": false
+      },
+      {
+        "name": "OATMEAL CHOCOLATE CHIP",
+        "isNew": false
+      },
+      {
+        "name": "REESE'S CHIP",
+        "isNew": false
+      },
+      {
+        "name": "CHILLED SUGAR",
+        "isNew": false
+      },
+      {
+        "name": "MILK CHOCOLATE CHIP",
+        "isNew": false
+      }
+    ]
+  }
+]
