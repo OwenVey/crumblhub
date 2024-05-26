@@ -16,6 +16,8 @@ export default async function WeeksPage() {
     with: { cookies: { orderBy: [asc(weekCookiesTable.id)], with: { cookie: true } } },
   });
 
+  console.log('num weeks:', weeks.length);
+
   return (
     <ul className="flex flex-col gap-4">
       {weeks.map((week) => (
