@@ -31,19 +31,19 @@ export async function GET() {
 
   const parsedData = ResponseSchema.parse(await response.json());
 
-  const allFlavors = [...parsedData.pageProps.cookies, ...parsedData.pageProps.catering];
-  const uniqueFlavors = allFlavors.filter((flavor, index, self) => index === self.findIndex((t) => t.id === flavor.id));
+  const allCookies = [...parsedData.pageProps.cookies, ...parsedData.pageProps.catering];
+  const uniqueCookies = allCookies.filter(({ id }, index, self) => index === self.findIndex((t) => t.id === id));
 
-  console.log({ all: allFlavors.length, unique: uniqueFlavors.length });
+  console.log({ all: allCookies.length, unique: uniqueCookies.length });
 
-  const formattedFlavors = uniqueFlavors.map(({ allergyInformation, id, ...flavor }) => ({
-    ...flavor,
+  const formattedCookies = uniqueCookies.map(({ allergyInformation, id, ...cookie }) => ({
+    ...cookie,
     crumblId: id,
-    name: flavor.name.replace('’', `'`).trim(),
+    name: cookie.name.replace('’', `'`).trim(),
     allergies: allergyInformation.description,
   }));
 
-  await Promise.all(formattedFlavors.map((cookie) => db.insert(cookiesTable).values(cookie).onConflictDoNothing()));
+  await Promise.all(formattedCookies.map((cookie) => db.insert(cookiesTable).values(cookie).onConflictDoNothing()));
 
-  return Response.json(formattedFlavors);
+  return Response.json(formattedCookies);
 }

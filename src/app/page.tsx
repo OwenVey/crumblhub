@@ -1,4 +1,3 @@
-// import flavors from '@/data/flavors.json';
 import { Badge } from '@/components/Badge';
 import { db } from '@/server/db';
 import { cookiesTable } from '@/server/db/schema';
