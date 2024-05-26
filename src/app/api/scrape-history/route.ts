@@ -1,6 +1,6 @@
 import { db } from '@/server/db';
 import { weekCookiesTable, weeksTable } from '@/server/db/schema';
-import { endOfWeek, parse } from 'date-fns';
+import { addDays, parse } from 'date-fns';
 import { type InferInsertModel, type InferSelectModel } from 'drizzle-orm';
 import { parseHTML } from 'linkedom';
 
@@ -33,7 +33,7 @@ export async function GET() {
   const weekData = [...weekDivs].map((weekDiv) => {
     const weekString = weekDiv.querySelector('h2')!.textContent!.split('of ')[1]!;
     const start = extractDate(weekString);
-    const end = endOfWeek(start);
+    const end = addDays(start, 5);
 
     const flavorDivs = weekDiv.querySelectorAll('.jet-listing-dynamic-repeater__item');
 

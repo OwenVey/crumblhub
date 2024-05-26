@@ -13,10 +13,8 @@ export const cookiesTable = pgTable('cookies', {
   miniNutritionLabelImage: text('mini_nutrition_label_image'),
   cateringMiniDisabled: boolean('catering_mini_disabled'),
   miniDisabled: boolean('mini_disabled'),
-  createdAt: timestamp('created_at', { withTimezone: true })
-    .default(sql`CURRENT_TIMESTAMP`)
-    .notNull(),
-  updatedAt: timestamp('updated_at', { withTimezone: true }),
+  createdAt: timestamp('created_at').defaultNow().notNull(),
+  updatedAt: timestamp('updated_at').$onUpdate(() => sql`CURRENT_TIMESTAMP`),
 });
 
 export const cookiesRelations = relations(cookiesTable, ({ many }) => ({
@@ -27,6 +25,8 @@ export const weeksTable = pgTable('weeks', {
   id: serial('id').primaryKey(),
   start: timestamp('start', { withTimezone: true }).unique().notNull(),
   end: timestamp('end', { withTimezone: true }).unique().notNull(),
+  createdAt: timestamp('created_at').defaultNow().notNull(),
+  updatedAt: timestamp('updated_at').$onUpdate(() => sql`CURRENT_TIMESTAMP`),
 });
 
 export const weeksRelations = relations(weeksTable, ({ many }) => ({
@@ -43,6 +43,8 @@ export const weekCookiesTable = pgTable(
     cookieId: integer('cookie_id').references(() => cookiesTable.id, { onDelete: 'cascade' }),
     name: text('name').notNull(),
     isNew: boolean('is_new').notNull(),
+    createdAt: timestamp('created_at').defaultNow().notNull(),
+    updatedAt: timestamp('updated_at').$onUpdate(() => sql`CURRENT_TIMESTAMP`),
   },
   (table) => ({
     uniqueConstraint: unique().on(table.weekId, table.cookieId, table.name).nullsNotDistinct(),
