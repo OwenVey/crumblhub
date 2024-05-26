@@ -1,5 +1,6 @@
 import { db } from '@/server/db';
 import { cookiesTable } from '@/server/db/schema';
+import { revalidatePath } from 'next/cache';
 import { z } from 'zod';
 
 const ResponseCookieSchema = z.object({
@@ -44,6 +45,9 @@ export async function GET() {
   }));
 
   await Promise.all(formattedCookies.map((cookie) => db.insert(cookiesTable).values(cookie).onConflictDoNothing()));
+
+  revalidatePath('/');
+  revalidatePath('/weeks');
 
   return Response.json(formattedCookies);
 }
