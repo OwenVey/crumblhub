@@ -3,7 +3,7 @@ import { Badge } from '@/components/Badge';
 import { db } from '@/server/db';
 import { cookiesTable } from '@/server/db/schema';
 import { pluralize } from '@/utils';
-import { differenceInWeeks, isSameWeek } from 'date-fns';
+import { format, isSameWeek } from 'date-fns';
 import { asc } from 'drizzle-orm';
 import Image from 'next/image';
 
@@ -16,7 +16,6 @@ export default async function Home() {
     <ul className="mx-auto grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-3">
       {cookies.map((cookie) => {
         const firstWeekStart = cookie.weekCookies[0]?.week?.start;
-        const weeksSince = firstWeekStart ? differenceInWeeks(new Date(), firstWeekStart) : -1;
 
         const isCurrent = firstWeekStart ? isSameWeek(firstWeekStart, new Date()) : false;
         return (
@@ -46,9 +45,7 @@ export default async function Home() {
                   <dl className="mt-2 text-sm">
                     <div className="grid grid-cols-2 py-1">
                       <dt className="font-semibold">Last seen</dt>
-                      <dd className="">
-                        {weeksSince === -1 ? 'Never' : weeksSince === 0 ? 'Now!' : `${weeksSince} weeks ago`}
-                      </dd>
+                      <dd className="">{firstWeekStart ? format(firstWeekStart, 'MMM do, yyyy') : 'Never'}</dd>
                     </div>
                     <div className="grid grid-cols-2 py-1">
                       <dt className="font-semibold">Occurrences</dt>
