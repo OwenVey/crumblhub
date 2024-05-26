@@ -36,8 +36,8 @@ export default async function Home() {
                   <Image src={cookie.image} alt={cookie.name} width={150} height={150} />
                 </a>
 
-                <div className="flex flex-col justify-between">
-                  <div className="">
+                <div className="flex flex-col">
+                  <div className="flex-1">
                     <div className="line-clamp-2 text-xl font-semibold">{cookie.name}</div>
                     <p className="mt-1 line-clamp-3 h-16 text-sm text-gray-700">{cookie.description}</p>
                   </div>
