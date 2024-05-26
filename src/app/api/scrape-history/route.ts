@@ -1,14 +1,15 @@
+import { DATE_FORMAT } from '@/lib/constants';
 import { db } from '@/server/db';
 import { weekCookiesTable, weeksTable } from '@/server/db/schema';
-import { addDays, parse } from 'date-fns';
+import { addDays, format, parse } from 'date-fns';
 import { parseHTML } from 'linkedom';
 
 export async function GET() {
   const parsedWeeklyHistory = await parseWeeklyHistory();
 
   const weekValues = parsedWeeklyHistory.map(({ start, end }) => ({
-    start: start.toISOString(),
-    end: end.toISOString(),
+    start: format(start, DATE_FORMAT),
+    end: format(end, DATE_FORMAT),
   }));
 
   // Insert weeks, ignoring conflicts
@@ -21,11 +22,14 @@ export async function GET() {
   const weekIdMap = new Map<string, number>();
   allWeeks.forEach((week) => {
     const key = `${week.start}_${week.end}`;
+    console.log('key1', key);
+
     weekIdMap.set(key, week.id);
   });
 
   const weekCookieValues = parsedWeeklyHistory.flatMap((week) => {
-    const key = `${week.start.toISOString()}_${week.end.toISOString()}`;
+    const key = `${format(week.start, DATE_FORMAT)}_${format(week.end, DATE_FORMAT)}`;
+    console.log('key2', key);
     const weekId = weekIdMap.get(key);
     if (!weekId) return [];
 

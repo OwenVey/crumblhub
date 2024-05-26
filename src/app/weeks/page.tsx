@@ -1,4 +1,5 @@
 import { Badge } from '@/components/Badge';
+import { DATE_FORMAT } from '@/lib/constants';
 import { db } from '@/server/db';
 import { weekCookiesTable, weeksTable } from '@/server/db/schema';
 import { format, parse } from 'date-fns';
@@ -21,8 +22,8 @@ export default async function WeeksPage() {
       <div className="mb-2 text-gray-600 text-sm text-right">Last updated {new Date().toLocaleString()}</div>
       <ul className="flex flex-col gap-4">
         {weeks.map((week) => {
-          const startDate = parse(week.start, 'yyyy-MM-dd', new Date());
-          const endDate = parse(week.end, 'yyyy-MM-dd', new Date());
+          const startDate = parse(week.start, DATE_FORMAT, new Date());
+          const endDate = parse(week.end, DATE_FORMAT, new Date());
           return (
             <li key={week.id} className="rounded-lg bg-white p-4">
               <div className="text-xl font-semibold">

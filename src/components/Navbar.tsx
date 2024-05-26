@@ -1,7 +1,7 @@
 'use client';
 
 import logoImage from '@/images/crumblhub.png';
-import { cn } from '@/utils';
+import { cn } from '@/lib/utils';
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 

@@ -1,7 +1,7 @@
 import { Badge } from '@/components/Badge';
+import { pluralize } from '@/lib/utils';
 import { db } from '@/server/db';
 import { cookiesTable } from '@/server/db/schema';
-import { pluralize } from '@/utils';
 import { format, isSameWeek } from 'date-fns';
 import { asc } from 'drizzle-orm';
 import Image from 'next/image';
