@@ -1,42 +1,49 @@
-import { chromium, type Locator } from 'playwright';
+import { db } from '@/server/db';
+import { cookiesTable } from '@/server/db/schema';
+import { z } from 'zod';
 
-const UNKNOWN_IMAGE = 'https://friconix.com/png/fi-cnsuxx-question-mark.png';
+const ResponseCookieSchema = z.object({
+  id: z.string(),
+  name: z.string(),
+  image: z.string(),
+  miniImage: z.string().nullable(),
+  nutritionLabelImage: z.string().nullable(),
+  miniNutritionLabelImage: z.string().nullable(),
+  cateringMiniDisabled: z.boolean().nullable(),
+  miniDisabled: z.boolean().nullable().optional(),
+  description: z.string(),
+  allergyInformation: z.object({
+    description: z.string(),
+  }),
+});
+
+const ResponseSchema = z.object({
+  pageProps: z.object({
+    catering: z.array(ResponseCookieSchema),
+    cookies: z.array(ResponseCookieSchema),
+  }),
+});
+
 export async function GET() {
-  const browser = await chromium.launch({ headless: true });
-  const page = await browser.newPage();
-  await page.goto('https://crumblcookies.com/nutrition');
-
-  const flavorLocators = await page.locator('.bg-white.p-5.pb-0.mb-2\\.5.rounded-lg').all();
-  const flavors = await Promise.all(
-    flavorLocators.map(async (flavorLocator) => {
-      const optimizedImage = await flavorLocator.locator('img').first().getAttribute('src');
-      const image = optimizedImage ? getOriginalUrl(optimizedImage) : UNKNOWN_IMAGE;
-      const name = await flavorLocator.locator('b').first().innerText();
-      const description = await flavorLocator.locator('p').first().innerText();
-      const contains = (await flavorLocator.locator('span').first().innerText()).split(', ');
-      const nutritionImage = await getNutritionInfoImage(flavorLocator);
-
-      return { name, description, image, contains, nutritionImage };
-    }),
+  const response = await fetch(
+    'https://crumblcookies.com/_next/data/oC5Wps_ZcvR_2AulHlXyf/en-US/nutrition/regular.json',
   );
 
-  return Response.json({ flavors });
-}
+  const parsedData = ResponseSchema.parse(await response.json());
 
-function getOriginalUrl(url: string) {
-  return url.substring(url.indexOf('https://', 8));
-}
+  const allFlavors = [...parsedData.pageProps.cookies, ...parsedData.pageProps.catering];
+  const uniqueFlavors = allFlavors.filter((flavor, index, self) => index === self.findIndex((t) => t.id === flavor.id));
 
-async function getNutritionInfoImage(parent: Locator) {
-  const viewNutritionDiv = parent.getByText('View Nutritional Facts').locator('xpath=..');
-  let nutritionLabelImage = UNKNOWN_IMAGE;
-  if (await viewNutritionDiv.isVisible()) {
-    await viewNutritionDiv.dispatchEvent('click');
-    const optimizedNutritionLabelImage = await parent.getByAltText('Nutrition Facts label').getAttribute('src');
-    if (optimizedNutritionLabelImage) nutritionLabelImage = getOriginalUrl(optimizedNutritionLabelImage);
-  } else {
-    console.warn('No nutrition info found');
-  }
+  console.log({ all: allFlavors.length, unique: uniqueFlavors.length });
 
-  return nutritionLabelImage;
+  const formattedFlavors = uniqueFlavors.map(({ allergyInformation, id, ...flavor }) => ({
+    ...flavor,
+    crumblId: id,
+    name: flavor.name.replace('’', `'`).trim(),
+    allergies: allergyInformation.description,
+  }));
+
+  await Promise.all(formattedFlavors.map((cookie) => db.insert(cookiesTable).values(cookie).onConflictDoNothing()));
+
+  return Response.json(formattedFlavors);
 }
