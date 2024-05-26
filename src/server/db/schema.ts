@@ -21,19 +21,13 @@ export const cookiesRelations = relations(cookiesTable, ({ many }) => ({
   weekCookies: many(weekCookiesTable),
 }));
 
-export const weeksTable = pgTable(
-  'weeks',
-  {
-    id: serial('id').primaryKey(),
-    start: date('start', { mode: 'string' }).unique().notNull(),
-    end: date('end', { mode: 'string' }).unique().notNull(),
-    createdAt: timestamp('created_at', { withTimezone: true }).defaultNow().notNull(),
-    updatedAt: timestamp('updated_at', { withTimezone: true }).$onUpdate(() => sql`CURRENT_TIMESTAMP`),
-  },
-  (table) => ({
-    uniqueConstraint: unique().on(table.start, table.end),
-  }),
-);
+export const weeksTable = pgTable('weeks', {
+  id: serial('id').primaryKey(),
+  start: date('start', { mode: 'string' }).unique().notNull(),
+  // end: date('end', { mode: 'string' }).unique().notNull(),
+  createdAt: timestamp('created_at', { withTimezone: true }).defaultNow().notNull(),
+  updatedAt: timestamp('updated_at', { withTimezone: true }).$onUpdate(() => sql`CURRENT_TIMESTAMP`),
+});
 
 export const weeksRelations = relations(weeksTable, ({ many }) => ({
   cookies: many(weekCookiesTable),

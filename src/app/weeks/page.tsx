@@ -2,7 +2,7 @@ import { Badge } from '@/components/Badge';
 import { DATE_FORMAT } from '@/lib/constants';
 import { db } from '@/server/db';
 import { weekCookiesTable, weeksTable } from '@/server/db/schema';
-import { format, parse } from 'date-fns';
+import { addDays, format, parse } from 'date-fns';
 import { asc, desc } from 'drizzle-orm';
 import type { Metadata } from 'next';
 import Image from 'next/image';
@@ -23,7 +23,8 @@ export default async function WeeksPage() {
       <ul className="flex flex-col gap-4">
         {weeks.map((week) => {
           const startDate = parse(week.start, DATE_FORMAT, new Date());
-          const endDate = parse(week.end, DATE_FORMAT, new Date());
+          const endDate = addDays(startDate, 5);
+
           return (
             <li key={week.id} className="rounded-lg bg-white p-4">
               <div className="text-xl font-semibold">

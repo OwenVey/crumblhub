@@ -1,16 +1,13 @@
 import { DATE_FORMAT } from '@/lib/constants';
 import { db } from '@/server/db';
 import { weekCookiesTable, weeksTable } from '@/server/db/schema';
-import { addDays, format, parse } from 'date-fns';
+import { format, parse } from 'date-fns';
 import { parseHTML } from 'linkedom';
 
 export async function GET() {
   const parsedWeeklyHistory = await parseWeeklyHistory();
 
-  const weekValues = parsedWeeklyHistory.map(({ start, end }) => ({
-    start: format(start, DATE_FORMAT),
-    end: format(end, DATE_FORMAT),
-  }));
+  const weekValues = parsedWeeklyHistory.map(({ start }) => ({ start }));
 
   // Insert weeks, ignoring conflicts
   await db.insert(weeksTable).values(weekValues).onConflictDoNothing();
@@ -21,16 +18,11 @@ export async function GET() {
   // Create a mapping from week data to week IDs
   const weekIdMap = new Map<string, number>();
   allWeeks.forEach((week) => {
-    const key = `${week.start}_${week.end}`;
-    console.log('key1', key);
-
-    weekIdMap.set(key, week.id);
+    weekIdMap.set(week.start, week.id);
   });
 
   const weekCookieValues = parsedWeeklyHistory.flatMap((week) => {
-    const key = `${format(week.start, DATE_FORMAT)}_${format(week.end, DATE_FORMAT)}`;
-    console.log('key2', key);
-    const weekId = weekIdMap.get(key);
+    const weekId = weekIdMap.get(week.start);
     if (!weekId) return [];
 
     return week.cookies.map(({ id, name, isNew }) => ({
@@ -61,7 +53,7 @@ async function parseWeeklyHistory() {
   return [...weekDivs].map((weekDiv) => {
     const weekString = weekDiv.querySelector('h2')!.textContent!.split('of ')[1]!;
     const start = extractWeekStartDate(weekString);
-    const end = addDays(start, 5);
+    // const end = addDays(start, 5);
 
     const cookieDivs = weekDiv.querySelectorAll('.jet-listing-dynamic-repeater__item');
 
@@ -80,7 +72,7 @@ async function parseWeeklyHistory() {
       return { id, name: cookie?.name ?? name, isNew };
     });
 
-    return { start, end, cookies };
+    return { start, cookies };
   });
 }
 
@@ -93,8 +85,10 @@ function extractWeekStartDate(weekString: string) {
 
   const firstSpaceIndex = weekString.indexOf(' ');
   const day = weekString.substring(firstSpaceIndex + 1, firstSpaceIndex + 3).replace(/\D/g, ''); // remove any non-digit characters
+  const dt = parse(`${month} ${day} ${year} +00`, 'MMMM d y x', new Date());
+  const dtDateOnly = new Date(dt.valueOf() + dt.getTimezoneOffset() * 60 * 1000);
 
-  return parse(`${month} ${day} ${year} +00`, 'MMMM d y x', new Date());
+  return format(dtDateOnly, DATE_FORMAT);
 }
 
 function getFirstYear(weekString: string) {
