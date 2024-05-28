@@ -20,8 +20,8 @@ export function Navbar() {
   const pathname = usePathname();
 
   return (
-    <nav className="sticky top-0 z-20 flex h-16 items-center bg-black px-4">
-      <div className="mx-auto flex w-full max-w-7xl items-center">
+    <nav className="sticky top-0 z-20 flex h-16 items-center bg-black">
+      <div className="mx-auto flex w-full max-w-screen-xl items-center px-4">
         <a href="/" className="inline-block">
           <Image className="h-8 w-auto" src={logoImage} alt="Crumblhub logo" />
         </a>

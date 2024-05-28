@@ -23,7 +23,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en" className={montserrat.variable}>
       <body className="bg-[#EFEFEF]">
         <Navbar />
-        <main className="mx-auto max-w-7xl p-4">{children}</main>
+        <main className="mx-auto max-w-screen-xl p-4">{children}</main>
       </body>
     </html>
   );
