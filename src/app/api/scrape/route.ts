@@ -3,6 +3,7 @@ import { scrapeHistory } from '@/app/api/scapeHistory';
 import { cleanCookieName } from '@/lib/utils';
 import { db } from '@/server/db';
 import { cookiesTable, weekCookiesTable, weeksTable } from '@/server/db/schema';
+import { type Cookie } from '@/types';
 
 export async function GET() {
   const [appCookies, history] = await Promise.all([getAppCookies(), scrapeHistory()]);
@@ -28,10 +29,7 @@ export async function GET() {
   return Response.json(allCookies);
 }
 
-async function saveHistory(
-  allCookies: Awaited<ReturnType<typeof getAppCookies>>,
-  history: Awaited<ReturnType<typeof scrapeHistory>>,
-) {
+async function saveHistory(allCookies: Cookie[], history: Awaited<ReturnType<typeof scrapeHistory>>) {
   const mappedHistory = history.map(({ start, cookies }) => ({
     start,
     cookies: cookies.map(({ name: scrapedName, isNew }) => {
