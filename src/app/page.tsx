@@ -27,12 +27,12 @@ export default async function Home() {
             <div className="flex-1 p-4">
               <div className="flex h-full gap-4">
                 <a
-                  href={cookie.image}
+                  href={cookie.aerialImage}
                   target="_blank"
                   title="View original image"
                   className="size-28 shrink-0 transition-transform group-hover:scale-110"
                 >
-                  <Image src={cookie.image} alt={cookie.name} width={150} height={150} />
+                  <Image src={cookie.aerialImage} alt={cookie.name} width={150} height={150} />
                 </a>
 
                 <div className="flex flex-col">

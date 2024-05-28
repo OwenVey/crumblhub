@@ -1,53 +1,74 @@
+import { getAppCookies, searchCookie } from '@/app/api/requests';
+import { scrapeHistory } from '@/app/api/scapeHistory';
+import { cleanCookieName } from '@/lib/utils';
 import { db } from '@/server/db';
-import { cookiesTable } from '@/server/db/schema';
-import { revalidatePath } from 'next/cache';
-import { z } from 'zod';
-
-const ResponseCookieSchema = z.object({
-  id: z.string(),
-  name: z.string(),
-  image: z.string(),
-  miniImage: z.string().nullable(),
-  nutritionLabelImage: z.string().nullable(),
-  miniNutritionLabelImage: z.string().nullable(),
-  cateringMiniDisabled: z.boolean().nullable(),
-  miniDisabled: z.boolean().nullable().optional(),
-  description: z.string(),
-  allergyInformation: z.object({
-    description: z.string(),
-  }),
-});
-
-const ResponseSchema = z.object({
-  pageProps: z.object({
-    catering: z.array(ResponseCookieSchema),
-    cookies: z.array(ResponseCookieSchema),
-  }),
-});
+import { cookiesTable, weekCookiesTable, weeksTable } from '@/server/db/schema';
 
 export async function GET() {
-  const response = await fetch(
-    'https://crumblcookies.com/_next/data/oC5Wps_ZcvR_2AulHlXyf/en-US/nutrition/regular.json',
+  const [appCookies, history] = await Promise.all([getAppCookies(), scrapeHistory()]);
+
+  const scrapedNames = [...new Set(history.flatMap(({ cookies }) => cookies.map(({ name }) => name)))];
+
+  const searchCookies = (await Promise.all(scrapedNames.map(searchCookie))).flat();
+
+  const allCookies = Array.from(
+    new Map([...appCookies, ...searchCookies].map((cookie) => [cookie.id, cookie])).values(),
   );
 
-  const parsedData = ResponseSchema.parse(await response.json());
+  await db.insert(cookiesTable).values(allCookies).onConflictDoNothing();
 
-  const allCookies = [...parsedData.pageProps.cookies, ...parsedData.pageProps.catering];
-  const uniqueCookies = allCookies.filter(({ id }, index, self) => index === self.findIndex((t) => t.id === id));
+  await saveHistory(allCookies, history);
 
-  console.log({ all: allCookies.length, unique: uniqueCookies.length });
+  console.table([
+    { Description: 'App Cookies', Count: appCookies.length },
+    { Description: 'Number of different scraped cookies', Count: scrapedNames.length },
+    { Description: 'All Cookies', Count: allCookies.length },
+  ]);
 
-  const formattedCookies = uniqueCookies.map(({ allergyInformation, id, ...cookie }) => ({
-    ...cookie,
-    crumblId: id,
-    name: cookie.name.replace('’', `'`).trim(),
-    allergies: allergyInformation.description,
+  return Response.json(allCookies);
+}
+
+async function saveHistory(
+  allCookies: Awaited<ReturnType<typeof getAppCookies>>,
+  history: Awaited<ReturnType<typeof scrapeHistory>>,
+) {
+  const mappedHistory = history.map(({ start, cookies }) => ({
+    start,
+    cookies: cookies.map(({ name: scrapedName, isNew }) => {
+      const cookie =
+        allCookies.find(({ name, nameWithoutPartner }) => {
+          const cleanCookie = cleanCookieName(name).toUpperCase();
+          const nameWithoutPartnerUp = nameWithoutPartner?.toUpperCase();
+
+          return (
+            cleanCookie.includes(scrapedName) ||
+            scrapedName.includes(cleanCookie) ||
+            (nameWithoutPartnerUp && scrapedName.includes(nameWithoutPartnerUp))
+          );
+        }) ?? null;
+      const id = cookie?.id ?? null;
+
+      return { id, name: cookie?.name ?? scrapedName, isNew };
+    }),
   }));
 
-  await Promise.all(formattedCookies.map((cookie) => db.insert(cookiesTable).values(cookie).onConflictDoNothing()));
+  const weekValues = mappedHistory.map(({ start }) => ({ start }));
+  await db.insert(weeksTable).values(weekValues).onConflictDoNothing();
 
-  revalidatePath('/');
-  revalidatePath('/weeks');
+  const allWeeks = await db.select().from(weeksTable);
+  const weekIdMap = new Map(allWeeks.map((week) => [week.start, week.id]));
 
-  return Response.json(formattedCookies);
+  const weekCookieValues = mappedHistory.flatMap((week) => {
+    const weekId = weekIdMap.get(week.start);
+    if (!weekId) return [];
+
+    return week.cookies.map(({ id, name, isNew }) => ({
+      weekId,
+      cookieId: id,
+      name,
+      isNew,
+    }));
+  });
+
+  await db.insert(weekCookiesTable).values(weekCookieValues).onConflictDoNothing();
 }

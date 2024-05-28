@@ -46,7 +46,13 @@ export default async function WeeksPage() {
                     <div className="relative transition-transform group-hover:scale-110">
                       {isNew && <Badge className="absolute right-0 top-0 z-10">NEW</Badge>}
                       {cookie ? (
-                        <Image className="size-28" src={cookie.image} alt={cookie.name} width={150} height={150} />
+                        <Image
+                          className="size-28"
+                          src={cookie.aerialImage}
+                          alt={cookie.name}
+                          width={150}
+                          height={150}
+                        />
                       ) : (
                         <div className="grid size-28 place-items-center rounded-full bg-gray-200">
                           <svg

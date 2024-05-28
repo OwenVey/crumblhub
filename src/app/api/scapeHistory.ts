@@ -1,45 +1,9 @@
 import { DATE_FORMAT } from '@/lib/constants';
-import { db } from '@/server/db';
-import { weekCookiesTable, weeksTable } from '@/server/db/schema';
+import { cleanCookieName } from '@/lib/utils';
 import { format, parse } from 'date-fns';
 import { parseHTML } from 'linkedom';
 
-export async function GET() {
-  const parsedWeeklyHistory = await parseWeeklyHistory();
-
-  const weekValues = parsedWeeklyHistory.map(({ start }) => ({ start }));
-
-  // Insert weeks, ignoring conflicts
-  await db.insert(weeksTable).values(weekValues).onConflictDoNothing();
-
-  // Fetch all weeks to get their IDs
-  const allWeeks = await db.select().from(weeksTable);
-
-  // Create a mapping from week data to week IDs
-  const weekIdMap = new Map<string, number>();
-  allWeeks.forEach((week) => {
-    weekIdMap.set(week.start, week.id);
-  });
-
-  const weekCookieValues = parsedWeeklyHistory.flatMap((week) => {
-    const weekId = weekIdMap.get(week.start);
-    if (!weekId) return [];
-
-    return week.cookies.map(({ id, name, isNew }) => ({
-      weekId,
-      cookieId: id,
-      name,
-      isNew,
-    }));
-  });
-
-  // Insert week cookies, ignoring conflicts
-  await db.insert(weekCookiesTable).values(weekCookieValues).onConflictDoNothing();
-
-  return Response.json(parsedWeeklyHistory);
-}
-
-async function parseWeeklyHistory() {
+export async function scrapeHistory() {
   const response = await fetch('https://crumblcookieflavors.com/all-weeks');
 
   const { document } = parseHTML(await response.text());
@@ -48,28 +12,24 @@ async function parseWeeklyHistory() {
     '.elementor-column.elementor-col-100.elementor-inner-column.elementor-element',
   );
 
-  const allCookies = await db.query.cookiesTable.findMany();
-
   return [...weekDivs].map((weekDiv) => {
     const weekString = weekDiv.querySelector('h2')!.textContent!.split('of ')[1]!;
     const start = extractWeekStartDate(weekString);
-    // const end = addDays(start, 5);
 
     const cookieDivs = weekDiv.querySelectorAll('.jet-listing-dynamic-repeater__item');
 
     const cookies = [...cookieDivs].map((cookieDiv) => {
       const nameSpanTextContent = cookieDiv.querySelector('span')!.textContent!;
       const isNew = nameSpanTextContent.endsWith('New');
-      const name = nameSpanTextContent
-        .replace(/^[^a-zA-Z]+/, '') // remove all characters before the first letter in the string
-        .replace('New', '') // remove "New" at end of string
-        .trim() // remove extra spacing
-        .replace('’', `'`); // normalize quote character
+      const name = cleanCookieName(
+        nameSpanTextContent
+          .toUpperCase()
+          .replace(/^[^a-zA-Z]+/, '') // remove all characters before the first letter in the string
+          .replace('NEW', '')
+          .replace('BISCOFF', 'LOTUS BISCOFF'),
+      );
 
-      const cookie = allCookies.find((f) => f.name.toUpperCase().includes(name));
-      const id = cookie?.id ?? null;
-
-      return { id, name: cookie?.name ?? name, isNew };
+      return { name, isNew };
     });
 
     return { start, cookies };

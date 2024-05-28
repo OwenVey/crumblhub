@@ -12,3 +12,17 @@ export function pluralize(count: number, singular: string, plural: string): stri
 export function range(n: number) {
   return Array.from({ length: n }, (_, i) => i);
 }
+
+export function cleanCookieName(name: string) {
+  return name
+    .replaceAll('’', `'`)
+    .replaceAll('  ', ' ')
+    .replaceAll('®', '')
+    .replaceAll('Ⓡ', '')
+    .replaceAll('™️', '')
+    .replaceAll('™', '')
+    .replace(/\(NEW\)/gi, '')
+    .replace(/\(LTO\)/gi, '')
+    .replace(/featuring/gi, 'ft.')
+    .trim();
+}
