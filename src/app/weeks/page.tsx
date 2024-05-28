@@ -47,7 +47,7 @@ export default async function WeeksPage() {
                       {isNew && <Badge className="absolute right-0 top-0 z-10">NEW</Badge>}
                       {cookie ? (
                         <Image
-                          className="size-28"
+                          className="size-28 transition-transform group-hover:rotate-12"
                           src={cookie.aerialImage}
                           alt={cookie.name}
                           width={150}
