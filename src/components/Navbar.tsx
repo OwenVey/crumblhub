@@ -4,6 +4,7 @@ import logoImage from '@/images/crumblhub.png';
 import { cn } from '@/lib/utils';
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
+import { ThemeDropdown } from './ThemeDropdown';
 
 const LINKS = [
   {
@@ -39,6 +40,8 @@ export function Navbar() {
             </a>
           ))}
         </div>
+
+        <ThemeDropdown />
       </div>
     </nav>
   );

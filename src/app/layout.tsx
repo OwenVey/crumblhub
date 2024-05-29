@@ -1,4 +1,5 @@
 import { Navbar } from '@/components/Navbar';
+import { ThemeProvider } from '@/components/ThemeProvider';
 import '@/styles/globals.css';
 
 import { Montserrat } from 'next/font/google';
@@ -20,10 +21,12 @@ export const metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={montserrat.variable}>
-      <body className="bg-[#EFEFEF]">
-        <Navbar />
-        <main className="mx-auto max-w-screen-xl p-4">{children}</main>
+    <html lang="en" className={montserrat.variable} suppressHydrationWarning>
+      <body className="bg-gray-100 dark:bg-gray-950">
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
+          <Navbar />
+          <main className="bg-gray-ui mx-auto max-w-screen-xl p-4">{children}</main>
+        </ThemeProvider>
       </body>
     </html>
   );

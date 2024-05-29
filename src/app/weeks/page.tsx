@@ -1,4 +1,4 @@
-import { Badge } from '@/components/Badge';
+import { Badge } from '@/components/ui/Badge';
 import { DATE_FORMAT } from '@/lib/constants';
 import { db } from '@/server/db';
 import { weekCookiesTable, weeksTable } from '@/server/db/schema';
@@ -19,14 +19,16 @@ export default async function WeeksPage() {
 
   return (
     <>
-      <div className="mb-2 text-gray-600 text-sm text-right">Last updated {new Date().toLocaleString()}</div>
+      <div className="mb-2 text-gray-700 dark:text-gray-400 text-sm text-right">
+        Last updated {new Date().toLocaleString()}
+      </div>
       <ul className="flex flex-col gap-4">
         {weeks.map((week) => {
           const startDate = parse(week.start, DATE_FORMAT, new Date());
           const endDate = addDays(startDate, 5);
 
           return (
-            <li key={week.id} className="rounded-lg bg-white p-4">
+            <li key={week.id} className="rounded-lg bg-white dark:bg-gray-900 p-4">
               <div className="text-xl font-semibold">
                 <time dateTime={startDate.toISOString()}>{format(startDate, 'MMM do, yyyy')}</time>
                 {' – '}

@@ -1,4 +1,4 @@
-import { Skeleton } from '@/components/Skeleton';
+import { Skeleton } from '@/components/ui/Skeleton';
 import { range } from '@/lib/utils';
 
 export default function Loading() {
