@@ -6,6 +6,7 @@ import { addDays, format, parse } from 'date-fns';
 import { asc, desc } from 'drizzle-orm';
 import type { Metadata } from 'next';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Weeks',
@@ -42,7 +43,7 @@ export default async function WeeksPage() {
                 }
               >
                 {week.cookies.map(({ cookie, isNew, name }) => (
-                  <a key={name} href={`/#${name}`} className="group grid place-items-center">
+                  <Link key={name} href={`/#${name}`} className="group grid place-items-center">
                     <div className="relative transition-transform group-hover:scale-110">
                       {isNew && <Badge className="absolute right-0 top-0 z-10">NEW</Badge>}
                       {cookie ? (
@@ -73,7 +74,7 @@ export default async function WeeksPage() {
                     <div className="mt-1 text-balance text-center text-gray-12 font-medium capitalize">
                       {cookie ? cookie.name : name.toLowerCase()}
                     </div>
-                  </a>
+                  </Link>
                 ))}
               </div>
             </li>

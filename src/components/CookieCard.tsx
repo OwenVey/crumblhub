@@ -4,6 +4,7 @@ import { cn, pluralize } from '@/lib/utils';
 import { type SelectCookie } from '@/types';
 import { format, isSameWeek } from 'date-fns';
 import Image from 'next/image';
+import Link from 'next/link';
 import { Fragment } from 'react';
 
 interface CookieCardProps extends React.HTMLAttributes<HTMLLIElement> {
@@ -28,14 +29,14 @@ export function CookieCard({ cookie, className, ...rest }: CookieCardProps) {
       {isCurrent && <Badge className="absolute -right-2 -top-2 z-10">CURRENT</Badge>}
       <div className="flex-1 p-4">
         <div className="flex h-full gap-4">
-          <a
+          <Link
             href={cookie.aerialImage}
             target="_blank"
             title="View original image"
             className="size-28 shrink-0 rounded-full transition-transform group-hover:scale-110 group-hover:rotate-12"
           >
             <Image src={cookie.aerialImage} alt={cookie.name} width={150} height={150} />
-          </a>
+          </Link>
 
           <div className="flex flex-col gap-2">
             <div className="flex-1">
