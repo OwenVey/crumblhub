@@ -19,20 +19,15 @@ export default async function WeeksPage() {
 
   return (
     <>
-      <div className="mb-2 text-gray-700 dark:text-gray-400 text-sm text-right">
-        Last updated {new Date().toLocaleString()}
-      </div>
+      <div className="mb-2 text-gray-11 text-sm text-right">Last updated {new Date().toLocaleString()}</div>
       <ul className="flex flex-col gap-4">
         {weeks.map((week) => {
           const startDate = parse(week.start, DATE_FORMAT, new Date());
           const endDate = addDays(startDate, 5);
 
           return (
-            <li
-              key={week.id}
-              className="rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 p-4"
-            >
-              <div className="text-xl font-semibold">
+            <li key={week.id} className="rounded-xl border border-gray-4 bg-card p-4">
+              <div className="text-xl text-gray-12 font-semibold">
                 <time dateTime={startDate.toISOString()}>{format(startDate, 'MMM do, yyyy')}</time>
                 {' – '}
                 <time dateTime={endDate.toISOString()}>{format(endDate, 'MMM do, yyyy')}</time>
@@ -59,9 +54,9 @@ export default async function WeeksPage() {
                           height={150}
                         />
                       ) : (
-                        <div className="grid size-28 place-items-center rounded-full bg-gray-200">
+                        <div className="grid size-28 place-items-center rounded-full bg-gray-5">
                           <svg
-                            className="size-12 text-gray-500"
+                            className="size-12 text-gray-12"
                             xmlns="http://www.w3.org/2000/svg"
                             width="32"
                             height="32"
@@ -75,7 +70,7 @@ export default async function WeeksPage() {
                         </div>
                       )}
                     </div>
-                    <div className="mt-1 text-balance text-center font-medium capitalize">
+                    <div className="mt-1 text-balance text-center text-gray-12 font-medium capitalize">
                       {cookie ? cookie.name : name.toLowerCase()}
                     </div>
                   </a>

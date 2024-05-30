@@ -22,7 +22,7 @@ export function Navbar() {
 
   return (
     <nav className="sticky top-0 z-20 flex h-16 items-center bg-black">
-      <div className="mx-auto flex w-full max-w-screen-xl items-center px-4">
+      <div className="mx-auto flex w-full max-w-7xl items-center px-4">
         <a href="/" className="inline-block shrink-0">
           <Image className="h-8 w-auto" src={logoImage} alt="Crumblhub logo" />
         </a>
@@ -32,9 +32,9 @@ export function Navbar() {
             <a
               key={link.href}
               href={link.href}
-              className={cn('inline-flex rounded-lg px-3 py-2 text-sm font-semibold text-gray-400 hover:text-white', {
-                'bg-gray-800 text-white': link.href === pathname,
-              })}
+              className={cn('inline-flex rounded-lg px-3 py-2 text-sm font-semibold', [
+                link.href === pathname ? 'bg-[#2a2a2a] text-white' : 'text-[#b4b4b4] hover:text-white',
+              ])}
             >
               {link.label}
             </a>

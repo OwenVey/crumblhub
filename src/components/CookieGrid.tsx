@@ -87,7 +87,7 @@ export function CookieGrid({ cookies }: CookieGridProps) {
           </div>
         </div>
 
-        <span className="shrink-0 text-sm font-medium text-right text-gray-500 sm:leading-10">
+        <span className="shrink-0 text-sm font-medium text-right text-gray-11 sm:leading-10">
           {filteredCookies.length} cookies
         </span>
       </div>

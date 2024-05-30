@@ -22,10 +22,10 @@ export const metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={montserrat.variable} suppressHydrationWarning>
-      <body className="bg-gray-100 dark:bg-gray-950">
-        <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
+      <body className="bg-bg">
+        <ThemeProvider defaultTheme="system" enableSystem disableTransitionOnChange>
           <Navbar />
-          <main className="bg-gray-ui mx-auto max-w-screen-xl p-4">{children}</main>
+          <main className="mx-auto max-w-7xl p-4">{children}</main>
         </ThemeProvider>
       </body>
     </html>

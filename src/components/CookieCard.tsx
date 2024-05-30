@@ -22,7 +22,7 @@ export function CookieCard({ cookie, className, ...rest }: CookieCardProps) {
       id={cookie.name}
       className={cn(
         className,
-        'group relative border border-gray-200 dark:border-gray-800 flex scroll-m-20 flex-col items-start rounded-lg bg-white dark:bg-gray-900',
+        'group relative border border-gray-5 flex scroll-m-20 flex-col items-start rounded-xl bg-white dark:bg-gray-2',
       )}
     >
       {isCurrent && <Badge className="absolute -right-2 -top-2 z-10">CURRENT</Badge>}
@@ -39,8 +39,8 @@ export function CookieCard({ cookie, className, ...rest }: CookieCardProps) {
 
           <div className="flex flex-col gap-2">
             <div className="flex-1">
-              <div className="line-clamp-2 text-xl font-semibold">{cookie.name}</div>
-              <p className="mt-1 line-clamp-3 h-16 text-sm text-gray-700 dark:text-gray-400">{cookie.description}</p>
+              <div className="line-clamp-2 text-xl font-semibold text-gray-12">{cookie.name}</div>
+              <p className="mt-1 line-clamp-3 h-16 text-sm text-gray-11">{cookie.description}</p>
             </div>
 
             <dl className="text-sm grid grid-cols-2 gap-y-1">
@@ -52,8 +52,8 @@ export function CookieCard({ cookie, className, ...rest }: CookieCardProps) {
                 { label: 'Served', value: cookie.servingMethod ?? 'N/A' },
               ].map(({ label, value }) => (
                 <Fragment key={label}>
-                  <dt className="font-medium text-gray-700 dark:text-gray-400">{label}</dt>
-                  <dd className="">{value}</dd>
+                  <dt className="font-medium text-gray-11">{label}</dt>
+                  <dd className="text-gray-12">{value}</dd>
                 </Fragment>
               ))}
             </dl>
@@ -64,8 +64,8 @@ export function CookieCard({ cookie, className, ...rest }: CookieCardProps) {
       </div>
 
       {cookie.nutritionLabelImage ? (
-        <details className="mt-auto w-full rounded-b-xl border-t p-4 hover:cursor-pointer hover:bg-gray-50 active:bg-gray-100 dark:active:bg-gray-700 dark:hover:bg-gray-800 dark:border-gray-800">
-          <summary className="-m-4 p-4 font-semibold">View nutrition info</summary>
+        <details className="mt-auto w-full rounded-b-xl border-t border-gray-5 p-4 hover:cursor-pointer text-gray-12 hover:bg-gray-3 active:bg-gray-4">
+          <summary className="-m-4 p-4 font-medium">View nutrition info</summary>
           <Image
             className="z-10 mt-2 origin-top-right"
             src={cookie.nutritionLabelImage}
@@ -75,7 +75,7 @@ export function CookieCard({ cookie, className, ...rest }: CookieCardProps) {
           />
         </details>
       ) : (
-        <div className="mt-auto w-full rounded-b-xl border-t p-4 font-semibold dark:border-gray-800">
+        <div className="mt-auto w-full rounded-b-xl border-t border-gray-5 p-4 text-gray-12 font-semibold">
           No nutrition info
         </div>
       )}
