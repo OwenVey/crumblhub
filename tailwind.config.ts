@@ -12,10 +12,7 @@ export default {
       fontFamily: {
         sans: ['var(--font-montserrat)', ...fontFamily.sans],
       },
-      colors: {
-        pink: '#FEB9CC',
-        gray: colors.neutral,
-      },
+      colors: {},
       keyframes: {
         'accordion-down': {
           from: { height: '0' },
@@ -30,6 +27,13 @@ export default {
         'accordion-down': 'accordion-down 0.2s ease-out',
         'accordion-up': 'accordion-up 0.2s ease-out',
       },
+    },
+    colors: {
+      pink: '#FEB9CC',
+      gray: colors.neutral,
+      black: colors.black,
+      white: colors.white,
+      transparent: colors.transparent,
     },
   },
   plugins: [tailwindAnimate],

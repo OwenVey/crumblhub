@@ -23,7 +23,7 @@ export function Navbar() {
   return (
     <nav className="sticky top-0 z-20 flex h-16 items-center bg-black">
       <div className="mx-auto flex w-full max-w-screen-xl items-center px-4">
-        <a href="/" className="inline-block">
+        <a href="/" className="inline-block shrink-0">
           <Image className="h-8 w-auto" src={logoImage} alt="Crumblhub logo" />
         </a>
 

@@ -1,4 +1,4 @@
-import { CookieCard } from '@/components/CookieCard';
+import { CookieGrid } from '@/components/CookieGrid';
 import { db } from '@/server/db';
 import { cookiesTable } from '@/server/db/schema';
 import { asc } from 'drizzle-orm';
@@ -9,11 +9,5 @@ export default async function Home() {
     with: { weekCookies: { with: { week: true } } },
   });
 
-  return (
-    <ul className="mx-auto grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-3">
-      {cookies.map((cookie) => (
-        <CookieCard key={cookie.name} cookie={cookie} />
-      ))}
-    </ul>
-  );
+  return <CookieGrid cookies={cookies} />;
 }

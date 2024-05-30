@@ -22,7 +22,7 @@ export function CookieCard({ cookie, className, ...rest }: CookieCardProps) {
       id={cookie.name}
       className={cn(
         className,
-        'group relative flex scroll-m-20 flex-col items-start rounded-lg bg-white dark:bg-gray-900',
+        'group relative border border-gray-200 dark:border-gray-800 flex scroll-m-20 flex-col items-start rounded-lg bg-white dark:bg-gray-900',
       )}
     >
       {isCurrent && <Badge className="absolute -right-2 -top-2 z-10">CURRENT</Badge>}
@@ -32,7 +32,7 @@ export function CookieCard({ cookie, className, ...rest }: CookieCardProps) {
             href={cookie.aerialImage}
             target="_blank"
             title="View original image"
-            className="size-28 shrink-0 transition-transform group-hover:scale-110 group-hover:rotate-12"
+            className="size-28 shrink-0 rounded-full transition-transform group-hover:scale-110 group-hover:rotate-12"
           >
             <Image src={cookie.aerialImage} alt={cookie.name} width={150} height={150} />
           </a>

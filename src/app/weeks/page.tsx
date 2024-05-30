@@ -28,7 +28,10 @@ export default async function WeeksPage() {
           const endDate = addDays(startDate, 5);
 
           return (
-            <li key={week.id} className="rounded-lg bg-white dark:bg-gray-900 p-4">
+            <li
+              key={week.id}
+              className="rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 p-4"
+            >
               <div className="text-xl font-semibold">
                 <time dateTime={startDate.toISOString()}>{format(startDate, 'MMM do, yyyy')}</time>
                 {' – '}
