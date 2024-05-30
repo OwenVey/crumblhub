@@ -40,7 +40,7 @@ export function CookieCard({ cookie, className, ...rest }: CookieCardProps) {
 
           <div className="flex flex-col gap-2">
             <div className="flex-1">
-              <div className="line-clamp-2 text-xl font-semibold text-gray-12">{cookie.name}</div>
+              <div className="line-clamp-2 text-lg font-semibold text-gray-12">{cookie.name}</div>
               <p className="mt-1 line-clamp-3 h-16 text-sm text-gray-11">{cookie.description}</p>
             </div>
 

@@ -28,7 +28,7 @@ export default async function WeeksPage() {
 
           return (
             <li key={week.id} className="rounded-xl border border-gray-4 bg-card p-4">
-              <div className="text-xl text-gray-12 font-semibold">
+              <div className="text-lg text-gray-12 font-semibold">
                 <time dateTime={startDate.toISOString()}>{format(startDate, 'MMM do, yyyy')}</time>
                 {' – '}
                 <time dateTime={endDate.toISOString()}>{format(endDate, 'MMM do, yyyy')}</time>
