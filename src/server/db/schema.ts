@@ -21,24 +21,6 @@ const decimalNumber = customType<{ data: number }>({
   },
 });
 
-// export const cookiesTable = pgTable('cookies', {
-//   id: serial('id').primaryKey(),
-//   crumblId: text('crumbl_id').unique().notNull(),
-//   name: text('name').unique().notNull(),
-//   description: text('description').notNull(),
-//   image: text('image').notNull(),
-//   allergies: text('allergies').notNull(),
-//   miniImage: text('mini_image'),
-//   nutritionLabelImage: text('nutrition_label_image'),
-//   miniNutritionLabelImage: text('mini_nutrition_label_image'),
-//   cateringMiniDisabled: boolean('catering_mini_disabled'),
-//   miniDisabled: boolean('mini_disabled'),
-//   createdAt: timestamp('created_at', { withTimezone: true }).defaultNow().notNull(),
-//   updatedAt: timestamp('updated_at', { withTimezone: true })
-//     .$onUpdate(() => sql`CURRENT_TIMESTAMP`)
-//     .notNull(),
-// });
-
 export const servingMethodEnum = pgEnum('serving_method', ['Warm', 'Chilled', 'Bakery Temp']);
 
 export const cookiesTable = pgTable('cookies', {
