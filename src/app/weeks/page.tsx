@@ -7,6 +7,7 @@ import { asc, desc } from 'drizzle-orm';
 import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
+import { TimeUpdated } from './TimeUpdated';
 
 export const metadata: Metadata = {
   title: 'Weeks',
@@ -18,10 +19,12 @@ export default async function WeeksPage() {
     with: { cookies: { orderBy: [asc(weekCookiesTable.id)], with: { cookie: true } } },
   });
 
+  const buildDate = new Date();
+
   return (
     <>
-      <div className="text-gray-11 mb-2 text-right text-sm">Last updated {new Date().toLocaleString()}</div>
-      <ul className="flex flex-col gap-4">
+      <TimeUpdated buildDate={buildDate} />
+      <ul className="mt-4 flex flex-col gap-4">
         {weeks.map((week) => {
           const startDate = parse(week.start, DATE_FORMAT, new Date());
           const endDate = addDays(startDate, 5);
