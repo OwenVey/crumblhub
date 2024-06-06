@@ -1,5 +1,5 @@
 import { StarProgress } from '@/components/StarProgress';
-import { Badge } from '@/components/ui/Badge';
+import { Badge } from '@/components/ui/badge';
 import { cn, pluralize } from '@/lib/utils';
 import { type SelectCookie } from '@/types';
 import { format, isSameWeek } from 'date-fns';

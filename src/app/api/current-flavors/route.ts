@@ -8,6 +8,8 @@ import { fetchCookiesByCategory } from '../requests';
 export const dynamic = 'force-dynamic';
 
 export async function GET() {
+  console.log('Fetching this weeks flavors...');
+
   const thisWeeksFlavors = await fetchCookiesByCategory('this_week');
   await db.insert(cookiesTable).values(thisWeeksFlavors).onConflictDoNothing();
 

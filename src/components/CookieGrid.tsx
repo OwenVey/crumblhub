@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Select, SelectContent, SelectGroup, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
+import { pluralize } from '@/lib/utils';
 import { type SelectCookie } from '@/types';
 import { ArrowDownNarrowWideIcon, ArrowDownWideNarrowIcon } from 'lucide-react';
 import { memo, useMemo, useState } from 'react';
@@ -82,7 +83,7 @@ export function CookieGrid({ cookies }: CookieGridProps) {
         </div>
 
         <span className="text-gray-11 shrink-0 text-right text-sm font-medium sm:leading-10">
-          {filteredCookies.length} cookies
+          {pluralize(filteredCookies.length, 'cookie', 'cookies')}
         </span>
       </div>
 

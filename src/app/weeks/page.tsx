@@ -1,4 +1,4 @@
-import { Badge } from '@/components/ui/Badge';
+import { Badge } from '@/components/ui/badge';
 import { DATE_FORMAT } from '@/lib/constants';
 import { db } from '@/server/db';
 import { weekCookiesTable, weeksTable } from '@/server/db/schema';

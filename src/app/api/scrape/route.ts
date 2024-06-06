@@ -8,6 +8,9 @@ import { type Cookie } from '@/types';
 export const dynamic = 'force-dynamic';
 
 export async function GET() {
+  const enabled = false;
+  if (!enabled) return;
+
   const [appCookies, history] = await Promise.all([getAppCookies(), scrapeHistory()]);
 
   const scrapedNames = [...new Set(history.flatMap(({ cookies }) => cookies.map(({ name }) => name)))];
