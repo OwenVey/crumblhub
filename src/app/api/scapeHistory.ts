@@ -4,7 +4,11 @@ import { format, parse } from 'date-fns';
 import { parseHTML } from 'linkedom';
 
 export async function scrapeHistory() {
-  const response = await fetch('https://crumblcookieflavors.com/all-weeks');
+  const response = await fetch('https://crumblcookieflavors.com/all-weeks', {
+    headers: {
+      'Cache-Control': 'no-cache',
+    }
+  });
 
   const { document } = parseHTML(await response.text());
   const gridDiv = document.querySelector('.jet-listing-grid__items')!;

@@ -82,6 +82,7 @@ async function fetchCookiesByCategory(category: Category) {
     method: 'POST',
     headers: {
       'content-type': 'application/json',
+      'Cache-Control': 'no-cache',
     },
     body: JSON.stringify({
       query: `#graphql
@@ -136,12 +137,14 @@ export async function searchCookie(searchTerm: string) {
     }),
   });
 
+  const token =
+    'eyJhbGciOiJFUzUxMiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjNDY3ZmU1ZS1iZDg0LTRiMzctYWRkNi1hODRhZmVjOTlmMDhVc2VyIiwiYXBwIjoiQ3VzdG9tZXIiLCJwbGF0Zm9ybSI6ImlPUyIsImJyYW5kSWQiOiJiOTJlOTAxMC03NGU2LTExZWQtOTUxOC1hYjI2NWRiZmI2OTE6QnJhbmQiLCJyZWdpb24iOiJVUyIsImV4cCI6MTcxODIyNzI4MiwiaWF0IjoxNzE3NjIyNDgyfQ.AYPFZpu_MxszTsrBJTpku1rfahgho9VBeKpJ9BzJ-YOKyIriRLRyVVLTc4hISeZIbtD_IlF2SYowuzg6PdK3N1e2AJMDa1DjhvtnZk1TGrWBG63jOkqLd00Cxu48Gduj9sUlJ5wNnD7R73WmiH1us5Tqpm-YqyAzKE4qmxCIy1Dm4tQQ';
   const response = await fetch('https://services.crumbl.com/customer', {
     method: 'POST',
     headers: {
-      'x-crumbl-token':
-        'eyJhbGciOiJFUzUxMiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjNDY3ZmU1ZS1iZDg0LTRiMzctYWRkNi1hODRhZmVjOTlmMDhVc2VyIiwiYXBwIjoiQ3VzdG9tZXIiLCJwbGF0Zm9ybSI6ImlPUyIsImJyYW5kSWQiOiJiOTJlOTAxMC03NGU2LTExZWQtOTUxOC1hYjI2NWRiZmI2OTE6QnJhbmQiLCJyZWdpb24iOiJVUyIsImV4cCI6MTcxNzAyMDIxOCwiaWF0IjoxNzE2NDE1NDE4fQ.AEFh0J_US2QYJ6Ue4mfBNTrh9l6kwQF4ge5x9z9TLoLLaz7A3-BBKS4iqayV25-j0GOs70WJI52TfdjarbGTIcphAQOPQWHivIMJ6vkuhmDHjjDlx67g_K0XjmKvgT-zKq0a6bbzzCTXk8O3bEMmSkt_5J1SB62gAUa7UWnczBjwR7U-',
+      'x-crumbl-token': token,
       'content-type': 'application/json',
+      'Cache-Control': 'no-cache',
     },
     body: JSON.stringify({
       query: `#graphql
@@ -191,6 +194,11 @@ export async function getWebCookies() {
 
   const response = await fetch(
     'https://crumblcookies.com/_next/data/oC5Wps_ZcvR_2AulHlXyf/en-US/nutrition/regular.json',
+    {
+      headers: {
+        'Cache-Control': 'no-cache',
+      },
+    },
   );
 
   const parsedData = ResponseSchema.parse(await response.json());
