@@ -19,7 +19,7 @@ export async function scrapeHistory() {
     const weekString = weekDiv.querySelector('h2')!.textContent!.split('of ')[1]!;
     const start = extractWeekStartDate(weekString);
 
-    console.log(`${weekString} --> ${start}`);
+    // console.log(`${weekString} --> ${start}`);
 
     const cookieDivs = weekDiv.querySelectorAll('.jet-listing-dynamic-repeater__item');
 

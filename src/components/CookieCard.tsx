@@ -5,15 +5,22 @@ import { type SelectCookie } from '@/types';
 import { format, isSameWeek } from 'date-fns';
 import Image from 'next/image';
 import Link from 'next/link';
-import { Fragment } from 'react';
+import { Fragment, useEffect, useState } from 'react';
 
 interface CookieCardProps extends React.HTMLAttributes<HTMLLIElement> {
   cookie: SelectCookie;
 }
 
 export function CookieCard({ cookie, className, ...rest }: CookieCardProps) {
+  const [cookieInHash, setCookieInHash] = useState(false);
+
   const firstWeekStart = cookie.weekCookies[0]?.week?.start;
   const releaseDate = cookie.weekCookies.at(-1)?.week.start;
+
+  useEffect(() => {
+    const decodedHash = decodeURIComponent(window.location.hash.substring(1));
+    if (decodedHash === cookie.name) setCookieInHash(true);
+  }, [cookie]);
 
   const isCurrent = firstWeekStart ? isSameWeek(firstWeekStart, new Date()) : false;
 
@@ -23,7 +30,8 @@ export function CookieCard({ cookie, className, ...rest }: CookieCardProps) {
       id={cookie.name}
       className={cn(
         className,
-        'group border-gray-5 dark:bg-gray-2 relative flex scroll-m-20 flex-col items-start rounded-xl border bg-white',
+        'group dark:bg-gray-2 relative flex scroll-m-20 flex-col items-start rounded-xl border bg-white',
+        cookieInHash ? 'border-pink ring-pink ring' : 'border-gray-5',
       )}
     >
       {isCurrent && <Badge className="absolute -top-2 -right-2 z-10">CURRENT</Badge>}
