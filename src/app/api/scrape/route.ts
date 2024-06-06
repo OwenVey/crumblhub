@@ -5,6 +5,8 @@ import { db } from '@/server/db';
 import { cookiesTable, weekCookiesTable, weeksTable } from '@/server/db/schema';
 import { type Cookie } from '@/types';
 
+export const dynamic = 'force-dynamic';
+
 export async function GET() {
   const [appCookies, history] = await Promise.all([getAppCookies(), scrapeHistory()]);
 
@@ -33,8 +35,21 @@ async function saveHistory(allCookies: Cookie[], history: Awaited<ReturnType<typ
   const mappedHistory = history.map(({ start, cookies }) => ({
     start,
     cookies: cookies.map(({ name: scrapedName, isNew }) => {
-      const cookie =
-        allCookies.find(({ name, nameWithoutPartner }) => {
+      const cleanScrapedName = cleanCookieName(scrapedName).toUpperCase();
+
+      // first try to find cookie match based on exact name match
+      let cookie = allCookies.find(({ name, nameWithoutPartner }) => {
+        const cleanCookie = cleanCookieName(name).toUpperCase();
+        const nameWithoutPartnerUp = nameWithoutPartner?.toUpperCase();
+
+        return (
+          cleanCookie === cleanScrapedName || (nameWithoutPartner ? nameWithoutPartnerUp === cleanScrapedName : false)
+        );
+      });
+
+      // if no exact cookie match found, try to find a match based on partial name match
+      if (!cookie) {
+        cookie = allCookies.find(({ name, nameWithoutPartner }) => {
           const cleanCookie = cleanCookieName(name).toUpperCase();
           const nameWithoutPartnerUp = nameWithoutPartner?.toUpperCase();
 
@@ -43,7 +58,9 @@ async function saveHistory(allCookies: Cookie[], history: Awaited<ReturnType<typ
             scrapedName.includes(cleanCookie) ||
             (nameWithoutPartnerUp && scrapedName.includes(nameWithoutPartnerUp))
           );
-        }) ?? null;
+        });
+      }
+
       const id = cookie?.id ?? null;
 
       return { id, name: cookie?.name ?? scrapedName, isNew };
