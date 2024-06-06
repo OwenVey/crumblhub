@@ -32,12 +32,6 @@ export function CookieGrid({ cookies }: CookieGridProps) {
       else return 0;
     });
 
-    // if (sort === 'name') {
-    //   filtered = filtered.sort((a, b) => a.name.localeCompare(b.name));
-    // }
-    // if (sort === 'calories') {
-    //   filtered = filtered.sort((a, b) => (a.calories ?? 0) - (b.calories ?? 0));
-    // }
     return filtered;
   }, [cookies, search, sort, sortOrder]);
 
@@ -99,7 +93,7 @@ export function CookieGrid({ cookies }: CookieGridProps) {
 
 const CookieList = memo(function CookieList({ cookies }: { cookies: SelectCookie[] }) {
   return (
-    <ul className="mt-4 mx-auto grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-3">
+    <ul className="mt-4 grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-3">
       {cookies.map((cookie) => (
         <CookieCard key={cookie.name} cookie={cookie} />
       ))}
