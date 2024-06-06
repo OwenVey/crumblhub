@@ -23,10 +23,10 @@ export function CookieCard({ cookie, className, ...rest }: CookieCardProps) {
       id={cookie.name}
       className={cn(
         className,
-        'group relative border border-gray-5 flex scroll-m-20 flex-col items-start rounded-xl bg-white dark:bg-gray-2',
+        'group border-gray-5 dark:bg-gray-2 relative flex scroll-m-20 flex-col items-start rounded-xl border bg-white',
       )}
     >
-      {isCurrent && <Badge className="absolute -right-2 -top-2 z-10">CURRENT</Badge>}
+      {isCurrent && <Badge className="absolute -top-2 -right-2 z-10">CURRENT</Badge>}
       <div className="flex-1 p-4">
         <div className="flex h-full gap-4">
           <Link
@@ -40,11 +40,11 @@ export function CookieCard({ cookie, className, ...rest }: CookieCardProps) {
 
           <div className="flex flex-col gap-2">
             <div className="flex-1">
-              <div className="line-clamp-2 text-lg font-semibold text-gray-12">{cookie.name}</div>
-              <p className="mt-1 line-clamp-3 h-16 text-sm text-gray-11">{cookie.description}</p>
+              <div className="text-gray-12 line-clamp-2 text-lg font-semibold">{cookie.name}</div>
+              <p className="text-gray-11 mt-1 line-clamp-3 h-16 text-sm">{cookie.description}</p>
             </div>
 
-            <dl className="text-sm grid grid-cols-2 gap-y-1">
+            <dl className="grid grid-cols-2 gap-y-1 text-sm">
               {[
                 { label: 'Last seen', value: firstWeekStart ? format(firstWeekStart, 'MMM do, yyyy') : 'Never' },
                 { label: 'Occurrences', value: pluralize(cookie.weekCookies.length, 'time', 'times') },
@@ -53,7 +53,7 @@ export function CookieCard({ cookie, className, ...rest }: CookieCardProps) {
                 { label: 'Served', value: cookie.servingMethod ?? 'N/A' },
               ].map(({ label, value }) => (
                 <Fragment key={label}>
-                  <dt className="font-medium text-gray-11">{label}</dt>
+                  <dt className="text-gray-11 font-medium">{label}</dt>
                   <dd className="text-gray-12">{value}</dd>
                 </Fragment>
               ))}
@@ -65,7 +65,7 @@ export function CookieCard({ cookie, className, ...rest }: CookieCardProps) {
       </div>
 
       {cookie.nutritionLabelImage ? (
-        <details className="mt-auto w-full rounded-b-xl border-t border-gray-5 p-4 hover:cursor-pointer text-gray-12 hover:bg-gray-3 active:bg-gray-4">
+        <details className="border-gray-5 text-gray-12 hover:bg-gray-3 active:bg-gray-4 mt-auto w-full rounded-b-xl border-t p-4 hover:cursor-pointer">
           <summary className="-m-4 p-4 font-medium">View nutrition info</summary>
           <Image
             className="z-10 mt-2 origin-top-right"
@@ -76,7 +76,7 @@ export function CookieCard({ cookie, className, ...rest }: CookieCardProps) {
           />
         </details>
       ) : (
-        <div className="mt-auto w-full rounded-b-xl border-t border-gray-5 p-4 text-gray-12 font-semibold">
+        <div className="border-gray-5 text-gray-12 mt-auto w-full rounded-b-xl border-t p-4 font-semibold">
           No nutrition info
         </div>
       )}

@@ -37,8 +37,8 @@ export function CookieGrid({ cookies }: CookieGridProps) {
 
   return (
     <div>
-      <div className="flex gap-4 flex-col sm:flex-row sm:items-end">
-        <div className="grid w-full sm:max-w-64 items-center gap-1.5">
+      <div className="flex flex-col gap-4 sm:flex-row sm:items-end">
+        <div className="grid w-full items-center gap-1.5 sm:max-w-64">
           <Label htmlFor="search">Search</Label>
           <Input
             type="text"
@@ -53,7 +53,7 @@ export function CookieGrid({ cookies }: CookieGridProps) {
           <Label htmlFor="search">Sort</Label>
           <div className="flex">
             <Button
-              className="rounded-r-none -mr-px"
+              className="-mr-px rounded-r-none"
               onClick={() => setSortOrder((prev) => (prev === 'asc' ? 'desc' : 'asc'))}
               size="icon"
               variant="outline"
@@ -65,7 +65,7 @@ export function CookieGrid({ cookies }: CookieGridProps) {
               )}
             </Button>
             <Select value={sort} onValueChange={setSort}>
-              <SelectTrigger className="sm:w-40 rounded-l-none">
+              <SelectTrigger className="rounded-l-none sm:w-40">
                 <SelectValue placeholder="Sort by..." />
               </SelectTrigger>
               <SelectContent>
@@ -81,7 +81,7 @@ export function CookieGrid({ cookies }: CookieGridProps) {
           </div>
         </div>
 
-        <span className="shrink-0 text-sm font-medium text-right text-gray-11 sm:leading-10">
+        <span className="text-gray-11 shrink-0 text-right text-sm font-medium sm:leading-10">
           {filteredCookies.length} cookies
         </span>
       </div>
@@ -92,6 +92,10 @@ export function CookieGrid({ cookies }: CookieGridProps) {
 }
 
 const CookieList = memo(function CookieList({ cookies }: { cookies: SelectCookie[] }) {
+  if (cookies.length === 0) {
+    return <div className="text-gray-11 mt-36 grid place-items-center">No results</div>;
+  }
+
   return (
     <ul className="mt-4 grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-3">
       {cookies.map((cookie) => (

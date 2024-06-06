@@ -33,7 +33,7 @@ export function Navbar() {
             <Link
               key={link.href}
               href={link.href}
-              className={cn('inline-flex rounded-lg px-3 py-2 text-sm font-semibold', [
+              className={cn('inline-flex rounded-lg py-2 px-3 text-sm font-semibold', [
                 link.href === pathname ? 'bg-[#2a2a2a] text-white' : 'text-[#b4b4b4] hover:text-white',
               ])}
             >

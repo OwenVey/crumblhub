@@ -20,15 +20,15 @@ export default async function WeeksPage() {
 
   return (
     <>
-      <div className="mb-2 text-gray-11 text-sm text-right">Last updated {new Date().toLocaleString()}</div>
+      <div className="text-gray-11 mb-2 text-right text-sm">Last updated {new Date().toLocaleString()}</div>
       <ul className="flex flex-col gap-4">
         {weeks.map((week) => {
           const startDate = parse(week.start, DATE_FORMAT, new Date());
           const endDate = addDays(startDate, 5);
 
           return (
-            <li key={week.id} className="rounded-xl border border-gray-4 bg-card p-4">
-              <div className="text-lg text-gray-12 font-semibold">
+            <li key={week.id} className="border-gray-4 bg-card rounded-xl border p-4">
+              <div className="text-gray-12 text-lg font-semibold">
                 <time dateTime={startDate.toISOString()}>{format(startDate, 'MMM do, yyyy')}</time>
                 {' – '}
                 <time dateTime={endDate.toISOString()}>{format(endDate, 'MMM do, yyyy')}</time>
@@ -45,7 +45,7 @@ export default async function WeeksPage() {
                 {week.cookies.map(({ cookie, isNew, name }) => (
                   <Link key={name} href={`/#${name}`} className="group grid place-items-center">
                     <div className="relative transition-transform group-hover:scale-110">
-                      {isNew && <Badge className="absolute right-0 top-0 z-10">NEW</Badge>}
+                      {isNew && <Badge className="absolute top-0 right-0 z-10">NEW</Badge>}
                       {cookie ? (
                         <Image
                           className="size-28 transition-transform group-hover:rotate-12"
@@ -55,9 +55,9 @@ export default async function WeeksPage() {
                           height={150}
                         />
                       ) : (
-                        <div className="grid size-28 place-items-center rounded-full bg-gray-5">
+                        <div className="bg-gray-5 grid size-28 place-items-center rounded-full">
                           <svg
-                            className="size-12 text-gray-12"
+                            className="text-gray-12 size-12"
                             xmlns="http://www.w3.org/2000/svg"
                             width="32"
                             height="32"
@@ -71,7 +71,7 @@ export default async function WeeksPage() {
                         </div>
                       )}
                     </div>
-                    <div className="mt-1 text-balance text-center text-gray-12 font-medium capitalize">
+                    <div className="text-gray-12 mt-1 text-balance text-center font-medium capitalize">
                       {cookie ? cookie.name : name.toLowerCase()}
                     </div>
                   </Link>
