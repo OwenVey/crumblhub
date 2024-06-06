@@ -18,6 +18,7 @@ const COOKIE_GQL_SCHEMA = `#graphql
   servingMethod
   description
   isMysteryCookie
+  newRecipeCallout
   stats {
     averageRating
     totalReviews
@@ -45,6 +46,14 @@ const CookieResponseSchema = z.object({
   nutritionLabelImage: z.string().nullable(),
   miniNutritionLabelImage: z.string().nullable(),
   servingMethod: z.union([z.literal('Warm'), z.literal('Chilled'), z.literal('Bakery Temp')]).nullable(),
+  isMysteryCookie: z
+    .boolean()
+    .nullable()
+    .transform((v) => v ?? false),
+  newRecipeCallout: z
+    .boolean()
+    .nullable()
+    .transform((v) => v ?? false),
   stats: z.object({
     averageRating: z.number(),
     totalReviews: z.number(),
@@ -69,7 +78,7 @@ export async function getAppCookies() {
   return uniqueCookies;
 }
 
-async function fetchCookiesByCategory(category: Category) {
+export async function fetchCookiesByCategory(category: Category) {
   const ResponseSchema = z.object({
     data: z.object({
       menuItems: z.object({
@@ -177,8 +186,15 @@ export async function getWebCookies() {
     miniImage: z.string().nullable(),
     nutritionLabelImage: z.string().nullable(),
     miniNutritionLabelImage: z.string().nullable(),
-    cateringMiniDisabled: z.boolean().nullable(),
-    miniDisabled: z.boolean().nullable().optional(),
+    cateringMiniDisabled: z
+      .boolean()
+      .nullable()
+      .transform((v) => v ?? false),
+    miniDisabled: z
+      .boolean()
+      .nullable()
+      .optional()
+      .transform((v) => v ?? false),
     description: z.string(),
     allergyInformation: z.object({
       description: z.string(),
@@ -215,3 +231,74 @@ export async function getWebCookies() {
 
   return formattedCookies;
 }
+
+const response = await fetch('https://services.crumbl.com/customer', {
+  method: 'POST',
+  headers: {
+    'content-type': 'application/json',
+    'Cache-Control': 'no-cache',
+  },
+  body: JSON.stringify({
+    query: `#graphql
+      query ThisWeeksCookies {
+  thisWeeksCookies {
+    cookieId
+    name
+    aerialImage
+    miniAerialImage
+    nutritionLabelImage
+    miniNutritionLabelImage
+    featuredPartner
+    featuredPartnerLogo
+    nameWithoutPartner
+    servingMethod
+    description
+    isMysteryCookie
+    calorieInformation {
+      total
+      perServing
+      servingSize
+    }
+    homepageImage
+    newAerialImage
+    classicStackImage
+    iconImage
+    type
+    allergyInformation {
+      description
+    }
+    newRecipeCallout
+    servingMethod
+  }
+  cookieIfMysteryCookieWeek {
+    __typename
+    cookieId
+    name
+    servingMethod
+    calorieInformation {
+      __typename
+      total
+      perServing
+      servingSize
+    }
+    homepageImage
+    aerialImage
+    newAerialImage
+    miniAerialImage
+    nutritionLabelImage
+    classicStackImage
+    iconImage
+    description
+    type
+    isMysteryCookie
+    miniNutritionLabelImage
+    allergyInformation {
+      description
+    }
+    nameWithoutPartner
+    featuredPartner
+  }
+}
+`,
+  }),
+});

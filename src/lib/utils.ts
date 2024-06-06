@@ -1,4 +1,6 @@
+import { DATE_FORMAT } from '@/lib/constants';
 import { clsx, type ClassValue } from 'clsx';
+import { format } from 'date-fns';
 import { twMerge } from 'tailwind-merge';
 
 export function cn(...inputs: ClassValue[]) {
@@ -43,4 +45,9 @@ export function formatNumber(num: number, digits = 0) {
     .reverse()
     .find((item) => num >= item.value);
   return item ? (num / item.value).toFixed(digits).replace(regexp, '').concat(item.symbol) : '0';
+}
+
+export function getUtcDate(date: Date) {
+  const utcDate = new Date(date.valueOf() + date.getTimezoneOffset() * 60 * 1000);
+  return format(utcDate, DATE_FORMAT);
 }

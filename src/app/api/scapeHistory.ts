@@ -1,13 +1,12 @@
-import { DATE_FORMAT } from '@/lib/constants';
-import { cleanCookieName } from '@/lib/utils';
-import { format, parse } from 'date-fns';
+import { cleanCookieName, getUtcDate } from '@/lib/utils';
+import { parse } from 'date-fns';
 import { parseHTML } from 'linkedom';
 
 export async function scrapeHistory() {
   const response = await fetch('https://crumblcookieflavors.com/all-weeks', {
     headers: {
       'Cache-Control': 'no-cache',
-    }
+    },
   });
 
   const { document } = parseHTML(await response.text());
@@ -16,9 +15,11 @@ export async function scrapeHistory() {
     '.elementor-column.elementor-col-100.elementor-inner-column.elementor-element',
   );
 
-  return [...weekDivs].map((weekDiv) => {
+  return [...weekDivs].reverse().map((weekDiv) => {
     const weekString = weekDiv.querySelector('h2')!.textContent!.split('of ')[1]!;
     const start = extractWeekStartDate(weekString);
+
+    console.log(`${weekString} --> ${start}`);
 
     const cookieDivs = weekDiv.querySelectorAll('.jet-listing-dynamic-repeater__item');
 
@@ -49,10 +50,8 @@ function extractWeekStartDate(weekString: string) {
 
   const firstSpaceIndex = weekString.indexOf(' ');
   const day = weekString.substring(firstSpaceIndex + 1, firstSpaceIndex + 3).replace(/\D/g, ''); // remove any non-digit characters
-  const dt = parse(`${month} ${day} ${year} +00`, 'MMMM d y x', new Date());
-  const dtDateOnly = new Date(dt.valueOf() + dt.getTimezoneOffset() * 60 * 1000);
-
-  return format(dtDateOnly, DATE_FORMAT);
+  const date = parse(`${month} ${day} ${year} +00`, 'MMMM d y x', new Date());
+  return getUtcDate(date);
 }
 
 function getFirstYear(weekString: string) {
