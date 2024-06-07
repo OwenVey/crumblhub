@@ -133,8 +133,8 @@ export function CookieGrid({ cookies }: CookieGridProps) {
         <div>
           <Label>Partner</Label>
           <Select value={partnerFilter} onValueChange={setPartnerFilter}>
-            <SelectTrigger className="min-w-40">
-              <SelectValue placeholder="Filter by partner..." />
+            <SelectTrigger className="min-w-44">
+              <SelectValue placeholder="Filter by partner" />
             </SelectTrigger>
             <SelectContent>
               <SelectGroup>
