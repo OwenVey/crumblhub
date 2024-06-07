@@ -1,4 +1,5 @@
 import { Badge } from '@/components/ui/badge';
+import { Separator } from '@/components/ui/separator';
 import { DATE_FORMAT } from '@/lib/constants';
 import { db } from '@/server/db';
 import { weekCookiesTable, weeksTable } from '@/server/db/schema';
@@ -24,6 +25,8 @@ export default async function WeeksPage() {
   return (
     <>
       <UpdateTimes buildDate={buildDate} />
+
+      <Separator className="my-4" />
 
       <ul className="mt-4 flex flex-col gap-4">
         {weeks.map((week) => {

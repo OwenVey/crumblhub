@@ -8,8 +8,9 @@ import { Select, SelectContent, SelectGroup, SelectItem, SelectTrigger, SelectVa
 import { ToggleGroup, ToggleGroupItem } from '@/components/ui/toggle-group';
 import { pluralize } from '@/lib/utils';
 import { type SelectCookie } from '@/types';
-import { ArrowDownNarrowWideIcon, ArrowDownWideNarrowIcon } from 'lucide-react';
+import { ArrowDownNarrowWideIcon, ArrowDownWideNarrowIcon, FilterXIcon } from 'lucide-react';
 import { memo, useMemo, useState } from 'react';
+import { Separator } from './ui/separator';
 
 interface CookieGridProps extends React.HTMLAttributes<HTMLDivElement> {
   cookies: SelectCookie[];
@@ -19,16 +20,34 @@ export function CookieGrid({ cookies }: CookieGridProps) {
   const [search, setSearch] = useState('');
   const [sort, setSort] = useState('name');
   const [sortOrder, setSortOrder] = useState<'asc' | 'desc'>('asc');
-  const [served, setServed] = useState<string[]>([]);
+  const [partnerFilter, setPartnerFilter] = useState('');
+  const [servedFilter, setServedFilter] = useState<string[]>([]);
+
+  const partners = [...new Set(cookies.map(({ featuredPartner }) => featuredPartner))].filter(Boolean).sort();
+
+  function clearFilters() {
+    setSearch('');
+    setSort('name');
+    setSortOrder('asc');
+    setPartnerFilter('');
+    setServedFilter([]);
+  }
+
+  const isActiveFilter =
+    search !== '' || sort !== 'name' || sortOrder !== 'asc' || partnerFilter !== '' || servedFilter.length !== 0;
 
   const filteredCookies = useMemo(
     () =>
       cookies
-        .filter(
-          ({ name, servingMethod }) =>
-            name.toLowerCase().includes(search.toLowerCase()) &&
-            (served.length === 0 || (servingMethod && served.includes(servingMethod))),
-        )
+        .filter(({ name, servingMethod, featuredPartner }) => {
+          const matchesSearch = name.length ? name.toLowerCase().includes(search.toLowerCase()) : true;
+          const matchesServingMethod = servedFilter.length
+            ? servingMethod && servedFilter.includes(servingMethod)
+            : true;
+          const matchesPartner = partnerFilter ? featuredPartner === partnerFilter : true;
+
+          return matchesSearch && matchesServingMethod && matchesPartner;
+        })
         .sort((a, b) => {
           const [one, two] = sortOrder === 'asc' ? [a, b] : [b, a];
 
@@ -47,7 +66,7 @@ export function CookieGrid({ cookies }: CookieGridProps) {
               return 0;
           }
         }),
-    [cookies, search, served, sort, sortOrder],
+    [cookies, partnerFilter, search, servedFilter, sort, sortOrder],
   );
 
   return (
@@ -98,7 +117,7 @@ export function CookieGrid({ cookies }: CookieGridProps) {
 
         <div>
           <Label>Served</Label>
-          <ToggleGroup type="multiple" variant="outline" value={served} onValueChange={setServed}>
+          <ToggleGroup type="multiple" variant="outline" value={servedFilter} onValueChange={setServedFilter}>
             <ToggleGroupItem value="Chilled" className="flex-1 sm:flex-auto">
               Chilled
             </ToggleGroupItem>
@@ -111,10 +130,31 @@ export function CookieGrid({ cookies }: CookieGridProps) {
           </ToggleGroup>
         </div>
 
-        <span className="text-gray-11 ml-auto shrink-0 text-sm font-medium sm:leading-10">
-          {pluralize(filteredCookies.length, 'cookie', 'cookies')}
-        </span>
+        <div>
+          <Label>Partner</Label>
+          <Select value={partnerFilter} onValueChange={setPartnerFilter}>
+            <SelectTrigger className="min-w-40">
+              <SelectValue placeholder="Filter by partner..." />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectGroup>
+                {partners.map((partner) => (
+                  <SelectItem key={partner} value={partner}>
+                    {partner}
+                  </SelectItem>
+                ))}
+              </SelectGroup>
+            </SelectContent>
+          </Select>
+        </div>
+
+        <Button className="ml-auto" onClick={clearFilters} variant="outline" disabled={!isActiveFilter}>
+          <FilterXIcon className="mr-2 size-4" />
+          Clear
+        </Button>
       </div>
+
+      <Separator className="my-4" />
 
       <CookieList cookies={filteredCookies} />
     </div>
@@ -127,10 +167,16 @@ const CookieList = memo(function CookieList({ cookies }: { cookies: SelectCookie
   }
 
   return (
-    <ul className="mt-4 grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-3">
-      {cookies.map((cookie) => (
-        <CookieCard key={cookie.name} cookie={cookie} />
-      ))}
-    </ul>
+    <div>
+      <div className="text-gray-11 text-right text-sm font-medium">
+        {pluralize(cookies.length, 'cookie', 'cookies')}
+      </div>
+
+      <ul className="mt-2 grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-3">
+        {cookies.map((cookie) => (
+          <CookieCard key={cookie.name} cookie={cookie} />
+        ))}
+      </ul>
+    </div>
   );
 });

@@ -117,7 +117,14 @@ function formatCookie(cookie: z.infer<typeof CookieResponseSchema>) {
     id: cookieId,
     name: cleanCookieName(name),
     nameWithoutPartner: nameWithoutPartner?.replace('ft.', '').trim() ?? null,
-    featuredPartner: featuredPartner?.replace('ft.', '').trim() ?? null,
+    featuredPartner:
+      featuredPartner
+        ?.replace('ft.', '')
+        .replace('featuring', '')
+        .replace(`'S`, `'s`)
+        .replace('®', '')
+        .replace('™', '')
+        .trim() ?? null,
     calories: +(calorieInformation?.total ?? 0),
     allergies: allergyInformation.description,
     ...stats,
