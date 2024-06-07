@@ -74,7 +74,7 @@ export function CookieCard({ cookie, className, ...rest }: CookieCardProps) {
 
       {cookie.nutritionLabelImage ? (
         <details className="border-gray-5 text-gray-12 hover:bg-gray-3 active:bg-gray-4 focus-visible:ring-gray-12 mt-auto w-full rounded-b-xl border-t p-4 hover:cursor-pointer">
-          <summary className="-m-4 rounded-b-xl p-4 font-medium outline-none focus-visible:ring-2">
+          <summary className="-m-4 rounded-b-xl p-4 text-sm font-medium outline-none focus-visible:ring-2">
             View nutrition info
           </summary>
           <Image
