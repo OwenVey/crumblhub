@@ -29,9 +29,9 @@ export function UpdateTimes({ buildDate }: { buildDate: Date }) {
   }, [getNewFlavorsDistance, getUpdatedDistance]);
 
   return (
-    <div className="text-gray-11 flex justify-between text-sm">
-      <span>New flavors {newFlavorsDistance}</span>
-      <span>Updated {updatedDistance || '...'}</span>
+    <div className="flex items-end justify-between">
+      <span className="text-gray-12 text-base font-medium">New flavors {newFlavorsDistance}</span>
+      <span className="text-gray-11 text-sm">Updated {updatedDistance || '...'}</span>
     </div>
   );
 }
