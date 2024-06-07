@@ -20,7 +20,7 @@ export function ThemeDropdown() {
         <Button
           variant="ghost"
           size="icon"
-          className="ml-auto text-white hover:bg-[#313131] focus-visible:border-white focus-visible:ring-white"
+          className="ml-auto text-white hover:bg-[#313131] focus-visible:ring-2 focus-visible:ring-white"
         >
           <Sun className="h-[1.2rem] w-[1.2rem] scale-100 rotate-0 transition-all dark:scale-0 dark:-rotate-90" />
           <Moon className="absolute h-[1.2rem] w-[1.2rem] scale-0 rotate-90 transition-all dark:scale-100 dark:rotate-0" />

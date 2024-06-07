@@ -41,7 +41,7 @@ export function CookieCard({ cookie, className, ...rest }: CookieCardProps) {
             href={cookie.aerialImage}
             target="_blank"
             title="View original image"
-            className="size-28 shrink-0 rounded-full transition-transform group-hover:scale-110 group-hover:rotate-12"
+            className="size-28 shrink-0 rounded-full outline-none transition-transform group-hover:scale-110 group-hover:rotate-12 focus-within:ring-2"
           >
             <Image src={cookie.aerialImage} alt={cookie.name} width={150} height={150} />
           </Link>
@@ -73,8 +73,10 @@ export function CookieCard({ cookie, className, ...rest }: CookieCardProps) {
       </div>
 
       {cookie.nutritionLabelImage ? (
-        <details className="border-gray-5 text-gray-12 hover:bg-gray-3 active:bg-gray-4 mt-auto w-full rounded-b-xl border-t p-4 hover:cursor-pointer">
-          <summary className="-m-4 p-4 font-medium">View nutrition info</summary>
+        <details className="border-gray-5 text-gray-12 hover:bg-gray-3 active:bg-gray-4 focus-visible:ring-gray-12 mt-auto w-full rounded-b-xl border-t p-4 hover:cursor-pointer">
+          <summary className="-m-4 rounded-b-xl p-4 font-medium outline-none focus-visible:ring-2">
+            View nutrition info
+          </summary>
           <Image
             className="z-10 mt-2 origin-top-right"
             src={cookie.nutritionLabelImage}
