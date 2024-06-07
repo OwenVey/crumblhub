@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Select, SelectContent, SelectGroup, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
+import { ToggleGroup, ToggleGroupItem } from '@/components/ui/toggle-group';
 import { pluralize } from '@/lib/utils';
 import { type SelectCookie } from '@/types';
 import { ArrowDownNarrowWideIcon, ArrowDownWideNarrowIcon } from 'lucide-react';
@@ -18,27 +19,40 @@ export function CookieGrid({ cookies }: CookieGridProps) {
   const [search, setSearch] = useState('');
   const [sort, setSort] = useState('name');
   const [sortOrder, setSortOrder] = useState<'asc' | 'desc'>('asc');
+  const [served, setServed] = useState<string[]>([]);
 
-  const filteredCookies = useMemo(() => {
-    let filtered = cookies.filter((cookie) => cookie.name.toLowerCase().includes(search.toLowerCase()));
-    filtered = filtered.sort((a, b) => {
-      const one = sortOrder === 'asc' ? a : b;
-      const two = sortOrder === 'asc' ? b : a;
+  const filteredCookies = useMemo(
+    () =>
+      cookies
+        .filter(
+          ({ name, servingMethod }) =>
+            name.toLowerCase().includes(search.toLowerCase()) &&
+            (served.length === 0 || (servingMethod && served.includes(servingMethod))),
+        )
+        .sort((a, b) => {
+          const [one, two] = sortOrder === 'asc' ? [a, b] : [b, a];
 
-      if (sort === 'name') return one.name.localeCompare(two.name);
-      if (sort === 'calories') return (one.calories ?? 0) - (two.calories ?? 0);
-      if (sort === 'rating') return one.averageRating - two.averageRating;
-      if (sort === 'reviews') return one.totalReviews - two.totalReviews;
-      if (sort === 'occurances') return one.weekCookies.length - two.weekCookies.length;
-      else return 0;
-    });
-
-    return filtered;
-  }, [cookies, search, sort, sortOrder]);
+          switch (sort) {
+            case 'name':
+              return one.name.localeCompare(two.name);
+            case 'calories':
+              return (one.calories ?? 0) - (two.calories ?? 0);
+            case 'rating':
+              return one.averageRating - two.averageRating;
+            case 'reviews':
+              return one.totalReviews - two.totalReviews;
+            case 'occurances':
+              return one.weekCookies.length - two.weekCookies.length;
+            default:
+              return 0;
+          }
+        }),
+    [cookies, search, served, sort, sortOrder],
+  );
 
   return (
     <div>
-      <div className="flex flex-col gap-4 sm:flex-row sm:items-end">
+      <div className="flex flex-col flex-wrap gap-4 sm:flex-row sm:items-end">
         <div className="grid w-full items-center gap-1.5 sm:max-w-64">
           <Label htmlFor="search">Search</Label>
           <Input
@@ -50,7 +64,7 @@ export function CookieGrid({ cookies }: CookieGridProps) {
           />
         </div>
 
-        <div className="grid w-full items-center gap-1.5">
+        <div className="grid w-full items-center gap-1.5 sm:w-auto">
           <Label htmlFor="search">Sort</Label>
           <div className="flex">
             <Button
@@ -82,7 +96,22 @@ export function CookieGrid({ cookies }: CookieGridProps) {
           </div>
         </div>
 
-        <span className="text-gray-11 shrink-0 text-right text-sm font-medium sm:leading-10">
+        <div>
+          <Label>Served</Label>
+          <ToggleGroup type="multiple" variant="outline" value={served} onValueChange={setServed}>
+            <ToggleGroupItem value="Chilled" className="flex-1 sm:flex-auto">
+              Chilled
+            </ToggleGroupItem>
+            <ToggleGroupItem value="Warm" className="flex-1 sm:flex-auto">
+              Warm
+            </ToggleGroupItem>
+            <ToggleGroupItem value="Bakery Temp" className="flex-1 sm:flex-auto">
+              Bakery Temp
+            </ToggleGroupItem>
+          </ToggleGroup>
+        </div>
+
+        <span className="text-gray-11 ml-auto shrink-0 text-sm font-medium sm:leading-10">
           {pluralize(filteredCookies.length, 'cookie', 'cookies')}
         </span>
       </div>
