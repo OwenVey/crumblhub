@@ -7,7 +7,7 @@ import { asc, desc } from 'drizzle-orm';
 import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
-import { TimeUpdated } from './TimeUpdated';
+import { UpdateTimes } from './UpdateTimes';
 
 export const metadata: Metadata = {
   title: 'Weeks',
@@ -23,7 +23,8 @@ export default async function WeeksPage() {
 
   return (
     <>
-      <TimeUpdated buildDate={buildDate} />
+      <UpdateTimes buildDate={buildDate} />
+
       <ul className="mt-4 flex flex-col gap-4">
         {weeks.map((week) => {
           const startDate = parse(week.start, DATE_FORMAT, new Date());
