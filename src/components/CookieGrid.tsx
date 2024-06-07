@@ -148,7 +148,12 @@ export function CookieGrid({ cookies }: CookieGridProps) {
           </Select>
         </div>
 
-        <Button className="ml-auto" onClick={clearFilters} variant="outline" disabled={!isActiveFilter}>
+        <Button
+          className="ml-auto w-full sm:w-auto"
+          onClick={clearFilters}
+          variant="outline"
+          disabled={!isActiveFilter}
+        >
           <FilterXIcon className="mr-2 size-4" />
           Clear
         </Button>
