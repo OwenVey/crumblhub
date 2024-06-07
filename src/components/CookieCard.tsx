@@ -46,10 +46,10 @@ export function CookieCard({ cookie, className, ...rest }: CookieCardProps) {
             <Image src={cookie.aerialImage} alt={cookie.name} width={150} height={150} />
           </Link>
 
-          <div className="flex flex-col gap-2">
+          <div className="flex flex-col gap-3">
             <div className="flex-1">
-              <div className="text-gray-12 line-clamp-2 text-lg font-semibold">{cookie.name}</div>
-              <p className="text-gray-11 mt-1 line-clamp-3 h-16 text-sm">{cookie.description}</p>
+              <div className="text-gray-12 text-lg font-semibold">{cookie.name}</div>
+              <p className="text-gray-11 line-clamp-3 text-sm">{cookie.description}</p>
             </div>
 
             <dl className="grid grid-cols-2 gap-y-1 text-sm">

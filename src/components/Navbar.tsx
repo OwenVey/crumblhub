@@ -25,10 +25,10 @@ export function Navbar() {
     <nav className="border-gray-3 sticky top-0 z-20 flex h-16 items-center border-b bg-black">
       <div className="mx-auto flex w-full max-w-7xl items-center px-4">
         <Link href="/" className="inline-block shrink-0">
-          <Image className="h-8 w-auto" src={logoImage} alt="Crumblhub logo" />
+          <Image className="h-7 w-auto" src={logoImage} alt="Crumblhub logo" />
         </Link>
 
-        <div className="ml-12 flex gap-4">
+        <div className="ml-8 flex gap-4 sm:ml-12">
           {LINKS.map((link) => (
             <Link
               key={link.href}
