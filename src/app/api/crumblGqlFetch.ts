@@ -11,6 +11,7 @@ export async function crumblGqlFetch(
 
   return fetch(url, {
     method: 'POST',
+    cache: 'no-cache',
     headers: {
       'content-type': 'application/json',
       'Cache-Control': 'no-cache',

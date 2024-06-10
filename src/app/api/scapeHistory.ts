@@ -4,6 +4,7 @@ import { parseHTML } from 'linkedom';
 
 export async function scrapeHistory() {
   const response = await fetch('https://crumblcookieflavors.com/all-weeks', {
+    cache: 'no-cache',
     headers: {
       'Cache-Control': 'no-cache',
     },
