@@ -22,6 +22,7 @@ import { type Cookie, type Store, type Week } from '@/types';
 import { startOfWeek } from 'date-fns';
 import { revalidatePath } from 'next/cache';
 
+export const maxDuration = 60;
 export const dynamic = 'force-dynamic';
 
 export async function GET() {

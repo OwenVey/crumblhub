@@ -5,10 +5,5 @@
       "path": "/api/update",
       "schedule": "15 0 * * *"
     }
-  ],
-  "functions": {
-    "api/**/*": {
-      "maxDuration": 60
-    }
-  }
+  ]
 }
