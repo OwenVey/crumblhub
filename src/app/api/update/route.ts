@@ -74,7 +74,7 @@ export async function GET(request: NextRequest) {
   revalidatePath('/weeks');
   revalidatePath('/testing');
 
-  return Response.json({ status: 'complete' });
+  return Response.json({ success: true });
 }
 
 async function insertCurrentWeek() {
