@@ -1,17 +1,23 @@
-import { getUtcDate } from '@/lib/utils';
+import { conflictUpdateAllExcept, getUtcDate } from '@/lib/utils';
 import { db } from '@/server/db';
-import { cookiesTable, weekCookiesTable, weeksTable } from '@/server/db/schema';
+import { cookiesTable, weeklyCookiesTable, weeksTable } from '@/server/db/schema';
 import { startOfWeek } from 'date-fns';
 import { revalidatePath } from 'next/cache';
-import { fetchCookiesByCategory } from '../requests';
+import { getCookiesByCategory } from '../requests';
 
 export const dynamic = 'force-dynamic';
 
 export async function GET() {
   console.log('Fetching this weeks flavors...');
 
-  const thisWeeksFlavors = await fetchCookiesByCategory('this_week');
-  await db.insert(cookiesTable).values(thisWeeksFlavors).onConflictDoNothing();
+  const thisWeeksFlavors = await getCookiesByCategory('this_week');
+  await db
+    .insert(cookiesTable)
+    .values(thisWeeksFlavors)
+    .onConflictDoUpdate({
+      target: cookiesTable.id,
+      set: conflictUpdateAllExcept(cookiesTable),
+    });
 
   const weekStartDate = startOfWeek(new Date(), { weekStartsOn: 1 });
   const start = getUtcDate(weekStartDate);
@@ -24,7 +30,7 @@ export async function GET() {
       name: cookie.name,
       isNew: cookie.newRecipeCallout,
     }));
-    await db.insert(weekCookiesTable).values(weekCookies);
+    await db.insert(weeklyCookiesTable).values(weekCookies);
   }
 
   revalidatePath('/');

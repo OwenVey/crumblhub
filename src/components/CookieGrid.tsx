@@ -5,7 +5,6 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Select, SelectContent, SelectGroup, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
-import { ToggleGroup, ToggleGroupItem } from '@/components/ui/toggle-group';
 import { pluralize } from '@/lib/utils';
 import { type SelectCookie } from '@/types';
 import { ArrowDownNarrowWideIcon, ArrowDownWideNarrowIcon, FilterXIcon } from 'lucide-react';
@@ -20,31 +19,32 @@ export function CookieGrid({ cookies }: CookieGridProps) {
   const [search, setSearch] = useState('');
   const [sort, setSort] = useState('name');
   const [sortOrder, setSortOrder] = useState<'asc' | 'desc'>('asc');
+  const [servedFilter, setServedFilter] = useState('');
   const [partnerFilter, setPartnerFilter] = useState('');
-  const [servedFilter, setServedFilter] = useState<string[]>([]);
 
   const partners = [...new Set(cookies.map(({ featuredPartner }) => featuredPartner))].filter(Boolean).sort();
+  const servingMethods = [...new Set(cookies.map(({ servingMethod }) => servingMethod))].filter(Boolean).sort();
 
   function clearFilters() {
     setSearch('');
     setSort('name');
     setSortOrder('asc');
+    setServedFilter('');
     setPartnerFilter('');
-    setServedFilter([]);
   }
 
   const isActiveFilter =
-    search !== '' || sort !== 'name' || sortOrder !== 'asc' || partnerFilter !== '' || servedFilter.length !== 0;
+    search !== '' || sort !== 'name' || sortOrder !== 'asc' || servedFilter !== '' || partnerFilter !== '';
 
   const filteredCookies = useMemo(
     () =>
       cookies
-        .filter(({ name, servingMethod, featuredPartner }) => {
+        .filter((cookie) => {
+          const { name, servingMethod, featuredPartner } = cookie;
+
           const matchesSearch = name.length ? name.toLowerCase().includes(search.toLowerCase()) : true;
-          const matchesServingMethod = servedFilter.length
-            ? servingMethod && servedFilter.includes(servingMethod)
-            : true;
           const matchesPartner = partnerFilter ? featuredPartner === partnerFilter : true;
+          const matchesServingMethod = servedFilter ? servingMethod === servedFilter : true;
 
           return matchesSearch && matchesServingMethod && matchesPartner;
         })
@@ -57,7 +57,7 @@ export function CookieGrid({ cookies }: CookieGridProps) {
             case 'calories':
               return (one.calories ?? 0) - (two.calories ?? 0);
             case 'rating':
-              return one.averageRating - two.averageRating;
+              return +one.averageRating - +two.averageRating;
             case 'reviews':
               return one.totalReviews - two.totalReviews;
             case 'occurances':
@@ -115,19 +115,33 @@ export function CookieGrid({ cookies }: CookieGridProps) {
           </div>
         </div>
 
-        <div>
+        {/* <div>
           <Label>Served</Label>
           <ToggleGroup type="multiple" variant="outline" value={servedFilter} onValueChange={setServedFilter}>
-            <ToggleGroupItem value="Chilled" className="flex-1 sm:flex-auto">
-              Chilled
-            </ToggleGroupItem>
-            <ToggleGroupItem value="Warm" className="flex-1 sm:flex-auto">
-              Warm
-            </ToggleGroupItem>
-            <ToggleGroupItem value="Bakery Temp" className="flex-1 sm:flex-auto">
-              Bakery Temp
-            </ToggleGroupItem>
+            {servingMethods.map((method) => (
+              <ToggleGroupItem key={method} value={method} className="flex-1 sm:flex-auto">
+                {method}
+              </ToggleGroupItem>
+            ))}
           </ToggleGroup>
+        </div> */}
+
+        <div>
+          <Label>Served</Label>
+          <Select value={servedFilter} onValueChange={setServedFilter}>
+            <SelectTrigger className="min-w-44">
+              <SelectValue placeholder="Serving method" />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectGroup>
+                {servingMethods.map((method) => (
+                  <SelectItem key={method} value={method}>
+                    {method}
+                  </SelectItem>
+                ))}
+              </SelectGroup>
+            </SelectContent>
+          </Select>
         </div>
 
         <div>
@@ -179,7 +193,7 @@ const CookieList = memo(function CookieList({ cookies }: { cookies: SelectCookie
 
       <ul className="mt-2 grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-3">
         {cookies.map((cookie) => (
-          <CookieCard key={cookie.name} cookie={cookie} />
+          <CookieCard key={cookie.id} cookie={cookie} />
         ))}
       </ul>
     </div>

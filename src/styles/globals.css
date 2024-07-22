@@ -46,3 +46,11 @@ html[data-theme='dark'] {
   --color-bg: #0a0a0a;
   --color-card: var(--color-gray-2);
 }
+
+html[data-theme='light'] .hide-light {
+  display: none;
+}
+
+html[data-theme='dark'] .hide-dark {
+  display: none;
+}

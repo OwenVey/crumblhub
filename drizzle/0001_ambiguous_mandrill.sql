@@ -1,0 +1,1 @@
+ALTER TABLE "cookies" ADD COLUMN "testing" boolean DEFAULT false;

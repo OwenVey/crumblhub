@@ -1,0 +1,278 @@
+{
+  "id": "133e20cf-c0a8-4aa0-8e4d-01bdabb649e0",
+  "prevId": "00000000-0000-0000-0000-000000000000",
+  "version": "7",
+  "dialect": "postgresql",
+  "tables": {
+    "public.cookies": {
+      "name": "cookies",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "text",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "name": {
+          "name": "name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "name_without_partner": {
+          "name": "name_without_partner",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "featured_partner": {
+          "name": "featured_partner",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "description": {
+          "name": "description",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "calories": {
+          "name": "calories",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "allergies": {
+          "name": "allergies",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "average_rating": {
+          "name": "average_rating",
+          "type": "decimal",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "total_reviews": {
+          "name": "total_reviews",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "total_votes": {
+          "name": "total_votes",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "featured_partner_logo": {
+          "name": "featured_partner_logo",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "aerial_image": {
+          "name": "aerial_image",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "mini_aerial_image": {
+          "name": "mini_aerial_image",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "nutrition_label_image": {
+          "name": "nutrition_label_image",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "mini_nutrition_label_image": {
+          "name": "mini_nutrition_label_image",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "serving_method": {
+          "name": "serving_method",
+          "type": "serving_method",
+          "typeSchema": "public",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        },
+        "updated_at": {
+          "name": "updated_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {}
+    },
+    "public.week_cookies": {
+      "name": "week_cookies",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "serial",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "week_id": {
+          "name": "week_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "cookie_id": {
+          "name": "cookie_id",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "name": {
+          "name": "name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "is_new": {
+          "name": "is_new",
+          "type": "boolean",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        },
+        "updated_at": {
+          "name": "updated_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {
+        "week_cookies_week_id_weeks_id_fk": {
+          "name": "week_cookies_week_id_weeks_id_fk",
+          "tableFrom": "week_cookies",
+          "tableTo": "weeks",
+          "columnsFrom": [
+            "week_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        },
+        "week_cookies_cookie_id_cookies_id_fk": {
+          "name": "week_cookies_cookie_id_cookies_id_fk",
+          "tableFrom": "week_cookies",
+          "tableTo": "cookies",
+          "columnsFrom": [
+            "cookie_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "cascade",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "week_cookies_week_id_cookie_id_name_unique": {
+          "name": "week_cookies_week_id_cookie_id_name_unique",
+          "nullsNotDistinct": true,
+          "columns": [
+            "week_id",
+            "cookie_id",
+            "name"
+          ]
+        }
+      }
+    },
+    "public.weeks": {
+      "name": "weeks",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "serial",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "start": {
+          "name": "start",
+          "type": "date",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        },
+        "updated_at": {
+          "name": "updated_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "weeks_start_unique": {
+          "name": "weeks_start_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "start"
+          ]
+        }
+      }
+    }
+  },
+  "enums": {
+    "public.serving_method": {
+      "name": "serving_method",
+      "schema": "public",
+      "values": [
+        "Warm",
+        "Chilled",
+        "Bakery Temp"
+      ]
+    }
+  },
+  "schemas": {},
+  "_meta": {
+    "columns": {},
+    "schemas": {},
+    "tables": {}
+  }
+}

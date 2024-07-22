@@ -5,6 +5,8 @@ interface BadgeProps extends React.HTMLAttributes<HTMLDivElement> {
 }
 export function Badge({ children, className }: BadgeProps) {
   return (
-    <div className={cn('bg-pink rounded-md py-1 px-2 text-xs font-semibold text-black', className)}>{children}</div>
+    <div className={cn('bg-pink flex items-center rounded-md py-1 px-2 text-xs font-semibold text-black', className)}>
+      {children}
+    </div>
   );
 }

@@ -2,7 +2,7 @@ import { cleanCookieName, getUtcDate } from '@/lib/utils';
 import { parse } from 'date-fns';
 import { parseHTML } from 'linkedom';
 
-export async function scrapeHistory() {
+export async function getCookieHistory() {
   const response = await fetch('https://crumblcookieflavors.com/all-weeks', {
     cache: 'no-cache',
     headers: {

@@ -2,7 +2,7 @@
   "crons": [
     {
       "path": "/api/current-flavors",
-      "schedule": "15 0 * * 1"
+      "schedule": "15 0 * * *"
     }
   ]
 }
