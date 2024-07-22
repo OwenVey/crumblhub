@@ -21,11 +21,16 @@ import {
 import { type Cookie, type Store, type Week } from '@/types';
 import { startOfWeek } from 'date-fns';
 import { revalidatePath } from 'next/cache';
+import { type NextRequest } from 'next/server';
 
 export const maxDuration = 60;
 export const dynamic = 'force-dynamic';
 
-export async function GET() {
+export async function GET(request: NextRequest) {
+  const searchParams = request.nextUrl.searchParams;
+
+  const shouldSaveHistory = searchParams.get('saveHistory') === 'true';
+
   log('inserting current week');
   const currentWeek = await insertCurrentWeek();
 
@@ -54,8 +59,10 @@ export async function GET() {
       set: conflictUpdateAllExcept(cookiesTable),
     });
 
-  false && log('saving history');
-  false && (await saveHistory(allCookies, history));
+  if (shouldSaveHistory) {
+    log('saving history');
+    await saveHistory(allCookies, history);
+  }
 
   log('saving stores');
   const savedStores = await saveStores();
