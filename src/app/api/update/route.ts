@@ -20,6 +20,7 @@ import {
 } from '@/server/db/schema';
 import { type Cookie, type Store, type Week } from '@/types';
 import { startOfWeek } from 'date-fns';
+import { revalidatePath } from 'next/cache';
 
 export const dynamic = 'force-dynamic';
 
@@ -60,6 +61,10 @@ export async function GET() {
 
   log('saving weekly test cookies');
   await saveTestCookies(savedStores);
+
+  revalidatePath('/');
+  revalidatePath('/weeks');
+  revalidatePath('/testing');
 
   return Response.json({ status: 'complete' });
 }
