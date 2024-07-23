@@ -6,6 +6,7 @@ import {
   getCookiesByCategory,
   getStoresByLatLong,
   searchCookie,
+  sendDiscordNotification,
 } from '@/app/api/requests';
 import { log } from '@/lib/logger';
 import { cleanCookieName, conflictUpdateAllExcept, getUtcDate, uniqueItemsByKey } from '@/lib/utils';
@@ -27,9 +28,9 @@ export const maxDuration = 60;
 export const dynamic = 'force-dynamic';
 
 export async function GET(request: NextRequest) {
-  const searchParams = request.nextUrl.searchParams;
-
-  const shouldSaveHistory = searchParams.get('saveHistory') === 'true';
+  const startTime = performance.now();
+  void sendDiscordNotification(`Starting data update...`);
+  const shouldSaveHistory = Boolean(request.nextUrl.searchParams.get('saveHistory'));
 
   log('inserting current week');
   const currentWeek = await insertCurrentWeek();
@@ -73,6 +74,11 @@ export async function GET(request: NextRequest) {
   revalidatePath('/');
   revalidatePath('/weeks');
   revalidatePath('/testing');
+
+  const endTime = performance.now();
+  const timeInSeconds = ((endTime - startTime) / 1000).toFixed(2);
+
+  void sendDiscordNotification(`Completed in ${timeInSeconds} seconds`);
 
   return Response.json({ success: true });
 }
