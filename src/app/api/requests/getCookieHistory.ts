@@ -1,16 +1,12 @@
 import { cleanCookieName, getUtcDate } from '@/lib/utils';
 import { parse } from 'date-fns';
 import { parseHTML } from 'linkedom';
+import { api } from './shared';
 
 export async function getCookieHistory() {
-  const response = await fetch('https://crumblcookieflavors.com/all-weeks', {
-    cache: 'no-cache',
-    headers: {
-      'Cache-Control': 'no-cache',
-    },
-  });
+  const response = await api.get('https://crumblcookieflavors.com/all-weeks').text();
 
-  const { document } = parseHTML(await response.text());
+  const { document } = parseHTML(response);
   const gridDiv = document.querySelector('.jet-listing-grid__items')!;
   const weekDivs = gridDiv.querySelectorAll(
     '.elementor-column.elementor-col-100.elementor-inner-column.elementor-element',

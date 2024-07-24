@@ -1,5 +1,6 @@
 import { parseHTML } from 'linkedom';
 import { z } from 'zod';
+import { api } from './shared';
 
 const ResponseSchema = z.object({
   props: z.object({
@@ -26,14 +27,9 @@ const ResponseSchema = z.object({
 });
 
 export async function getAllStores() {
-  const response = await fetch('https://crumblcookies.com/stores', {
-    cache: 'no-cache',
-    headers: {
-      'Cache-Control': 'no-cache',
-    },
-  });
+  const response = await api.get('https://crumblcookies.com/stores').text();
 
-  const { document } = parseHTML(await response.text());
+  const { document } = parseHTML(response);
   const nextData = document.getElementById('__NEXT_DATA__')?.textContent;
 
   if (!nextData) {

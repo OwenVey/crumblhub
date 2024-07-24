@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import { COOKIE_GQL_SCHEMA, CookieResponseSchema, crumblGqlFetch, formatCookie } from './shared';
+import { COOKIE_GQL_SCHEMA, CookieResponseSchema, crumblGqlApi, formatCookie } from './shared';
 
 const ResponseSchema = z.object({
   data: z.object({
@@ -10,7 +10,7 @@ const ResponseSchema = z.object({
 });
 
 export async function getCookieById(cookieId: string) {
-  const response = await crumblGqlFetch(`#graphql
+  const response = await crumblGqlApi(`#graphql
       query CookieDetails {
         cookies {
           cookieDetails(cookieId: "${cookieId}") {
@@ -19,7 +19,7 @@ export async function getCookieById(cookieId: string) {
         }
       }`);
 
-  const parsedData = ResponseSchema.parse(await response.json());
+  const parsedData = ResponseSchema.parse(response);
 
   return formatCookie(parsedData.data.cookies.cookieDetails);
 }

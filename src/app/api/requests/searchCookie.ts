@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import { COOKIE_GQL_SCHEMA, CookieResponseSchema, crumblGqlFetch, formatCookie } from './shared';
+import { COOKIE_GQL_SCHEMA, CookieResponseSchema, crumblGqlApi, formatCookie } from './shared';
 
 const ResponseSchema = z.object({
   data: z.object({
@@ -16,7 +16,7 @@ const ResponseSchema = z.object({
 });
 
 export async function searchCookie(searchTerm: string) {
-  const response = await crumblGqlFetch(`#graphql
+  const response = await crumblGqlApi(`#graphql
       query PublicCookieSearch {
         cookies {
           publicCookieSearch(searchTerm: "${searchTerm}") {
@@ -27,7 +27,7 @@ export async function searchCookie(searchTerm: string) {
         }
       }`);
 
-  const parsedData = ResponseSchema.parse(await response.json());
+  const parsedData = ResponseSchema.parse(response);
 
   const formattedCookies = parsedData.data.cookies.publicCookieSearch?.map(({ publicCookieFlavor }) =>
     formatCookie(publicCookieFlavor),

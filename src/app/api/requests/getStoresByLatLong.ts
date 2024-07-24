@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import { crumblGqlFetch } from './shared';
+import { crumblGqlApi } from './shared';
 
 const ResponseSchema = z.object({
   data: z.object({
@@ -38,7 +38,7 @@ const ResponseSchema = z.object({
 });
 
 export async function getStoresByLatLong(latitude: string, longitude: string) {
-  const response = await crumblGqlFetch(`#graphql
+  const response = await crumblGqlApi(`#graphql
       query TestStoresAndItems {
         stores {
           storesAndItemsForMap(
@@ -72,7 +72,7 @@ export async function getStoresByLatLong(latitude: string, longitude: string) {
         }
       }`);
 
-  const parsedData = ResponseSchema.parse(await response.json());
+  const parsedData = ResponseSchema.parse(response);
   const stores = parsedData.data.stores?.storesAndItemsForMap
     .map(({ store: { storeId }, testingItems }) => ({
       id: storeId,
