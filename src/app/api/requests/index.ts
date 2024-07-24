@@ -4,5 +4,6 @@ export { getCookieById } from './getCookieById';
 export { getCookieHistory } from './getCookieHistory';
 export { getCookiesByCategory } from './getCookiesByCategory';
 export { getStoresByLatLong } from './getStoresByLatLong';
+export { revalidatePages } from './revalidatePages';
 export { searchCookie } from './searchCookie';
 export { sendDiscordNotification } from './sendDiscordNotification';

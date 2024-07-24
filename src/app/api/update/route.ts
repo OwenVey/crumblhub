@@ -5,6 +5,7 @@ import {
   getCookieHistory,
   getCookiesByCategory,
   getStoresByLatLong,
+  revalidatePages,
   searchCookie,
   sendDiscordNotification,
 } from '@/app/api/requests';
@@ -21,7 +22,6 @@ import {
 } from '@/server/db/schema';
 import { type Cookie, type Store, type Week } from '@/types';
 import { startOfWeek } from 'date-fns';
-import { revalidatePath } from 'next/cache';
 import { type NextRequest } from 'next/server';
 
 export const maxDuration = 60;
@@ -71,14 +71,12 @@ export async function GET(request: NextRequest) {
   log('saving weekly test cookies');
   await saveTestCookies(savedStores);
 
-  revalidatePath('/');
-  revalidatePath('/weeks');
-  revalidatePath('/testing');
-
   const endTime = performance.now();
   const timeInSeconds = ((endTime - startTime) / 1000).toFixed(2);
 
   void sendDiscordNotification(`Completed in ${timeInSeconds} seconds`);
+
+  void revalidatePages(request.nextUrl.origin);
 
   return Response.json({ success: true });
 }

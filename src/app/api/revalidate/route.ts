@@ -1,12 +1,8 @@
-import { revalidatePath } from 'next/cache';
-import { sendDiscordNotification } from '../requests';
+import { type NextRequest } from 'next/server';
+import { revalidatePages } from '../requests';
 
-export async function GET() {
-  revalidatePath('/');
-  revalidatePath('/weeks');
-  revalidatePath('/testing');
-
-  void sendDiscordNotification('Revalidated routes');
+export async function GET(request: NextRequest) {
+  void revalidatePages(request.nextUrl.origin);
 
   return Response.json({ success: true });
 }
