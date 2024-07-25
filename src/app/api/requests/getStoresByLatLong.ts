@@ -21,6 +21,7 @@ const ResponseSchema = z.object({
             testingItems: z.array(
               z.object({
                 cookieId: z.string(),
+                aerialImage: z.string().nullable(),
               }),
             ),
             timedSpecialItems: z.array(
@@ -61,6 +62,7 @@ export async function getStoresByLatLong(latitude: string, longitude: string) {
             testingItems {
               ... on PublicCookieFlavor {
                 cookieId
+                aerialImage
               }
             }
             timedSpecialItems {
@@ -76,7 +78,7 @@ export async function getStoresByLatLong(latitude: string, longitude: string) {
   const stores = parsedData.data.stores?.storesAndItemsForMap
     .map(({ store: { storeId }, testingItems }) => ({
       id: storeId,
-      testCookieIds: testingItems.map(({ cookieId }) => cookieId),
+      testCookieIds: testingItems.filter(({ aerialImage }) => aerialImage).map(({ cookieId }) => cookieId),
     }))
     .filter(({ testCookieIds }) => testCookieIds.length);
 
