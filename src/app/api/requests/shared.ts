@@ -24,7 +24,7 @@ export const CookieResponseSchema = z.object({
     .transform((v) => v ?? false),
   stats: z
     .object({
-      averageRating: z.coerce.string(),
+      averageRating: z.coerce.string().transform((n) => (n === 'null' ? '0' : n)),
       totalReviews: z.number(),
       totalVotes: z.number(),
     })
