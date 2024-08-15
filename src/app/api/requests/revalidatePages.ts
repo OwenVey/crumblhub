@@ -6,9 +6,7 @@ export async function revalidatePages(origin: string) {
   revalidatePath('/weeks');
   revalidatePath('/testing');
 
-  void fetch(origin);
-  void fetch(`${origin}/weeks`);
-  void fetch(`${origin}/testing`);
+  await Promise.all([fetch(origin), fetch(`${origin}/weeks`), fetch(`${origin}/testing`)]);
 
   void sendDiscordNotification('Revalidated routes');
 }
