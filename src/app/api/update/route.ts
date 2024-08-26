@@ -76,7 +76,7 @@ export async function GET(request: NextRequest) {
 
   void sendDiscordNotification(`Completed in ${timeInSeconds} seconds`);
 
-  void revalidatePages(request.nextUrl.origin);
+  await revalidatePages(request.nextUrl.origin);
 
   return Response.json({ success: true });
 }

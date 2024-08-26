@@ -78,11 +78,9 @@ export const storesTable = pgTable('stores', {
   address: text('address').notNull(),
   state: text('state').notNull(),
   phone: text('phone').notNull(),
-  email: text('email').notNull(),
   latitude: text('latitude').notNull(),
   longitude: text('longitude').notNull(),
-  started: date('started', { mode: 'date' }).notNull(),
-  hours: text('hours').notNull(),
+  timezone: text('timezone').notNull(),
   createdAt: CREATED_AT,
   updatedAt: UPDATED_AT,
 });

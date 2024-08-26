@@ -5,7 +5,7 @@ import { api } from './shared';
 const ResponseSchema = z.object({
   props: z.object({
     pageProps: z.object({
-      stores: z.array(
+      allActiveStores: z.array(
         z.object({
           storeId: z.string(),
           name: z.string(),
@@ -13,12 +13,10 @@ const ResponseSchema = z.object({
           address: z.string(),
           state: z.string(),
           phone: z.string(),
-          email: z.string(),
           latitude: z.string(),
           longitude: z.string(),
           storeHours: z.object({
-            description: z.string(),
-            startDate: z.coerce.date(),
+            timezone: z.string(),
           }),
         }),
       ),
@@ -36,12 +34,11 @@ export async function getAllStores() {
     throw new Error('No __NEXT_DATA__');
   }
 
-  const stores = ResponseSchema.parse(JSON.parse(nextData)).props.pageProps.stores;
+  const stores = ResponseSchema.parse(JSON.parse(nextData)).props.pageProps.allActiveStores;
 
   return stores.map(({ storeId, storeHours, ...rest }) => ({
     id: storeId,
-    started: storeHours.startDate,
-    hours: storeHours.description,
+    ...storeHours,
     ...rest,
   }));
 }
