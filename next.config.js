@@ -23,16 +23,6 @@ const config = {
       },
     ],
   },
-  webpack: (config) => ({
-    ...config,
-    resolve: {
-      ...config.resolve,
-      alias: {
-        ...config.resolve?.alias,
-        canvas$: false,
-      },
-    },
-  }),
 };
 
 export default config;
