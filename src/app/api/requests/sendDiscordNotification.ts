@@ -2,7 +2,7 @@ import ky from 'ky';
 
 export async function sendDiscordNotification(content: string) {
   await ky.post(
-    'https://discord.com/api/webhooks/1265379162596708475/QNnQsqlD8_IgkA4-ATNxG6RAKK6WVpFoqUINENTzD8VJTUI2q-3-a5gbbdWlmP9CwAd6',
+    'https://discord.com/api/webhooks/1326012057979453610/rxKPdGqE2xA2WiFzt5I3wJL63kArII3OKEqRFczQ7t42S5qP3aUOePwMyexWcFi1m9YH',
     {
       json: { content },
     },
