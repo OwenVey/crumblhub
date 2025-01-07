@@ -52,7 +52,7 @@ function extractWeekStartDate(weekString: string) {
 }
 
 function getFirstYear(weekString: string) {
-  const match = weekString.match(/\b\d{4}\b/);
+  const match = /\b\d{4}\b/.exec(weekString);
   return match ? match[0] : null;
 }
 
